@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="shortcut icon" type="image/png" href="#" />
+<?php wp_head(); ?>
+</head>
+
+<body>
+  <!--TELA DE CARREGAMENTO -->
+<div id="preloader">
+  <div id="status" class="fadeIn">&nbsp;</div>
+</div>
+<div id="header">
+  <nav id="menu" class="navbar navbar-expand-md navbar-dark wow animated fadeIn">
+    <a class="navbar-brand mr-md-5" href="<?php echo home_url( '/' ); ?>">
+      <img class="img-fluid e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo.jpg"; ?>" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <?php
+      wp_nav_menu(array(
+      'menu'            => 'primary',
+      'theme_location'  => 'primary',
+      'container'       => 'div',
+      'container_class' => 'navbar-nav mr-auto',
+      'menu_id'         => false,
+      'menu_class'      => 'navbar-nav',
+      'depth'           => 2,
+      'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+      'walker'          => new WP_Bootstrap_Navwalker()
+      ));
+      ?>
+      <?php
+      wp_nav_menu(array(
+      'menu'            => 'primary',
+      'theme_location'  => 'primary',
+      'container'       => 'div',
+      'menu_id'         => false,
+      'menu_class'      => 'navbar-nav',
+      'depth'           => 2,
+      'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+      'walker'          => new WP_Bootstrap_Navwalker()
+      ));
+      ?>
+      <a href="#" class="btn-base btn-white ml-md-5" title="Fale conosco">Fale conosco</a>
+    </div>
+  </nav>
+  <div id="banner" class="container">
+    <div class="wrap-title wow animated fadeInUp">
+      <h1>Potencializando o <strong>impacto</strong> das <strong>políticas públicas</strong> através do uso de <strong>tecnologia</strong> e <strong>dados</strong></h1>
+      <p class="subtitle">Dados e Tecnologia para <strong>educação</strong> e <strong>assistência social</strong></p>
+    </div>
+  </div>
+</div>
+

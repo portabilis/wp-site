@@ -1,0 +1,59 @@
+body{
+  font-family: 'Hind', sans-serif;
+  color:#506073;
+}
+
+h1{
+  font-family: 'Muli', sans-serif;
+  font-weight:300;
+  letter-spacing:-1px;
+  text-align:center;
+  strong{
+    font-weight:800;
+  }
+}
+
+h2,h3,h4,h5,h6{
+  font-family: 'Muli', sans-serif;
+  font-weight:800;
+  color:#003473;
+  text-align:center;
+}
+
+ul{
+  margin-bottom:0;
+}
+
+.subtitle{
+  text-align:center;
+  font-size:1.3125rem;
+  line-height: 2rem;
+  strong{
+    font-weight:500;
+  }
+}
+
+.wow { visibility: hidden; }
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#0172ff;
+  z-index: 1000;
+}
+
+#status {
+  width: 318px;
+  height: 81px;
+  position: absolute;
+  margin: -162px auto;
+  left:0;
+  right:0;
+  top: 60%;
+  background-image: url("assets/img/logo2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
