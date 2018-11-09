@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
 <div id="page" class="home">
-  <div class="div wow animated fadeInUp">
+  <div class="div wow animated fadeIn">
   </div>
   <div class="section-a">
     <div class="container">
@@ -83,13 +83,65 @@ get_header(); ?>
   </div>
   <div class="section-e">
     <div class="container">
-      <div class="row wow animated fadeInUp"">
+      <div class="row wow animated fadeInUp">
         <div class="col-md-9">
           <h2 class="wow animated fadeInUp">Conteúdos incríveis</h2>
           <p class="subtitle wow animated fadeInUp" data-wow-delay="0.25s">Acesse gratuitamente nossos materiais sobre educação e assistência social no nosso blog.</p>
         </div>
         <div class="col-md-3">
           <a href="#" class="btn-baseb btn-blue" title="botao">botão?</a>
+        </div>
+      </div>
+      <div class="row wow animated fadeIn">
+        <div class="col-md">
+          <article>
+            <span class="category">
+              Educação
+            </span>
+            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
+            <p>E-book: tudo que você precisa saber sobre alimentação escolar.</p>
+            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+          </article>
+        </div>
+        <div class="col-md">
+          <article>
+            <span class="category">
+              Educação
+            </span>
+            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
+            <p>E-book: tudo que você precisa saber sobre alimentação escolar.</p>
+            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+          </article>
+        </div>
+        <div class="col-md">
+          <article>
+            <span class="category">
+              Educação
+            </span>
+            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
+            <p>E-book: tudo que você precisa saber sobre alimentação escolar.</p>
+            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+          </article>
+        </div>
+        <div class="col-md">
+          <article>
+            <span class="category">
+              Educação
+            </span>
+            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
+            <p>Apresentação: tudo que você precisa saber sobre alimentação escolar.</p>
+            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+          </article>
+        </div>
+        <div class="col-md">
+          <article>
+            <span class="category">
+              Educação
+            </span>
+            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
+            <p>Apresentação: tudo que você precisa saber sobre alimentação escolar.</p>
+            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+          </article>
         </div>
       </div>
     </div>
