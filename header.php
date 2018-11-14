@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="shortcut icon" type="image/png" href="#" />
+<link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo-icon.png"; ?>" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <?php wp_head(); ?>
 </head>
@@ -53,11 +53,5 @@
       <a href="#" class="btn-base btn-white ml-md-5" title="Fale conosco">Fale conosco</a>
     </div>
   </nav>
-  <div id="banner" class="container">
-    <div class="wrap-title wow animated fadeInUp">
-      <h1>Potencializando o <strong>impacto</strong> das <strong>políticas públicas</strong> através do uso de <strong>tecnologia</strong> e <strong>dados</strong></h1>
-      <p class="subtitle">Dados e Tecnologia para <strong>educação</strong> e <strong>assistência social</strong></p>
-    </div>
-  </div>
 </div>
 

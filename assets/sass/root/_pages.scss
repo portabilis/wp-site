@@ -2,10 +2,13 @@
   position:relative;
   z-index:1;
   background-color:#FFF;
-  &.home{
+  &.pad-home{
     padding-top:200px;
   }
-  .div{
+  &.pad-ieducar{
+    padding-top:100px;
+  }
+  .div-banner{
     position:absolute;
     top:-760px;
     left:0;
@@ -17,16 +20,32 @@
     background-position: center;
     z-index:10;
   }
-  .section-a{}
-  .section-b{
-    background-color:#f6f9ff;
+  .div-banner-ieducar{
+    position:absolute;
+    top:-630px;
+    left:0;
+    right:0;
+    width:100%;
+    height:894px;
+    background-image: url('assets/img/ieducar-div.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:10;
+  }
+  .section-padding{
     padding:6rem 0;
+  }
+  .section-margin{
     margin:6rem 0;
   }
-  .section-c{}
-  .section-d{
+  .section-a{
+    background-color:#FFF;
+  }
+  .section-b{
     background-color:#f6f9ff;
-    padding:6rem 0;
+  }
+  .section-c{
+    background-color:#f6f9ff;
     margin-top:6rem;
 
     h2{
@@ -37,9 +56,8 @@
       margin-top:5px;
     }
   }
-  .section-e{
+  .section-d{
     background-color:#242b33;
-    padding:6rem 0;
     h2{
       color:#FFF;
       text-align:left;
@@ -69,6 +87,119 @@
       }
     }
   }
+  .section-e{
+    h3{
+      margin-bottom:0.75rem;
+      text-align:left;
+      min-height:3.5rem;
+    }
+
+    h6{
+      text-align:left;
+      letter-spacing:2px;
+    }
+
+    ul{
+      padding:0;
+      padding-top:1rem;
+      list-style-type:none;
+      text-align:left;
+
+      li{
+        margin-bottom:1.5rem;
+        border-left:3px solid #1a82ff;
+        padding-left:15px;
+      }
+    }
+  }
+  .section-f{
+    background-color:#EBF3FF;
+    margin-top:6rem;
+    h2{
+      margin-bottom:4rem;
+    }
+    .resource{
+      padding:1.5rem 1rem;
+      background-color:#FFF;
+      margin-bottom:2rem;
+
+      .spacer{
+        height:24px;
+        margin-bottom:1.5rem;
+      }
+
+      img{
+        margin-bottom:1.5rem;
+      }
+
+      h4{
+        margin-bottom:1.5rem;
+        text-align:left;
+      }
+      p{
+        margin-bottom:0;
+        font-size:1rem;
+      }
+    }
+  }
+  .section-g{
+    background-color:#5947b3;
+    height:900px;
+    position:relative;
+    overflow:hidden;
+
+    .background{
+      position:absolute;
+      top:0;
+      right:0;
+    }
+
+    h2{
+      color:#FFF;
+      text-align:left;
+    }
+
+    h3{
+      color:#FFF;
+    }
+
+    .subtitle{
+      color:rgba(255, 255, 255, 0.7);
+      margin-bottom:3rem;
+    }
+
+    .download{
+      color:rgba(255, 255, 255, 0.7);
+      font-size:1rem;
+      margin-bottom:0.25rem;
+    }
+
+    ul{
+      padding:0;
+      li{
+        margin-bottom:2.5rem;
+        .icon{
+          border-radius:5px;
+          background-color:#735CE6;
+          margin:0 auto;
+          margin-top:10%;
+          height:80%;
+          width:80%;
+        }
+        .title{
+          color:#FFF;
+          font-size:1rem;
+          margin-bottom:0;
+        }
+        .desc{
+          color:rgba(255, 255, 255, 0.7);
+          margin-bottom:0;
+          font-size:1rem;
+        }
+      }
+    }
+  }
+
   h2{
     margin-bottom:2rem;
   }
@@ -82,16 +213,68 @@
     line-height: 1.875rem;
     margin-bottom:1.5rem;
   }
-  .subtitle{
-    color:#506073;
-    text-align:center;
-  }
   .title-home{
-    margin-bottom:8rem;
+    margin-bottom:6rem;
   }
   hr{
     border-top:1px solid #e0edfe;
     margin-top:6rem;
     margin-bottom:6rem;
+  }
+}
+
+#banner{
+  background-color:#0172ff;
+  height:900px;
+  .wrap-title{
+    @extend .container;
+    position:fixed;
+    top:250px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    h1{
+      color:#FFF;
+      text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+      line-height:4.5rem;
+      margin-bottom:2rem;
+    }
+    .subtitle{
+      text-align:center;
+      color:rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
+#banner-ieducar{
+  background-color:#0172ff;
+  height:600px;
+  position:relative;
+  top:-1px;
+  .wrap-title{
+    @extend .container;
+    position:fixed;
+    top:250px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    h1{
+      text-align:left;
+      color:#FFF;
+      text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+      line-height:4.5rem;
+      margin-bottom:2rem;
+    }
+    .subtitle{
+      text-align:left;
+      color:rgba(255, 255, 255, 0.7);
+    }
+  }
+  .bubble{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin:0 auto;
   }
 }

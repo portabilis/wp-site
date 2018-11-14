@@ -26,24 +26,4 @@
       }
     }
   }
-  #banner{
-    height:900px;
-    .wrap-title{
-      @extend .container;
-      position:fixed;
-      top:200px;
-      left:0;
-      right:0;
-      margin:0 auto;
-      h1{
-        color:#FFF;
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-        line-height:4.5rem;
-        margin-bottom:2rem;
-      }
-      .subtitle{
-        color:rgba(255, 255, 255, 0.7);
-      }
-    }
-  }
 }

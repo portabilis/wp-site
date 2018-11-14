@@ -1,58 +1,68 @@
 <?php
 get_header(); ?>
-<div id="page" class="home">
-  <div class="div wow animated fadeIn">
+<div id="banner">
+  <div class="wrap-title wow animated fadeInUp">
+    <h1>Potencializando o <strong>impacto</strong> das <strong>políticas públicas</strong> através do uso de <strong>tecnologia</strong> e <strong>dados</strong></h1>
+    <p class="big subtitle">Dados e Tecnologia para <strong>educação</strong> e <strong>assistência social</strong></p>
+  </div>
+</div>
+<div id="page" class="pad-home">
+  <div class="div-banner">
   </div>
   <div class="section-a">
     <div class="container">
       <div class="row justify-content-center title-home">
-        <div class="col-md-9">
+        <div class="col-lg-9 col-sm-12">
           <h2 class="wow animated fadeInUp">O que a Portabilis faz?</h2>
-          <p class="subtitle wow animated fadeInUp" data-wow-delay="0.25s">A Portabilis ajuda que os municípios tenham uma gestão mais precisa e eficiente através do uso de tecnologia e dados nas áreas da educação e da assistência social.</p>
+          <p class="subtitle text-center wow animated fadeInUp" data-wow-delay="0.25s">A Portabilis ajuda que os municípios tenham uma gestão mais precisa e eficiente através do uso de tecnologia e dados nas áreas da educação e da assistência social.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 offset-md-1 wow animated fadeInLeft">
+        <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-woman.jpg"; ?>" />
         </div>
-        <div class="col-md-4 offset-md-2 wow animated fadeInRight" data-wow-delay="0.25s">
+        <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Na educação</h3>
           <p>Guiamos os gestores através de dados reais, superando a falta de informação, facilitando a tomada de decisão e viabilizando que as metas pedagógicas sejam cada vez mais alcançáveis e possíveis.</p>
           <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
       </div>
-      <hr>
       <div class="row">
-        <div class="col-md-4 offset-md-1 wow animated fadeInLeft">
+        <div class="col">
+        <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated fadeInLeft">
           <h3>Na assistência social</h3>
           <p>Auxiliamos os gestores do SUAS no acompanhamento da evolução e emancipação das famílias atendidas nos serviços socioassistenciais, gerando dados para otimizar os fluxos e projetos da secretaria.</p>
           <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
-        <div class="col-md-4 offset-md-2 wow animated fadeInRight" data-wow-delay="0.25s">
+        <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated zoomIn" data-wow-delay="0.25s">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-family.jpg"; ?>" />
         </div>
       </div>
     </div>
   </div>
-  <div class="section-b">
+  <div class="section-b section-padding section-margin">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 offset-md-1 wow animated fadeInLeft">
+        <div class="col-lg-4 offset-lg-1 col-sm-6 align-self-center wow animated fadeInLeft">
           <h2>Por que educação e assistência social? </h2>
         </div>
-        <div class="col-md-6  wow animated fadeInRight" data-wow-delay="0.25s">
-          Ao longo dos anos, descobrimos que aspectos socioassistenciais impactam e interferem na aprendizagem dos alunos em sala de aula. Por isso investimos nessas duas áreas, para produzir, sistematizar e usar os dados destas duas áreas para orientar ambas políticas públicas.
+        <div class="col-lg-6 col-sm-6  wow animated fadeInRight" data-wow-delay="0.25s">
+          <p>Ao longo dos anos, descobrimos que aspectos socioassistenciais impactam e interferem na aprendizagem dos alunos em sala de aula. Por isso investimos nessas duas áreas, para produzir, sistematizar e usar os dados destas duas áreas para orientar ambas políticas públicas.</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="section-c">
+  <div class="section-a">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 offset-md-1 wow animated fadeInLeft">
+        <div class="col-lg-4 offset-lg-1 wow animated zoomIn">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-man.jpg"; ?>" />
         </div>
-        <div class="col-md-4 offset-md-2 wow animated fadeInRight" data-wow-delay="0.25s">
+        <div class="col-lg-4 offset-lg-2 wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Intersetorialidade</h3>
           <p>Sabemos da importância da visão socioassistencial e que a intersetorialidade pode ajudar a direcionar e adaptar os processos pedagógicos, sob os aspectos das populações em situação de vulnerabilidade e risco social, que estão quase  em sua totalidade nas redes públicas de ensino.</p>
           <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>
@@ -60,18 +70,18 @@ get_header(); ?>
       </div>
     </div>
   </div>
-  <div class="section-d">
+  <div class="section-c section-padding">
     <div class="container">
       <div class="row justify-content-center wow animated fadeInUp"">
-        <div class="col-md-9">
+        <div class="col-lg-9">
           <h2>Vamos bater um papo sobre as suas dificuldades?</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 offset-md-2 text-right wow animated fadeInLeft" data-wow-delay="0.25s">
+        <div class="col-lg-4 offset-lg-2 text-right wow animated fadeInLeft" data-wow-delay="0.25s">
           <a href="#" class="btn-basec btn-blue" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
         </div>
-        <div class="col-md-4 text-left  wow animated fadeInRight" data-wow-delay="0.5s">
+        <div class="col-lg-4 text-left  wow animated fadeInRight" data-wow-delay="0.5s">
           <ul>
             <li>sem compromisso</li>
             <li>gratuito</li>
@@ -81,19 +91,19 @@ get_header(); ?>
       </div>
     </div>
   </div>
-  <div class="section-e">
+  <div class="section-d section-padding">
     <div class="container">
       <div class="row wow animated fadeInUp">
-        <div class="col-md-9">
+        <div class="col-lg-9">
           <h2 class="wow animated fadeInUp">Conteúdos incríveis</h2>
           <p class="subtitle wow animated fadeInUp" data-wow-delay="0.25s">Acesse gratuitamente nossos materiais sobre educação e assistência social no nosso blog.</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <a href="#" class="btn-baseb btn-blue" title="botao">botão?</a>
         </div>
       </div>
       <div class="row wow animated fadeIn">
-        <div class="col-md">
+        <div class="col-lg">
           <article>
             <span class="category">
               Educação
@@ -103,7 +113,7 @@ get_header(); ?>
             <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
           </article>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <article>
             <span class="category">
               Educação
@@ -113,7 +123,7 @@ get_header(); ?>
             <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
           </article>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <article>
             <span class="category">
               Educação
@@ -123,7 +133,7 @@ get_header(); ?>
             <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
           </article>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <article>
             <span class="category">
               Educação
@@ -133,7 +143,7 @@ get_header(); ?>
             <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
           </article>
         </div>
-        <div class="col-md">
+        <div class="col-lg">
           <article>
             <span class="category">
               Educação
