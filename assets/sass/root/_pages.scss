@@ -200,6 +200,146 @@
     }
   }
 
+  .section-h{
+    background-color:#EBF3FF;
+    h3{
+      text-align:left;
+      font-size:1.5rem;
+    }
+    .title-version{
+      font-size:1.125rem;
+      background-color:#242B33;
+      color:#FFF;
+      text-align:center;
+      padding:1.25rem;
+      border: 1px solid #242B33;
+      border-top-left-radius: 5px;
+    }
+    .desc-version{
+      background-color:#1B2026;
+      color:rgba(255, 255, 255, 0.7);
+      text-align:center;
+      padding:1.25rem 1rem;
+    }
+    .title-version-b{
+      font-size:1.125rem;
+      background-color:#2688FF;
+      color:#FFF;
+      text-align:center;
+      padding:1.25rem;
+      border: 1px solid #2688FF;
+      border-top-right-radius: 5px;
+    }
+    .desc-version-b{
+      background-color:#0072FF;
+      color:rgba(255, 255, 255, 0.7);
+      text-align:center;
+      padding:1.25rem 1rem;
+    }
+    .detail{
+      border:1px solid #FFF;
+      border-radius:5px;
+      background-color:#FFF;
+      .check{
+        text-align:center;
+        i{
+          color:#0172ff;
+        }
+      }
+      .pro{
+        background-color:#2787ff;
+        color:#FFF;
+        border-radius:5px;
+        padding:0.125rem 0.5rem;
+        font-size:0.625rem;
+        margin-left:10px;
+      }
+      .row{
+        padding:1rem;
+      }
+      .row:nth-child(even) {
+        background: #f6f9ff
+      }
+    }
+  }
+  .section-i{
+    background-color:#EBF3FF;
+    padding-bottom:6rem;
+    h2{
+      margin-bottom:4rem;
+    }
+    .resource{
+      padding:1.5rem 1rem;
+      background-color:#FFF;
+      margin-bottom:2rem;
+
+      .spacer{
+        height:24px;
+        margin-bottom:1.5rem;
+      }
+
+      img{
+        margin-bottom:1.5rem;
+      }
+
+      h4{
+        margin-bottom:1.5rem;
+        text-align:left;
+      }
+      p{
+        margin-bottom:0;
+        font-size:1rem;
+      }
+    }
+  }
+
+  .section-j{
+    h2{
+      margin-bottom:4rem;
+    }
+    h3{
+      color:#506073;
+      font-weight:normal;
+      text-align:left;
+      margin:0;
+    }
+    h4{
+      color:#506073;
+      font-size:1.125rem;
+      font-weight:normal;
+      text-align:left;
+      margin:0;
+    }
+    .test-div{
+      border-top:1px solid #E0EDFF;
+      width:3rem;
+      margin:1.5rem 0;
+      padding:0;
+    }
+    .test-name{
+      color:#003473;
+      margin-bottom:0rem;
+      font-weight:bold;
+    }
+    .test-desc{
+      color:#506073;
+      margin-bottom:2rem;
+      font-size:0.875rem;
+    }
+  }
+
+  .section-k{
+    background-color:#0072FF;
+    h2{
+      text-align:left;
+      color:#FFF;
+    }
+    .subtitle{
+      color:rgba(255, 255, 255, 0.7);
+      text-align:left;
+    }
+  }
+
   h2{
     margin-bottom:2rem;
   }

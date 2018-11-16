@@ -90,7 +90,6 @@ get_header(); ?>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
             <div class="spacer"></div>
-            </svg>
             <h4>Educacenso/INEP</h4>
             <p>Importação e exportação automatizadas dos dados Censo Escolar em poucos cliques.</p>
           </div>
@@ -112,7 +111,6 @@ get_header(); ?>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
             <div class="spacer"></div>
-            </svg>
             <h4>Quadro de horários</h4>
             <p>Dados  para análise de demandas e disponibilidade de profissionais.</p>
           </div>
@@ -201,12 +199,308 @@ get_header(); ?>
   </div>
   <div class="section-h section-padding">
     <div class="container">
+      <div class="row no-gutters wow animated fadeIn">
+        <div class="col-sm-4 align-self-center">
+          <h3 class="wow animated fadeInUp">Conheça nossos planos</h3>
+        </div>
+        <div class="col-sm-4">
+          <div class="title-version">
+            <strong>Versão</strong>Comunidade
+          </div>
+          <div class="desc-version">
+            Pensado para pequenas redes de ensino e escolas particulares.
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="title-version-b">
+            <strong>Portabilis</strong>Pro
+          </div>
+          <div class="desc-version-b">
+            Redes de médio e grande porte que buscam atendimento especializado.
+          </div>
+        </div>
+      </div>
+      <div class="detail">
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Incluso i-Educar Comunidade
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Pacote de relatórios Comunidade
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Implantação e treinamento on-line
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Importação e exportação do Censo Escolar/INEP
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Suporte por e-mail
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Sem limites de escolar e usuários
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Suporte por e-mail, chat e telefone <span class="pro">PRO</span>
+          </div>
+          <div class="col-sm-4 check">
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Diário Eletrônico do Professor <span class="pro">PRO</span>
+          </div>
+          <div class="col-sm-4 check">
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Pré-matrícula on-line <span class="pro">PRO</span>
+          </div>
+          <div class="col-sm-4 check">
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+            Pacote de relatórios Portabilis <span class="pro">PRO</span>
+          </div>
+          <div class="col-sm-4 check">
+          </div>
+          <div class="col-sm-4 check">
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-4">
+          </div>
+          <div class="col-sm-4 check">
+            <a href="#"  class="btn-base btn-blue" data-toggle="modal" data-target="#cta-a" title="">CTA - POP UP - Conversão</a>
+          </div>
+          <div class="col-sm-4 check">
+            <a href="#" class="btn-base btn-blue" data-toggle="modal" data-target="#cta-b" title="">CTA - POP UP - Conversão</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-i">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 col-sm-12">
-          <h2 class="wow animated fadeInUp">Conheça nossos planos</h2>
+          <h2 class="wow animated fadeInUp">Incluso em todos os planos</h2>
         </div>
       </div>
       <div class="row">
+        <div class="col-sm-4 wow animated zoomIn">
+          <div class="resource">
+            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
+            <h4>Embarque bem sucedido Portabilis</h4>
+            <p>Nossa equipe elimina toda a complexidade da adoção, entregando a solução adaptada e configurada de acordo com a sua realidade.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
+          <div class="resource">
+            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
+            <h4>Sua voz tem poder aqui</h4>
+            <p>Você terá a chance de direcionar o desenvolvimento do maior software livre de gestão escolar do Brasil!</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
+          <div class="resource">
+            <div class="spacer"></div>
+            <h4>Atualizações mais confiáveis</h4>
+            <p>Somos os mantenedores oficiais do i-Educar e ofere-cemos atualizações mais rápidas para o seu ambiente.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn">
+          <div class="resource">
+            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>" />
+            <h4>Consultoria de sucesso Portabilis</h4>
+            <p>No dia a dia, vamos te ajudar com os obstáculos e contribuir para que você extraia o máximo de potencial da solução.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
+          <div class="resource">
+            <div class="spacer"></div>
+            <h4>Você investindo na educação do País</h4>
+            <p>Quando você nos contrata, investimos estes recursos para melhorar o software que beneficia milhares de pessoas no país.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
+          <div class="resource">
+            <div class="spacer"></div>
+            <h4>Garantia de disponibilidade e segurança</h4>
+            <p>Você se preocupa com o sucesso da sua rede ou escola e nós a responsabilidade pela disponibilidade e segurança dos dados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-j section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 col-sm-12">
+          <h2 class="wow animated fadeInUp">Saiba o que falam de nós</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-sm-4 wow animated fadeInLeft">
+              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+            </div>
+            <div class="col-sm-8 wow animated zoomIn">
+              <div class="row no-gutters">
+                <div class="col-sm-12">
+                  <h3>“Gostaria de <strong>parabenizar</strong> a Portabilis pela liberdade que nos é dada para <strong>interagir com a equipe</strong>, bem como a agilidade com que são respondidos nossos e-mails com as solicitações de <strong>suporte</strong> e de <strong>melhorias</strong>.”</h3>
+                  <div class="test-div"></div>
+                  <p class="test-name">Alan Votri</p>
+                  <p class="test-desc">Secretário de Educação de Sombrio, SC</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-1">
+          <div class="row">
+            <div class="col-sm-4 wow animated zoomIn">
+              <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+            </div>
+            <div class="col-sm-8 wow animated fadeInRight">
+              <div class="row no-gutters">
+                <div class="col-sm-12">
+                  <h4>“Estamos <strong>totalmente satisfeitos</strong> com os serviços da Portabilis”</h4>
+                  <div class="test-div"></div>
+                  <p class="test-name">Fábio Gualberto</p>
+                  <p class="test-desc">Secretário de Educação de Dom Elisei, PA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 wow animated zoomIn">
+              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+            </div>
+            <div class="col-sm-8 wow animated fadeInRight">
+              <div class="row no-gutters">
+                <div class="col-sm-12">
+                  <h4>“Após a implantação do i-Educar a Secretaria passou a ter uma visão integrada de toda a rede”</h4>
+                  <div class="test-div"></div>
+                  <p class="test-name">Andréia Custódio</p>
+                  <p class="test-desc">Secretário de Educação de Içara, SC</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-k section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="wow animated fadeInUp">Materiais educations</h2>
+          <p class="big subtitle">Baixe Gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="cta-a" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">CTA POP UP 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="cta-b" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelb" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabelb">CTA POP UP 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>

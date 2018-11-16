@@ -8954,6 +8954,166 @@ ul {
   font-size: 1rem;
 }
 
+#page .section-h {
+  background-color: #EBF3FF;
+}
+
+#page .section-h h3 {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+#page .section-h .title-version {
+  font-size: 1.125rem;
+  background-color: #242B33;
+  color: #FFF;
+  text-align: center;
+  padding: 1.25rem;
+  border: 1px solid #242B33;
+  border-top-left-radius: 5px;
+}
+
+#page .section-h .desc-version {
+  background-color: #1B2026;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 1.25rem 1rem;
+}
+
+#page .section-h .title-version-b {
+  font-size: 1.125rem;
+  background-color: #2688FF;
+  color: #FFF;
+  text-align: center;
+  padding: 1.25rem;
+  border: 1px solid #2688FF;
+  border-top-right-radius: 5px;
+}
+
+#page .section-h .desc-version-b {
+  background-color: #0072FF;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 1.25rem 1rem;
+}
+
+#page .section-h .detail {
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  background-color: #FFF;
+}
+
+#page .section-h .detail .check {
+  text-align: center;
+}
+
+#page .section-h .detail .check i {
+  color: #0172ff;
+}
+
+#page .section-h .detail .pro {
+  background-color: #2787ff;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.625rem;
+  margin-left: 10px;
+}
+
+#page .section-h .detail .row {
+  padding: 1rem;
+}
+
+#page .section-h .detail .row:nth-child(even) {
+  background: #f6f9ff;
+}
+
+#page .section-i {
+  background-color: #EBF3FF;
+  padding-bottom: 6rem;
+}
+
+#page .section-i h2 {
+  margin-bottom: 4rem;
+}
+
+#page .section-i .resource {
+  padding: 1.5rem 1rem;
+  background-color: #FFF;
+  margin-bottom: 2rem;
+}
+
+#page .section-i .resource .spacer {
+  height: 24px;
+  margin-bottom: 1.5rem;
+}
+
+#page .section-i .resource img {
+  margin-bottom: 1.5rem;
+}
+
+#page .section-i .resource h4 {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+#page .section-i .resource p {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+#page .section-j h2 {
+  margin-bottom: 4rem;
+}
+
+#page .section-j h3 {
+  color: #506073;
+  font-weight: normal;
+  text-align: left;
+  margin: 0;
+}
+
+#page .section-j h4 {
+  color: #506073;
+  font-size: 1.125rem;
+  font-weight: normal;
+  text-align: left;
+  margin: 0;
+}
+
+#page .section-j .test-div {
+  border-top: 1px solid #E0EDFF;
+  width: 3rem;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+#page .section-j .test-name {
+  color: #003473;
+  margin-bottom: 0rem;
+  font-weight: bold;
+}
+
+#page .section-j .test-desc {
+  color: #506073;
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+#page .section-k {
+  background-color: #0072FF;
+}
+
+#page .section-k h2 {
+  text-align: left;
+  color: #FFF;
+}
+
+#page .section-k .subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+}
+
 #page h2 {
   margin-bottom: 2rem;
 }
