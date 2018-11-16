@@ -552,7 +552,7 @@ pre code {
   overflow-y: scroll;
 }
 
-.container, #banner .wrap-title, #banner-ieducar .wrap-title {
+.container, #banner .wrap-title, #banner-ieducar .wrap-title, #banner-sas .wrap-title {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -561,25 +561,25 @@ pre code {
 }
 
 @media (min-width: 576px) {
-  .container, #banner .wrap-title, #banner-ieducar .wrap-title {
+  .container, #banner .wrap-title, #banner-ieducar .wrap-title, #banner-sas .wrap-title {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, #banner .wrap-title, #banner-ieducar .wrap-title {
+  .container, #banner .wrap-title, #banner-ieducar .wrap-title, #banner-sas .wrap-title {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, #banner .wrap-title, #banner-ieducar .wrap-title {
+  .container, #banner .wrap-title, #banner-ieducar .wrap-title, #banner-sas .wrap-title {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, #banner .wrap-title, #banner-ieducar .wrap-title {
+  .container, #banner .wrap-title, #banner-ieducar .wrap-title, #banner-sas .wrap-title {
     max-width: 1140px;
   }
 }
@@ -3749,7 +3749,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
-.navbar > .container, #banner .navbar > .wrap-title, #banner-ieducar .navbar > .wrap-title,
+.navbar > .container, #banner .navbar > .wrap-title, #banner-ieducar .navbar > .wrap-title, #banner-sas .navbar > .wrap-title,
 .navbar > .container-fluid {
   display: flex;
   flex-wrap: wrap;
@@ -3829,7 +3829,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container, #banner .navbar-expand-sm > .wrap-title, #banner-ieducar .navbar-expand-sm > .wrap-title,
+  .navbar-expand-sm > .container, #banner .navbar-expand-sm > .wrap-title, #banner-ieducar .navbar-expand-sm > .wrap-title, #banner-sas .navbar-expand-sm > .wrap-title,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -3851,7 +3851,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-sm > .container, #banner .navbar-expand-sm > .wrap-title, #banner-ieducar .navbar-expand-sm > .wrap-title,
+  .navbar-expand-sm > .container, #banner .navbar-expand-sm > .wrap-title, #banner-ieducar .navbar-expand-sm > .wrap-title, #banner-sas .navbar-expand-sm > .wrap-title,
   .navbar-expand-sm > .container-fluid {
     flex-wrap: nowrap;
   }
@@ -3865,7 +3865,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, #banner .navbar-expand-md > .wrap-title, #banner-ieducar .navbar-expand-md > .wrap-title,
+  .navbar-expand-md > .container, #banner .navbar-expand-md > .wrap-title, #banner-ieducar .navbar-expand-md > .wrap-title, #banner-sas .navbar-expand-md > .wrap-title,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -3887,7 +3887,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-md > .container, #banner .navbar-expand-md > .wrap-title, #banner-ieducar .navbar-expand-md > .wrap-title,
+  .navbar-expand-md > .container, #banner .navbar-expand-md > .wrap-title, #banner-ieducar .navbar-expand-md > .wrap-title, #banner-sas .navbar-expand-md > .wrap-title,
   .navbar-expand-md > .container-fluid {
     flex-wrap: nowrap;
   }
@@ -3901,7 +3901,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container, #banner .navbar-expand-lg > .wrap-title, #banner-ieducar .navbar-expand-lg > .wrap-title,
+  .navbar-expand-lg > .container, #banner .navbar-expand-lg > .wrap-title, #banner-ieducar .navbar-expand-lg > .wrap-title, #banner-sas .navbar-expand-lg > .wrap-title,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -3923,7 +3923,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-lg > .container, #banner .navbar-expand-lg > .wrap-title, #banner-ieducar .navbar-expand-lg > .wrap-title,
+  .navbar-expand-lg > .container, #banner .navbar-expand-lg > .wrap-title, #banner-ieducar .navbar-expand-lg > .wrap-title, #banner-sas .navbar-expand-lg > .wrap-title,
   .navbar-expand-lg > .container-fluid {
     flex-wrap: nowrap;
   }
@@ -3937,7 +3937,7 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container, #banner .navbar-expand-xl > .wrap-title, #banner-ieducar .navbar-expand-xl > .wrap-title,
+  .navbar-expand-xl > .container, #banner .navbar-expand-xl > .wrap-title, #banner-ieducar .navbar-expand-xl > .wrap-title, #banner-sas .navbar-expand-xl > .wrap-title,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -3959,7 +3959,7 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-  .navbar-expand-xl > .container, #banner .navbar-expand-xl > .wrap-title, #banner-ieducar .navbar-expand-xl > .wrap-title,
+  .navbar-expand-xl > .container, #banner .navbar-expand-xl > .wrap-title, #banner-ieducar .navbar-expand-xl > .wrap-title, #banner-sas .navbar-expand-xl > .wrap-title,
   .navbar-expand-xl > .container-fluid {
     flex-wrap: nowrap;
   }
@@ -3977,7 +3977,7 @@ input[type="button"].btn-block {
   justify-content: flex-start;
 }
 
-.navbar-expand > .container, #banner .navbar-expand > .wrap-title, #banner-ieducar .navbar-expand > .wrap-title,
+.navbar-expand > .container, #banner .navbar-expand > .wrap-title, #banner-ieducar .navbar-expand > .wrap-title, #banner-sas .navbar-expand > .wrap-title,
 .navbar-expand > .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -3996,7 +3996,7 @@ input[type="button"].btn-block {
   padding-left: 0.5rem;
 }
 
-.navbar-expand > .container, #banner .navbar-expand > .wrap-title, #banner-ieducar .navbar-expand > .wrap-title,
+.navbar-expand > .container, #banner .navbar-expand > .wrap-title, #banner-ieducar .navbar-expand > .wrap-title, #banner-sas .navbar-expand > .wrap-title,
 .navbar-expand > .container-fluid {
   flex-wrap: nowrap;
 }
@@ -8453,7 +8453,7 @@ a.text-dark:hover, a.text-dark:focus {
   body {
     min-width: 992px !important;
   }
-  .container, #banner .wrap-title, #banner-ieducar .wrap-title {
+  .container, #banner .wrap-title, #banner-ieducar .wrap-title, #banner-sas .wrap-title {
     min-width: 992px !important;
   }
   .navbar {
@@ -8654,16 +8654,33 @@ ul {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   html {
     font-size: 14px !important;
   }
   #banner {
-    height: 700px !important;
+    height: 600px !important;
   }
   #banner .wrap-title {
     position: static !important;
     padding-top: 25px !important;
+  }
+  #banner-ieducar {
+    height: 500px !important;
+  }
+  #banner-ieducar .wrap-title {
+    position: static !important;
+    padding-top: 60px !important;
+  }
+  #banner-sas {
+    height: 690px !important;
+  }
+  #banner-sas .wrap-title {
+    position: static !important;
+    padding-top: 60px !important;
+  }
+  #banner-sas .wrap-title h1, #banner-sas .wrap-title .subtitle {
+    padding-right: 50% !important;
   }
   #page.pad-home {
     padding-top: 100px !important;
@@ -8680,6 +8697,11 @@ ul {
     background-position: center;
     z-index: 10;
   }
+  #page .div-banner-sas {
+    top: -648px !important;
+    height: 649px !important;
+    background-image: url("assets/img/sas-div-mobile.png") !important;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -8689,10 +8711,21 @@ ul {
   h1 {
     font-size: 2.5rem !important;
   }
-  .section-g {
+  #banner-sas {
+    height: 450px !important;
+  }
+  #banner-sas .wrap-title h1, #banner-sas .wrap-title .subtitle {
+    padding-right: 0 !important;
+  }
+  #page .div-banner-sas {
+    top: -630px !important;
+    height: 894px !important;
+    background-image: url("assets/img/ieducar-div.png") !important;
+  }
+  #page .section-g {
     height: auto !important;
   }
-  .section-g .background {
+  #page .section-g .background {
     display: none !important;
   }
 }
@@ -8730,6 +8763,105 @@ ul {
   border-right: 0px;
 }
 
+#banner {
+  background-color: #0172ff;
+  height: 900px;
+}
+
+#banner .wrap-title {
+  position: fixed;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#banner .wrap-title h1 {
+  color: #FFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+#banner .wrap-title .subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#banner-ieducar {
+  background-color: #0172ff;
+  height: 600px;
+  position: relative;
+  top: -1px;
+}
+
+#banner-ieducar .wrap-title {
+  position: fixed;
+  top: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#banner-ieducar .wrap-title h1 {
+  text-align: left;
+  color: #FFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+#banner-ieducar .wrap-title .subtitle {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#banner-ieducar .bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#banner-sas {
+  background-color: #33cc57;
+  height: 800px;
+  position: relative;
+  top: -1px;
+}
+
+#banner-sas .wrap-title {
+  position: fixed;
+  top: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#banner-sas .wrap-title h1 {
+  text-align: left;
+  color: #FFF;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 4.5rem;
+  margin-bottom: 2rem;
+  padding-right: 60%;
+}
+
+#banner-sas .wrap-title .subtitle {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 60%;
+}
+
+#banner-sas .bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
 #page {
   position: relative;
   z-index: 1;
@@ -8765,6 +8897,19 @@ ul {
   width: 100%;
   height: 894px;
   background-image: url("assets/img/ieducar-div.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10;
+}
+
+#page .div-banner-sas {
+  position: absolute;
+  top: -750px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 752px;
+  background-image: url("assets/img/sas-div.png");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 10;
@@ -9138,67 +9283,6 @@ ul {
   border-top: 1px solid #e0edfe;
   margin-top: 6rem;
   margin-bottom: 6rem;
-}
-
-#banner {
-  background-color: #0172ff;
-  height: 900px;
-}
-
-#banner .wrap-title {
-  position: fixed;
-  top: 250px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-#banner .wrap-title h1 {
-  color: #FFF;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  line-height: 4.5rem;
-  margin-bottom: 2rem;
-}
-
-#banner .wrap-title .subtitle {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-#banner-ieducar {
-  background-color: #0172ff;
-  height: 600px;
-  position: relative;
-  top: -1px;
-}
-
-#banner-ieducar .wrap-title {
-  position: fixed;
-  top: 250px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
-#banner-ieducar .wrap-title h1 {
-  text-align: left;
-  color: #FFF;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  line-height: 4.5rem;
-  margin-bottom: 2rem;
-}
-
-#banner-ieducar .wrap-title .subtitle {
-  text-align: left;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-#banner-ieducar .bubble {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
 }
 
 #footer {

@@ -13,8 +13,11 @@ function site_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary Menu', 'site' ),
+		'primary' => esc_html__( 'Menutopo 1', 'site' ),
 	) );
+  register_nav_menus( array(
+    'secondary' => esc_html__( 'Menutopo 2', 'site' ),
+  ) );
 
 	add_image_size('home-thumb',600,800,true);
 }

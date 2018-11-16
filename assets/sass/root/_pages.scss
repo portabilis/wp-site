@@ -32,6 +32,18 @@
     background-position: center;
     z-index:10;
   }
+  .div-banner-sas{
+    position:absolute;
+    top:-750px;
+    left:0;
+    right:0;
+    width:100%;
+    height:752px;
+    background-image: url('assets/img/sas-div.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:10;
+  }
   .section-padding{
     padding:6rem 0;
   }
@@ -360,61 +372,5 @@
     border-top:1px solid #e0edfe;
     margin-top:6rem;
     margin-bottom:6rem;
-  }
-}
-
-#banner{
-  background-color:#0172ff;
-  height:900px;
-  .wrap-title{
-    @extend .container;
-    position:fixed;
-    top:250px;
-    left:0;
-    right:0;
-    margin:0 auto;
-    h1{
-      color:#FFF;
-      text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-      line-height:4.5rem;
-      margin-bottom:2rem;
-    }
-    .subtitle{
-      text-align:center;
-      color:rgba(255, 255, 255, 0.7);
-    }
-  }
-}
-
-#banner-ieducar{
-  background-color:#0172ff;
-  height:600px;
-  position:relative;
-  top:-1px;
-  .wrap-title{
-    @extend .container;
-    position:fixed;
-    top:250px;
-    left:0;
-    right:0;
-    margin:0 auto;
-    h1{
-      text-align:left;
-      color:#FFF;
-      text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-      line-height:4.5rem;
-      margin-bottom:2rem;
-    }
-    .subtitle{
-      text-align:left;
-      color:rgba(255, 255, 255, 0.7);
-    }
-  }
-  .bubble{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    margin:0 auto;
   }
 }

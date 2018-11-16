@@ -40,8 +40,8 @@
       ?>
       <?php
       wp_nav_menu(array(
-      'menu'            => 'primary',
-      'theme_location'  => 'primary',
+      'menu'            => 'secondary',
+      'theme_location'  => 'secondary',
       'container'       => 'div',
       'menu_id'         => false,
       'menu_class'      => 'navbar-nav',

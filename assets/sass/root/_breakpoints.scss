@@ -7,17 +7,32 @@
   }
 }
 @include media-breakpoint-down(md) {
-}
-@include media-breakpoint-down(sm) {
   html{
     font-size:14px !important;
   }
 
   #banner{
-    height:700px !important;
+    height:600px !important;
     .wrap-title{
       position:static !important;
       padding-top:25px !important;
+    }
+  }
+  #banner-ieducar{
+    height:500px !important;
+    .wrap-title{
+      position:static !important;
+      padding-top:60px !important;
+    }
+  }
+  #banner-sas{
+    height:690px !important;
+    .wrap-title{
+      position:static !important;
+      padding-top:60px !important;
+      h1, .subtitle{
+        padding-right:50% !important;
+      }
     }
   }
 
@@ -37,7 +52,15 @@
       background-position: center;
       z-index:10;
     }
+    .div-banner-sas{
+      top:-648px !important;
+      height:649px !important;
+      background-image: url('assets/img/sas-div-mobile.png') !important;
+    }
   }
+}
+@include media-breakpoint-down(sm) {
+  
 }
 
 @include media-breakpoint-down(xs) {
@@ -48,11 +71,26 @@
   h1{
     font-size:2.5rem !important;
   }
+  #banner-sas{
+    height:450px !important;
+    .wrap-title{
+      h1, .subtitle{
+        padding-right:0 !important;
+      }
+    }
+  }
+  #page{
+    .div-banner-sas{
+      top:-630px !important;
+      height:894px !important;
+      background-image: url('assets/img/ieducar-div.png') !important;
+    }
 
-  .section-g{
-    height: auto !important;
-    .background{
-      display:none !important;
+    .section-g{
+      height: auto !important;
+      .background{
+        display:none !important;
+      }
     }
   }
 }
