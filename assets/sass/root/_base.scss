@@ -72,3 +72,22 @@ ul{
   background-repeat: no-repeat;
   background-position: center;
 }
+.popover{
+  .popover-header{
+    background-color:#242B33;
+    color:#FFF;
+    border:0;
+  }
+  .popover-body{
+    background-color:#242B33;
+    color:rgba(255, 255, 255, 0.7);
+    text-align:center;
+    a{
+      margin-right:10px;
+      color:#FFF;
+    }
+  }
+  .arrow{
+    display:none;
+  }
+}

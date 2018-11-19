@@ -57,6 +57,14 @@
       height:649px !important;
       background-image: url('assets/img/sas-div-mobile.png') !important;
     }
+    .section-j{
+      h3{
+        font-size:1.125rem !important;
+      }
+      .test-name{
+        font-size:1rem !important;
+      }
+    }
   }
 }
 @include media-breakpoint-down(sm) {
@@ -90,6 +98,37 @@
       height: auto !important;
       .background{
         display:none !important;
+      }
+    }
+    .section-m{
+      height:auto !important;
+      .wrap-container{
+        .sas-maps{
+          top:-2rem !important;
+          left:0 !important;
+        }
+        .wrap-screen{
+          height: auto !important;
+          .sas-screen{
+            position:relative !important;
+            max-width: 100% !important;
+            height: auto !important;
+          }
+        }
+        
+      }
+    }
+    .section-n{
+      .gallery{
+        .top{
+          margin-top:0rem !important;
+        }
+        .down{
+          margin-top:0rem !important;
+        }
+        img{
+          margin-bottom:1rem !important;
+        }
       }
     }
   }

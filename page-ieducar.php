@@ -10,7 +10,7 @@ get_header(); ?>
 <div id="page" class="pad-ieducar">
   <div class="div-banner-ieducar">
   </div>
-  <div class="section-e">
+  <div class="section-e pb-8">
     <div class="container">
       <div class="row justify-content-center title-home">
         <div class="col-lg-7 col-sm-12">
@@ -73,63 +73,63 @@ get_header(); ?>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4 wow animated zoomIn">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
             <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
             <h4>Totalmente on-line</h4>
             <p>Acessível de qualquer lugar e cadastro único do aluno para toda a rede de ensino.</p>
           </div>
         </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
             <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
             <h4>Informações em tempo real</h4>
             <p>Dados quantitativos e estatísticos atualizados de todos os processos.</p>
           </div>
         </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
             <div class="spacer"></div>
             <h4>Educacenso/INEP</h4>
             <p>Importação e exportação automatizadas dos dados Censo Escolar em poucos cliques.</p>
           </div>
         </div>
-        <div class="col-sm-4 wow animated zoomIn">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
             <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>" />
             <h4>Sistema de avaliação flexível</h4>
             <p>Avaliação e relatórios adaptados com notas numéricas, conceituais ou avaliação descritiva.</p>
           </div>
         </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
             <div class="spacer"></div>
             <h4>Gestão de servidores</h4>
             <p>Gerenciamento de alocações, afastamentos, substituições, faltas e atrasos.</p>
           </div>
         </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
             <div class="spacer"></div>
             <h4>Quadro de horários</h4>
             <p>Dados  para análise de demandas e disponibilidade de profissionais.</p>
           </div>
         </div>
-        <div class="col-sm-4 wow animated zoomIn">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
             <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon4.jpg"; ?>" />
             <h4>Transporte escolar</h4>
             <p>Controle de veículos, motoristas, rotas, itinerários e emissão de carteirinha.</p>
           </div>
         </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
             <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon5.jpg"; ?>" />
             <h4>Biblioteca</h4>
             <p>Gestão completa de acervo com controle de reservas, empréstimos e devoluções. </p>
           </div>
         </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
+        <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
             <div class="spacer"></div>
             <h4>Relatórios e indicadores</h4>
@@ -453,7 +453,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
-  <div class="section-k section-padding">
+  <div class="section-k blue section-padding">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
