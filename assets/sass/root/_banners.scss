@@ -114,3 +114,30 @@
     }
   }
 }
+
+
+#banner-sobre{
+  background-color:#0172ff;
+  height:600px;
+  position:relative;
+  top:-1px;
+  .wrap-title{
+    @extend .container;
+    position:fixed;
+    top:250px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    h1{
+      text-align:center;
+      color:#FFF;
+      text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+      line-height:4.5rem;
+      margin-bottom:2rem;
+    }
+    .subtitle{
+      text-align:center;
+      color:rgba(255, 255, 255, 0.7);
+    }
+  }
+}

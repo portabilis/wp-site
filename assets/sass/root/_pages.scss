@@ -57,11 +57,82 @@
     background-position: center;
     z-index:10;
   }
+  .div-banner-sobre{
+    position:absolute;
+    top:-419px;
+    left:0;
+    right:0;
+    width:100%;
+    height:419px;
+    background-image: url('assets/img/sobre-div.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:10;
+  }
   .section-padding{
     padding:6rem 0;
   }
   .section-margin{
     margin:6rem 0;
+  }
+  .contato{
+    background-color:#0172ff;
+    color:#FFF;
+    padding-top:6rem;
+    padding-bottom:8rem;
+    h1{
+      font-weight:bold;
+      text-align:left;
+    }
+    .subtitle{
+      color:rgba(255, 255, 255, 0.7);
+      font-size:1.25rem;
+      text-align:left;
+    }
+    p{
+      color:rgba(255, 255, 255, 0.7);
+      strong{
+        color:#FFF;
+        font-weight:bold;
+      }
+    }
+    .redes{
+      padding:0;
+      margin:0;
+      list-style-type:none;
+      li{
+        text-align:center;
+        width:35px;
+        height:35px;
+        padding-top:8px;
+        border-radius:5px;
+        display:inline-block;
+        background-color:#FFF;
+        margin-left:5px;
+        border:1px solid #FFF;
+
+        a{
+          display:block;
+          i{
+            color:#0172ff;
+          }
+        } 
+      }
+    }
+    form{
+      background-color:#FFF;
+      padding:3rem 2rem;
+      border-radius:5px;
+      .form-control{
+        border:0;
+        border-bottom:1px solid #E0EDFF;
+        padding:0.5rem;
+      }
+      .form-control::placeholder{
+        color:#003473;
+        font-weight:bold;
+      }
+    }
   }
   .section-a{
     background-color:#FFF;
@@ -435,6 +506,9 @@
     &.blue{
       background-color:#0072FF;
     }
+    &.dblue{
+      background-color:#005AD9;
+    }
     h2{
       text-align:left;
       color:#FFF;
@@ -442,6 +516,17 @@
     .subtitle{
       color:rgba(255, 255, 255, 0.7);
       text-align:left;
+    }
+    .archive{
+      margin-bottom:2rem;
+      display:block;
+      width:100%;
+      text-align:center;
+      border:1px solid #0072FF;
+      border-radius:10px;
+      color:rgba(255, 255, 255, 0.7);
+      font-weight:bold;
+      padding:1rem;
     }
   }
 
@@ -527,6 +612,75 @@
     h2{
       text-align:left;
     }
+    h2.light{
+      color:#0072FF;
+      font-weight:300;
+    }
+    .mun{
+      border-radius:5px;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width:100%;
+      height:200px;
+      position:relative;
+      margin-bottom:1.5rem;
+
+      .mun-text{
+        position:absolute;
+        bottom:0;
+        left:0;
+        padding:1rem;
+        color:#FFF;
+      }
+
+      &.mun1{
+        background-image: url('assets/img/municipios1.png');
+      }
+      &.mun2{
+        background-image: url('assets/img/municipios2.png');
+      }
+      &.mun3{
+        background-image: url('assets/img/municipios3.png');
+      }
+      &.mun4{
+        background-image: url('assets/img/municipios4.png');
+      }
+      &.mun5{
+        background-image: url('assets/img/municipios5.png');
+      }
+      &.mun6{
+        background-image: url('assets/img/municipios6.png');
+      }
+      &.mun7{
+        background-image: url('assets/img/municipios7.png');
+      }
+      &.mun8{
+        background-image: url('assets/img/municipios8.png');
+      }
+      &.mun9{
+        background-image: url('assets/img/municipios9.png');
+      }
+      &.mun10{
+        background-image: url('assets/img/municipios10.png');
+      }
+      &.mun11{
+        background-image: url('assets/img/municipios11.png');
+      }
+    }
+    .mun:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 100%;
+      border-radius:5px;
+      background-image: linear-gradient(0deg, #000 0%, transparent 50%, transparent 100%);
+    }
     .gallery{
       .top{
         margin-top:-2rem;
@@ -567,6 +721,69 @@
     }
     p{
       color:rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  .section-p{
+    h2{
+      text-align:left;
+    }
+    h2.white{
+      color:#FFF;
+      font-weight:300;
+      text-align:left;
+    }
+    span{
+      color:rgba(255, 255, 255, 0.7);    
+    }
+    .background-color{
+      background-color:#E0EDFF;
+      padding:4rem;
+      padding-top:150px;
+      height:500px;
+    }
+    .background-img{
+      padding:4rem;
+      padding-top:100px;
+      height:500px;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-image: url('assets/img/destaque.jpg');
+    }
+  }
+
+  .section-q{
+    position:relative;
+    background-color:#0072FF;
+    .div-sobre{
+      position:absolute;
+      top:-86px;
+      left:0;
+      right:0;
+      width:100%;
+      height:86px;
+      background-image: url('assets/img/sobre-div-b.png');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    h2{
+      color:#FFF;
+    }
+    article{
+      width:80%;
+    }
+    p{
+      color:#FFF;
+      margin-bottom:0.5rem;
+    }
+    span{
+      color:rgba(255, 255, 255, 0.7);
+      margin-bottom:3rem;
+      display:block;
     }
   }
 
