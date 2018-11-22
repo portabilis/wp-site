@@ -29,7 +29,7 @@
     height:690px !important;
     .wrap-title{
       position:static !important;
-      padding-top:25px !important;
+      padding-top:75px !important;
       h1, .subtitle{
         padding-right:50% !important;
       }
@@ -102,22 +102,48 @@
     font-size:12px !important;
   }
 
+  #header{
+    #menu{
+      #navbarCollapse{
+        background-color:#FFF !important;
+        ul.navbar-nav{
+          li.menu-item{
+            a{
+              border:0 !important;
+              padding:15px !important;
+              text-align:center !important;
+              color:#0172ff !important;
+            }
+          }
+        }
+        .btn-base{
+          display:none !important;
+        }
+      }
+    }
+  }
+
   h1{
     font-size:2.5rem !important;
   }
   #banner-sas{
     height:450px !important;
     .wrap-title{
+      padding-top:40px !important;
       h1, .subtitle{
         padding-right:0 !important;
       }
     }
   }
   #page{
+    .pad-sas{
+      padding-top:60px !important;
+    }
+
     .div-banner-sas{
       top:-630px !important;
       height:894px !important;
-      background-image: url('assets/img/ieducar-div.png') !important;
+      background-image: url('assets/img/sas-mobile-div.png') !important;
     }
 
     .section-g{

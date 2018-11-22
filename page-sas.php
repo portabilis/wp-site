@@ -9,7 +9,7 @@ get_header(); ?>
 <div id="page">
   <div class="div-banner-sas">
   </div>
-  <div class="section-l">
+  <div class="section-l pad-sas">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-sm-12">
