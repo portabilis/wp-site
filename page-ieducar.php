@@ -3,8 +3,8 @@ get_header(); ?>
 <div id="banner-ieducar">
   <img class="bubble wow animated fadeInDown" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/bubble.png"; ?>" />
   <div class="wrap-title wow animated fadeInUp">
-    <h1><strong>i-Educar</strong></h1>
-    <p class="big subtitle">O software livre que facilita a gestão escolar por meio de dados</p>
+    <h1><?php the_field('ieducar_banner_titulo'); ?></h1>
+    <div class="big subtitle"><?php the_field('ieducar_banner_subtitulo'); ?></div>
   </div>
 </div>
 <div id="page" class="pad-ieducar">

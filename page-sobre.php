@@ -2,8 +2,8 @@
 get_header(); ?>
 <div id="banner-sobre">
   <div class="wrap-title wow animated fadeInUp">
-    <h1><strong>Potencializar o impacto das políticas públicas através do uso de tecnologia e dados</strong></h1>
-    <p class="big subtitle">Lorem ipsum 2 linhas</p>
+    <h1><?php the_field('sobre_banner_titulo'); ?></h1>
+    <div class="big subtitle"><?php the_field('sobre_banner_subtitulo'); ?></div>
   </div>
 </div>
 <div id="page" class="pad-ieducar">

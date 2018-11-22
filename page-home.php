@@ -3,7 +3,7 @@ get_header(); ?>
 <div id="banner">
   <div class="wrap-title wow animated fadeInUp">
     <h1><?php the_field('home_banner_titulo'); ?></h1>
-    <p class="big subtitle"><?php the_field('home_banner_subtitulo'); ?></p>
+    <div class="big subtitle"><?php the_field('home_banner_subtitulo'); ?></div>
   </div>
 </div>
 <div id="page" class="pad-home">

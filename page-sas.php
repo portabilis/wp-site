@@ -2,8 +2,8 @@
 get_header(); ?>
 <div id="banner-sas">
   <div class="wrap-title wow animated fadeInUp">
-    <h1><strong>Portabilis SAS</strong></h1>
-    <p class="big subtitle">O Portabilis SAS unifica e integra os serviços do Sistema Único de Assistência Social, possibilitando uma gestão mais inteligente através de dados e tecnologia</p>
+    <h1><?php the_field('sas_banner_titulo'); ?></h1>
+    <div class="big subtitle"><?php the_field('sas_banner_subtitulo'); ?></div>
   </div>
 </div>
 <div id="page">

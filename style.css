@@ -9885,6 +9885,10 @@ ul {
   color: rgba(255, 255, 255, 0.7);
 }
 
+#banner .wrap-title p {
+  margin: 0;
+}
+
 #banner-ieducar {
   background-color: #0172ff;
   height: 600px;
@@ -9911,6 +9915,10 @@ ul {
 #banner-ieducar .wrap-title .subtitle {
   text-align: left;
   color: rgba(255, 255, 255, 0.7);
+}
+
+#banner-ieducar .wrap-title p {
+  margin: 0;
 }
 
 #banner-ieducar .bubble {
@@ -9951,6 +9959,10 @@ ul {
   padding-right: 60%;
 }
 
+#banner-sas .wrap-title p {
+  margin: 0;
+}
+
 #banner-sas .bubble {
   position: absolute;
   top: 0;
@@ -9987,6 +9999,10 @@ ul {
   color: rgba(255, 255, 255, 0.7);
 }
 
+#banner-oportunidade .wrap-title p {
+  margin: 0;
+}
+
 #banner-sobre {
   background-color: #0172ff;
   height: 700px;
@@ -10013,6 +10029,10 @@ ul {
 #banner-sobre .wrap-title .subtitle {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
+}
+
+#banner-sobre .wrap-title p {
+  margin: 0;
 }
 
 #page {

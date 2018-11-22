@@ -43,3 +43,23 @@ function site_scripts() {
 add_action( 'wp_enqueue_scripts', 'site_scripts' );
 
 require get_template_directory() . '/inc/wp-bootstrap-navwalker.php';
+
+
+function register_post_type_funcionario(){
+  $singular = 'Funcionário';
+  $plural = 'Funcionários';
+  $labels = array(
+    'name' => $plural,
+    'singular_name' => $singular,
+    'add_new_item' => 'Adicionar novo '.$singular,
+    );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+    );
+
+  register_post_type('funcionario',$args);
+}
+add_action( 'init','register_post_type_funcionario');
