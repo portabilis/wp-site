@@ -155,42 +155,27 @@ uso do i-Educar”</h2>
         </div>
       </div>
       <div class="row">
+        <?php
+          $args = array(
+            'post_type' => 'cases',
+            'posts_per_page' => 9,
+            'orderby' => 'post_date',
+            'order' => 'DESC');
+          $query = new WP_Query( $args );
+          while ( $query->have_posts() ) : $query->the_post();
+        ?>
         <div class="col-lg-4 col-sm-6">
           <article class="wow animated zoomIn">
-            <p>Portabilis libera suas versões para todo o País</p>
-            <span>Fonte: Mec</span> 
+            <a target="_blank" href="<?php the_field('cases_url'); ?>">
+              <p><?php the_title(); ?></p>
+              <span>Fonte: <?php the_field('cases_fonte'); ?></span>
+            </a>
           </article>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <article class="wow animated zoomIn" data-wow-delay="0.125s">
-            <p>i-Educar atende 97% das demandas em Criciúma</p>
-            <span>Fonte: Mec</span>
-          </article>  
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <article class="wow animated zoomIn" data-wow-delay="0.25s">
-            <p>Portabilis e Fundação Lemann juntos para mudar o Brasil</p>
-            <span>Fonte: Mec</span>
-          </article>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <article class="wow animated zoomIn">
-            <p>Portabilis libera suas versões para todo o País</p>
-            <span>Fonte: Mec</span> 
-          </article>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <article class="wow animated zoomIn" data-wow-delay="0.125s">
-            <p>i-Educar atende 97% das demandas em Criciúma</p>
-            <span>Fonte: Mec</span>
-          </article>  
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <article class="wow animated zoomIn" data-wow-delay="0.25s">
-            <p>Portabilis e Fundação Lemann juntos para mudar o Brasil</p>
-            <span>Fonte: Mec</span>
-          </article>
-        </div>
+        <?php
+        endwhile;
+        wp_reset_query();
+        ?>
       </div>
     </div>
   </div>
@@ -203,19 +188,25 @@ uso do i-Educar”</h2>
       </div>
       <div class="row wow animated fadeInUp">
         <div class="col-lg-4">
-          <a class="archive" href="#">
+          <?php if(!empty(get_field('material_para_imprensa_1'))): ?>
+          <a class="archive" href="<?php the_field('material_para_imprensa_1'); ?>">
             Arquivo 1
           </a>
+          <?php endif; ?>
         </div>
         <div class="col-lg-4">
-          <a class="archive" href="#">
+          <?php if(!empty(get_field('material_para_imprensa_2'))): ?>
+          <a class="archive" href="<?php the_field('material_para_imprensa_2'); ?>">
             Arquivo 2
           </a>
+          <?php endif; ?>
         </div>
         <div class="col-lg-4">
-          <a class="archive" href="#">
+          <?php if(!empty(get_field('material_para_imprensa_3'))): ?>
+          <a class="archive" href="<?php the_field('material_para_imprensa_3'); ?>">
             Arquivo 3
           </a>
+          <?php endif; ?>
         </div>
       </div>
     </div>

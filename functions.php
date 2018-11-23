@@ -44,6 +44,25 @@ add_action( 'wp_enqueue_scripts', 'site_scripts' );
 
 require get_template_directory() . '/inc/wp-bootstrap-navwalker.php';
 
+function register_post_type_cases(){
+  $singular = 'Case';
+  $plural = 'Cases';
+  $labels = array(
+    'name' => $plural,
+    'singular_name' => $singular,
+    'add_new_item' => 'Adicionar novo '.$singular,
+    );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+        'supports' => array('title'),
+        'menu_position' => 4
+    );
+
+  register_post_type('cases',$args);
+}
+add_action( 'init','register_post_type_cases');
+
 
 function register_post_type_funcionario(){
   $singular = 'Funcionário';
@@ -56,10 +75,30 @@ function register_post_type_funcionario(){
   $args = array(
     'labels' => $labels,
     'public' => true,
-        'supports' => array('title', 'editor','thumbnail'),
+        'supports' => array('title', 'thumbnail'),
         'menu_position' => 5
     );
 
   register_post_type('funcionario',$args);
 }
 add_action( 'init','register_post_type_funcionario');
+
+
+function register_post_type_vagas(){
+  $singular = 'Vaga';
+  $plural = 'Vagas';
+  $labels = array(
+    'name' => $plural,
+    'singular_name' => $singular,
+    'add_new_item' => 'Adicionar novo '.$singular,
+    );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+        'supports' => array('title'),
+        'menu_position' => 6
+    );
+
+  register_post_type('vagas',$args);
+}
+add_action( 'init','register_post_type_vagas');

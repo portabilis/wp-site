@@ -21,101 +21,40 @@ get_header(); ?>
         </div>
         <div class="col-lg-7 offset-lg-1">
           <div class="row gallery">
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.125s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.25s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 top">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.375s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.5s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.625s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.125s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.25s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 top">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.375s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.5s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.625s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.125s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.25s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 top">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.375s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.5s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.625s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.125s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.25s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 top">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.375s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.5s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.625s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-
-
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.125s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.25s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 top">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.375s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.5s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
-            <div class="col-sm-2 col-4 down">
-              <img class="img-fluid wow animated zoomIn" data-wow-delay="0.625s" data-toggle="popover" title="Tiago Giusti" data-html="true" data-content='Cargo que ocupa na empresa<br><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-twitter"></i></a>' src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/person.png"; ?>" />
-            </div>
+            <?php
+            $i = 0;
+            $args = array(
+              'post_type' => 'funcionario',
+              'posts_per_page' => 999,
+              'orderby' => 'post_date',
+              'order' => 'DESC');
+            $query = new WP_Query( $args );
+            while ( $query->have_posts() ) : $query->the_post();
+              if($i%6 == 0):
+                $delay = 0;
+              endif;
+              $content = get_field('funcionario_cargo').'<br>';
+              if(!empty(get_field('funcionario_linkedin'))):
+                $content .= '<a target="_blank" href="'.get_field('funcionario_linkedin').'"><i class="fab fa-linkedin-in"></i></a>';
+              endif;
+              if(!empty(get_field('funcionario_twitter'))):
+                $content .= '<a target="_blank" href="'.get_field('funcionario_twitter').'"><i class="fab fa-twitter"></i></a>';
+              endif;
+              if(!empty(get_field('funcionario_facebook'))):
+                $content .= '<a target="_blank" href="'.get_field('funcionario_facebook').'"><i class="fab fa-facebook-f"></i></a>';
+              endif;
+              if(!empty(get_field('funcionario_github'))):
+                $content .= '<a target="_blank" href="'.get_field('funcionario_github').'"><i class="fab fa-github"></i></a>';
+              endif;
+            ?>
+              <div class="col-sm-2 col-4 <?php if($i % 6 == 1 OR $i % 6 == 5): echo "down"; endif;?> <?php if($i % 6 == 3): echo "top"; endif;?>">
+                <img class="img-fluid wow animated zoomIn" data-wow-delay="<?php echo $delay; ?>s" data-toggle="popover" title="<?php echo the_title(); ?>" data-html="true" data-content='<?php echo $content; ?>' src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" />
+              </div>
+            <?php
+              $delay += 0.125;
+              $i++;
+            endwhile;
+            ?>
           </div>
         </div>
       </div>
@@ -292,110 +231,53 @@ get_header(); ?>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-5 offset-lg-1 wow animated zoomIn">
+        <?php
+        $i = 1;
+        $modal = "";
+        $args = array(
+          'post_type' => 'vagas',
+          'posts_per_page' => 999,
+          'orderby' => 'post_date',
+          'order' => 'DESC');
+        $query = new WP_Query( $args );
+        while ( $query->have_posts() ) : $query->the_post();
+          if($i%2 == 1):
+            $delay = 0;
+          endif;
+        ?>
+        <div class="col-lg-5 <?php if($i%2 == 1): echo "offset-lg-1"; endif; ?> wow animated zoomIn" data-wow-delay="<?php echo $delay; ?>s">
           <div class="resource-c">
             <div class="row">
               <div class="col-sm-8">
-                <h4>Seja você mesmo</h4>
-                <p>Full time | Içara, SC ou remoto</p>
+                <h4><?php the_title(); ?></h4>
+                <p><?php the_field('vagas_resumo'); ?></p>
               </div>
               <div class="col-sm-4 align-self-center">
-                <a href="#" class="btn btn-blue">+ Detalhes</a>
+                <a href="#" data-toggle="modal" data-target="#oportunidade<?php echo $i; ?>" class="btn btn-blue">+ Detalhes</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-5 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource-c">
-            <div class="row">
-              <div class="col-sm-8">
-                <h4>Product Manager (PM/PO)</h4>
-                <p>Full time | Içara, SC ou remoto</p>
+        <?php
+          $modal .= '<div class="modal fade" id="oportunidade'.$i.'" tabindex="-1" aria-labelledby="exampleModalLabel" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">'.get_the_title(get_the_ID()).'</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
               </div>
-              <div class="col-sm-4 align-self-center">
-                <a href="#" class="btn btn-blue">+ Detalhes</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 offset-lg-1 wow animated zoomIn">
-          <div class="resource-c">
-            <div class="row">
-              <div class="col-sm-8">
-                <h4>Seja você mesmo</h4>
-                <p>Full time | Içara, SC ou remoto</p>
-              </div>
-              <div class="col-sm-4 align-self-center">
-                <a href="#" class="btn btn-blue">+ Detalhes</a>
+              <div class="modal-body">
+                '.get_field('vagas_detalhes').'
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-5 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource-c">
-            <div class="row">
-              <div class="col-sm-8">
-                <h4>Product Manager (PM/PO)</h4>
-                <p>Full time | Içara, SC ou remoto</p>
-              </div>
-              <div class="col-sm-4 align-self-center">
-                <a href="#" class="btn btn-blue">+ Detalhes</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 offset-lg-1 wow animated zoomIn">
-          <div class="resource-c">
-            <div class="row">
-              <div class="col-sm-8">
-                <h4>Seja você mesmo</h4>
-                <p>Full time | Içara, SC ou remoto</p>
-              </div>
-              <div class="col-sm-4 align-self-center">
-                <a href="#" class="btn btn-blue">+ Detalhes</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource-c">
-            <div class="row">
-              <div class="col-sm-8">
-                <h4>Product Manager (PM/PO)</h4>
-                <p>Full time | Içara, SC ou remoto</p>
-              </div>
-              <div class="col-sm-4 align-self-center">
-                <a href="#" class="btn btn-blue">+ Detalhes</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 offset-lg-1 wow animated zoomIn">
-          <div class="resource-c">
-            <div class="row">
-              <div class="col-sm-8">
-                <h4>Seja você mesmo</h4>
-                <p>Full time | Içara, SC ou remoto</p>
-              </div>
-              <div class="col-sm-4 align-self-center">
-                <a href="#" class="btn btn-blue">+ Detalhes</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource-c">
-            <div class="row">
-              <div class="col-sm-8">
-                <h4>Product Manager (PM/PO)</h4>
-                <p>Full time | Içara, SC ou remoto</p>
-              </div>
-              <div class="col-sm-4 align-self-center">
-                <a href="#" class="btn btn-blue">+ Detalhes</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>';
+          $i++;
+          $delay += 0.25;
+        endwhile;
+        ?>
       </div>
       <div class="row justify-content-center mt-6">
         <div class="col-lg-7 col-sm-12">
@@ -476,4 +358,5 @@ get_header(); ?>
     </div>
   </div>
 </div>
+<?php echo $modal; ?>
 <?php get_footer(); ?>
