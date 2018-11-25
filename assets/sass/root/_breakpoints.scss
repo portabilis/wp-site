@@ -1,4 +1,12 @@
 @include media-breakpoint-down(xl) {  }
+@include media-breakpoint-up(lg) {
+  .section-e{
+    .col-lg-3{
+      padding-left:40px !important;
+      padding-right:40px !important;
+    }
+  }
+}
 @include media-breakpoint-down(lg) {
   .section-g{
     .background{

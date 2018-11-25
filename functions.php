@@ -90,7 +90,7 @@ function register_post_type_vagas(){
   $labels = array(
     'name' => $plural,
     'singular_name' => $singular,
-    'add_new_item' => 'Adicionar novo '.$singular,
+    'add_new_item' => 'Adicionar nova '.$singular,
     );
   $args = array(
     'labels' => $labels,
@@ -102,3 +102,23 @@ function register_post_type_vagas(){
   register_post_type('vagas',$args);
 }
 add_action( 'init','register_post_type_vagas');
+
+function register_post_type_faq(){
+  $singular = 'FAQ item';
+  $plural = 'FAQ itens';
+  $labels = array(
+    'name' => $plural,
+    'singular_name' => $singular,
+    'add_new_item' => 'Adicionar novo '.$singular,
+    );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+        'supports' => array('title'),
+        'menu_position' => 7
+    );
+
+  register_post_type('faq',$args);
+}
+add_action( 'init','register_post_type_faq');
+

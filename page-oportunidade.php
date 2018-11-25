@@ -288,70 +288,28 @@ get_header(); ?>
       <div class="row justify-content-center">
         <div class="col-lg-9">
           <ul class="faq-list">
+            <?php
+            $i = 1;
+            $args = array(
+              'post_type' => 'faq',
+              'posts_per_page' => 999,
+              'orderby' => 'post_date',
+              'order' => 'DESC');
+            $query = new WP_Query( $args );
+            while ( $query->have_posts() ) : $query->the_post();
+            ?>
             <li class="row wow animated fadeInUp">
-              <div class="col-11 text-left">Me inscrevi na vaga e recebi apenas o e-mail de inscrição, o que acontece agora?</div>
-              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list1">+</a>
+              <div class="col-11 text-left"><?php echo the_field('faq_pergunta'); ?></div>
+              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list<?php echo $i; ?>">+</a>
               </div>
-              <div class="collapse list-desc col-12" id="faq-list1">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              <div class="collapse list-desc col-12" id="faq-list<?php echo $i; ?>">
+               <?php echo the_field('faq_resposta'); ?>
               </div>
             </li>
-            <li class="row wow animated fadeInUp">
-              <div class="col-11 text-left">Se eu não passar, posso me inscrever novamente?</div>
-              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list2">+</a>
-              </div>
-              <div class="collapse list-desc col-12" id="faq-list2">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </li>
-            <li class="row wow animated fadeInUp">
-              <div class="col-11 text-left">Eu vou receber feedback sobre o processo?</div>
-              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list3">+</a>
-              </div>
-              <div class="collapse list-desc col-12" id="faq-list3">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </li>
-            <li class="row wow animated fadeInUp">
-              <div class="col-11 text-left">Permitimos trabalho remoto ou semi-presencial?</div>
-              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list4">+</a>
-              </div>
-              <div class="collapse list-desc col-12" id="faq-list4">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </li>
-            <li class="row wow animated fadeInUp">
-              <div class="col-11 text-left">Existem vagas para estágio?</div>
-              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list5">+</a>
-              </div>
-              <div class="collapse list-desc col-12" id="faq-list5">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </li>
-            <li class="row wow animated fadeInUp">
-              <div class="col-11 text-left">Todas as vagas do site ainda estão abertas?</div>
-              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list6">+</a>
-              </div>
-              <div class="collapse list-desc col-12" id="faq-list6">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </li>
-            <li class="row wow animated fadeInUp">
-              <div class="col-11 text-left">Se eu enviar meu currículo por e-mail a Portabilis vai analisar?</div>
-              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list7">+</a>
-              </div>
-              <div class="collapse list-desc col-12" id="faq-list7">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </li>
-            <li class="row wow animated fadeInUp">
-              <div class="col-11 text-left">Caso eu tenha alguma dúvida que não consegui esclarecer aqui, com que eu devo falar?</div>
-              <div class="col-1 text-right"><a class="list-btn" data-toggle="collapse" href="#faq-list8">+</a>
-              </div>
-              <div class="collapse list-desc col-12" id="faq-list8">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </li>
+            <?php
+              $i++;
+            endwhile;
+            ?>
           </ul>
         </div>
       </div>

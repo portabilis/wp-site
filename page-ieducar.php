@@ -11,7 +11,7 @@ get_header(); ?>
   <div class="div-banner-ieducar">
   </div>
   <div class="section-e pb-8">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row justify-content-center title-home">
         <div class="col-lg-7 col-sm-12">
           <h2 class="wow animated fadeInUp">Conheça os principais benefícios do maior software livre do Brasil</h2>
@@ -404,7 +404,7 @@ get_header(); ?>
         <div class="col-lg-6">
           <div class="row">
             <div class="col-sm-4 wow animated fadeInLeft">
-              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep1.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 wow animated zoomIn">
               <div class="row no-gutters">
@@ -421,7 +421,7 @@ get_header(); ?>
         <div class="col-lg-5 offset-lg-1">
           <div class="row">
             <div class="col-sm-4 wow animated zoomIn">
-              <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+              <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep2.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 wow animated fadeInRight">
               <div class="row no-gutters">
@@ -436,7 +436,7 @@ get_header(); ?>
           </div>
           <div class="row">
             <div class="col-sm-4 wow animated zoomIn">
-              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep3.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 wow animated fadeInRight">
               <div class="row no-gutters">
