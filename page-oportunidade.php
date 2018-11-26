@@ -72,105 +72,105 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-6 col-lg-3 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_28.jpg"; ?>" />
             <h4>Seja você mesmo</h4>
             <p>Escolhemos você assim, então não mude. Venha do seu jeito, não temos dress code!</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.125s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_29.jpg"; ?>" />
             <h4>Saúde em primeiro lugar</h4>
             <p>Plano de saúde e de farmácia para você ficar com a saúde em dia.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_30.jpg"; ?>" />
             <h4>Bônus semestral</h4>
             <p>Você nos ajuda a atingir nossos objetivos e nós compartilhamos os resultados com você.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.375s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_31.jpg"; ?>" />
             <h4>Auxílio transporte</h4>
             <p>Mora longe? Nós financiamos seu transporte para o nosso escritório.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_32.jpg"; ?>" />
             <h4>Auxílio alimentação</h4>
             <p>Auxílio alimentação com cartão aceito em centenas de estabelecimentos da região.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.125s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_33.jpg"; ?>" />
             <h4>Vale cultura</h4>
             <p>Um cartão de R$ 50 mensais pra você usar  no que quiser na área da cultura no Brasil.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_34.jpg"; ?>" />
             <h4>Adiantamento de salário</h4>
             <p>Se as coisas não estiverem boas, você pode antecipar a sua grana e devolver devagarinho.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.375s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_35.jpg"; ?>" />
             <h4>Sua fidelidade valorizada</h4>
             <p>A cada ano completado na empresa, você ganha um bônus que aumenta todo ano! </p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_36.jpg"; ?>" />
             <h4>Horário flexível</h4>
             <p>A hora não nos importa muito, mas sim os resultados que conquistamos.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.125s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_37.jpg"; ?>" />
             <h4>Home office</h4>
             <p>Trabalhe de casa quando não se sentir bem ou não estiver disposto.</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_38.jpg"; ?>" />
             <h4>Ambiente diferenciado</h4>
             <p>Ambiente que estimula a criatividade. Puffs, vídeo game e snacks liberados!</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.375s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_39.jpg"; ?>" />
             <h4>Pets são bem vindos aqui</h4>
             <p>No Pet Day, você pode trazer o seu pet para passar o dia na empresa conosco. </p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_40.jpg"; ?>" />
             <h4>Investimos na sua formação</h4>
             <p>Ajudamos você com aquele curso, livro ou evento que você quer para somar com o Time!</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.125s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_41.jpg"; ?>" />
             <h4>Aniversário em grande estilo</h4>
             <p>Nesse dia especial, você ganha um bônus de R$ 170 e o dia de folga para curtir como quiser!</p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_42.jpg"; ?>" />
             <h4>Cerveja ou café?</h4>
             <p>Não importa, somos flex! Um ambiente agradável melhora a produtividade ;)</p>
           </div>

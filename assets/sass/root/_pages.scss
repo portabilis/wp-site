@@ -353,8 +353,13 @@
           background-color:#735CE6;
           margin:0 auto;
           margin-top:10%;
+          padding-top:1rem;
           height:80%;
           width:80%;
+          img{
+            display:block;
+            margin:0 auto;
+          }
         }
         .title{
           color:#FFF;
@@ -484,6 +489,10 @@
     }
     img{
       margin-bottom:1rem;
+      border-radius:5px;
+    }
+    img.p{
+      max-height:133px;
     }
     .test-div{
       border-top:1px solid #E0EDFF;
@@ -572,6 +581,11 @@
         border-radius:50%;
         width:60px;
         height:60px;
+        padding-top:10px;
+        img{
+          display:block;
+          margin:0 auto;
+        }
       }
     }
   }

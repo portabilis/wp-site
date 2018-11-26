@@ -23,7 +23,9 @@ get_header(); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <div class="circle"></div>
+                    <div class="circle">
+                      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_19.jpg"; ?>" />
+                    </div>
                   </div>
                   <div class="col-9">
                     <h3>Mais agilidade e menos burocrácia</h3>
@@ -57,7 +59,9 @@ get_header(); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <div class="circle"></div>
+                    <div class="circle">
+                      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_20.jpg"; ?>" />
+                    </div>
                   </div>
                   <div class="col-9">
                     <h3>Atendimento e acompanhamento</h3>
@@ -91,7 +95,9 @@ get_header(); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <div class="circle"></div>
+                    <div class="circle">
+                      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_21.jpg"; ?>" />
+                    </div>
                   </div>
                   <div class="col-9">
                     <h3>Dados para tomada de decisão</h3>
@@ -295,42 +301,42 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-4 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_22.jpg"; ?>" />
             <h4>Embarque bem sucedido Portabilis</h4>
             <p>Nossa equipe elimina toda a complexidade da adoção, entregando a solução adaptada e configurada de acordo com a sua realidade.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_23.jpg"; ?>" />
             <h4>Sua voz tem poder aqui</h4>
             <p>Você terá a chance de direcionar o desenvolvimento do maior software livre de gestão escolar do Brasil!</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_24.jpg"; ?>" />
             <h4>Atualizações mais confiáveis</h4>
             <p>Somos os mantenedores oficiais do i-Educar e ofere-cemos atualizações mais rápidas para o seu ambiente.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_25.jpg"; ?>" />
             <h4>Consultoria de sucesso Portabilis</h4>
             <p>No dia a dia, vamos te ajudar com os obstáculos e contribuir para que você extraia o máximo de potencial da solução.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_26.jpg"; ?>" />
             <h4>Você investindo na educação do País</h4>
             <p>Quando você nos contrata, investimos estes recursos para melhorar o software que beneficia milhares de pessoas no país.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_27.jpg"; ?>" />
             <h4>Garantia de disponibilidade e segurança</h4>
             <p>Você se preocupa com o sucesso da sua rede ou escola e nós a responsabilidade pela disponibilidade e segurança dos dados.</p>
           </div>
@@ -349,83 +355,66 @@ get_header(); ?>
         <div class="col-lg-12">
           <div class="row">
             <div class="col-sm-4 col-lg-4 wow animated fadeInLeft">
-              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep4.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 col-lg-7 offset-lg-1 wow animated zoomIn">
               <div class="row no-gutters">
                 <div class="col-sm-12">
                   <h3>O software nos permitiu informatizar todos os processos da Secretaria, CRAS e CREAS, na gestão dos programas, concessão dos benefícios, atendimento e acompanhamento dos usuários bem como a Diretoria de Habitação, agilizando o trabalho das equipes e consequentemente melhorando o atendimento ao cidadão.</h3>
                   <div class="test-div"></div>
-                  <p class="test-name">Alan Votri</p>
-                  <p class="test-desc">Secretário de Educação de Sombrio, SC</p>
+                  <p class="test-name">João Carlos Martins dos Santos</p>
+                  <p class="test-desc">Secretário de Ação Social e Habitação - Curitibanos/SC</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="row">
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
-              <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+              <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep5.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 col-lg-12 wow animated fadeInRight">
               <div class="row no-gutters">
                 <div class="col-sm-12">
-                  <h4>“Estamos <strong>totalmente satisfeitos</strong> com os serviços da Portabilis”</h4>
+                  <h4>O trabalho foi organizado e agora emitimos relatórios de forma simples e rápida. Os relatórios gráficos e os recursos de mapa também nos permitem uma visão mais ampla das áreas em situação de vulnerabilidade do território, beneficiários de programas e localização georreferenciada das famílias. </h4>
                   <div class="test-div"></div>
-                  <p class="test-name">Fábio Gualberto</p>
-                  <p class="test-desc">Secretário de Educação de Dom Elisei, PA</p>
+                  <p class="test-name">Bruno Simon</p>
+                  <p class="test-desc">Diretor de Desenvolvimento e Cidadania CRAS – Cesário Lange/SP</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="row">
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
-              <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+              <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep6.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 col-lg-12 wow animated fadeInRight">
               <div class="row no-gutters">
                 <div class="col-sm-12">
-                  <h4>“Estamos <strong>totalmente satisfeitos</strong> com os serviços da Portabilis”</h4>
+                  <h4>O software da Portabilis é uma ferramenta de extrema importância para a gestão da Assistência Social pois facilita muito nosso cotidiano profissional! Ajuda a manter o registro de atendimentos, cadastros dos usuários, dentre outras funcionalidades imprescindíveis para a atuação na área social.</h4>
                   <div class="test-div"></div>
-                  <p class="test-name">Fábio Gualberto</p>
-                  <p class="test-desc">Secretário de Educação de Dom Elisei, PA</p>
+                  <p class="test-name">Adevilson Pires</p>
+                  <p class="test-desc">Assistente Social - Lebon Régis/SC</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="row">
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
-              <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
+              <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep7.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 col-lg-12 wow animated fadeInRight">
               <div class="row no-gutters">
                 <div class="col-sm-12">
-                  <h4>“Estamos <strong>totalmente satisfeitos</strong> com os serviços da Portabilis”</h4>
+                  <h4>Além de contar com capacitação para o uso adequado, temos à disposição um bom suporte da empresa. Como gestora, recomendo a Portabilis como exemplo de software eficaz para a gestão da política municipal de assistência social. </h4>
                   <div class="test-div"></div>
-                  <p class="test-name">Fábio Gualberto</p>
-                  <p class="test-desc">Secretário de Educação de Dom Elisei, PA</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="row">
-            <div class="col-sm-4 col-lg-12 wow animated zoomIn">
-              <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/igreja.png"; ?>" alt="">
-            </div>
-            <div class="col-sm-8 col-lg-12 wow animated fadeInRight">
-              <div class="row no-gutters">
-                <div class="col-sm-12">
-                  <h4>“Estamos <strong>totalmente satisfeitos</strong> com os serviços da Portabilis”</h4>
-                  <div class="test-div"></div>
-                  <p class="test-name">Fábio Gualberto</p>
-                  <p class="test-desc">Secretário de Educação de Dom Elisei, PA</p>
+                  <p class="test-name">Lilian Arns</p>
+                  <p class="test-desc">Secretária de Assistência Social - Forquilhinha/SC</p>
                 </div>
               </div>
             </div>

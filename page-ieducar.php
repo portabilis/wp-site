@@ -75,63 +75,63 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_01.jpg"; ?>" />
             <h4>Totalmente on-line</h4>
             <p>Acessível de qualquer lugar e cadastro único do aluno para toda a rede de ensino.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_02.jpg"; ?>" />
             <h4>Informações em tempo real</h4>
             <p>Dados quantitativos e estatísticos atualizados de todos os processos.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_03.jpg"; ?>" />
             <h4>Educacenso/INEP</h4>
             <p>Importação e exportação automatizadas dos dados Censo Escolar em poucos cliques.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_04.jpg"; ?>" />
             <h4>Sistema de avaliação flexível</h4>
             <p>Avaliação e relatórios adaptados com notas numéricas, conceituais ou avaliação descritiva.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_05.jpg"; ?>" />
             <h4>Gestão de servidores</h4>
             <p>Gerenciamento de alocações, afastamentos, substituições, faltas e atrasos.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_06.jpg"; ?>" />
             <h4>Quadro de horários</h4>
             <p>Dados  para análise de demandas e disponibilidade de profissionais.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon4.jpg"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_07.jpg"; ?>" />
             <h4>Transporte escolar</h4>
             <p>Controle de veículos, motoristas, rotas, itinerários e emissão de carteirinha.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon5.jpg"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_08.jpg"; ?>" />
             <h4>Biblioteca</h4>
             <p>Gestão completa de acervo com controle de reservas, empréstimos e devoluções. </p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_09.jpg"; ?>" />
             <h4>Relatórios e indicadores</h4>
             <p>Disponibilização de mais de 150 relatórios e indicadores.</p>
           </div>
@@ -150,7 +150,7 @@ get_header(); ?>
             <li class="row wow animated zoomIn">
               <div class="col-3">
                 <div class="icon">
-                icon
+                  <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_10.jpg"; ?>" />
                 </div>
               </div>
               <div class="col-9">
@@ -161,7 +161,7 @@ get_header(); ?>
             <li class="row wow animated zoomIn">
               <div class="col-3">
                 <div class="icon">
-                icon
+                  <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_11.jpg"; ?>" />
                 </div>
               </div>
               <div class="col-9">
@@ -172,7 +172,7 @@ get_header(); ?>
             <li class="row wow animated zoomIn">
               <div class="col-3">
                 <div class="icon">
-                icon
+                  <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_12.jpg"; ?>" />
                 </div>
               </div>
               <div class="col-9">
@@ -186,11 +186,17 @@ get_header(); ?>
       <div class="row wow animated fadeIn">
         <div class="col-sm-12">
           <p class="download">Faça o download do aplicativo:</p>
-          <a href="#" class="btn-base btn-whiteb" title="">
-            Available on the App Store
+        </div>
+      </div>
+      <div class="row wow animated fadeIn">
+        <div class="col-sm-2">
+          <a href="#" title="">
+           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-google-a.jpg"; ?>" />
           </a>
-          <a href="#" class="btn-base btn-whiteb" title="">
-            Google
+        </div>
+        <div class="col-sm-2">
+          <a href="#" title="">
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-google-b.jpg"; ?>" />
           </a>
         </div>
       </div>
@@ -350,42 +356,42 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-4 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon1.jpg"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_13.jpg"; ?>" />
             <h4>Embarque bem sucedido Portabilis</h4>
             <p>Nossa equipe elimina toda a complexidade da adoção, entregando a solução adaptada e configurada de acordo com a sua realidade.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon2.jpg"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_14.jpg"; ?>" />
             <h4>Sua voz tem poder aqui</h4>
             <p>Você terá a chance de direcionar o desenvolvimento do maior software livre de gestão escolar do Brasil!</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_15.jpg"; ?>" />
             <h4>Atualizações mais confiáveis</h4>
             <p>Somos os mantenedores oficiais do i-Educar e ofere-cemos atualizações mais rápidas para o seu ambiente.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn">
           <div class="resource">
-            <img width="24" height="24" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon3.jpg"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_16.jpg"; ?>" />
             <h4>Consultoria de sucesso Portabilis</h4>
             <p>No dia a dia, vamos te ajudar com os obstáculos e contribuir para que você extraia o máximo de potencial da solução.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_17.jpg"; ?>" />
             <h4>Você investindo na educação do País</h4>
             <p>Quando você nos contrata, investimos estes recursos para melhorar o software que beneficia milhares de pessoas no país.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <div class="spacer"></div>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_18.jpg"; ?>" />
             <h4>Garantia de disponibilidade e segurança</h4>
             <p>Você se preocupa com o sucesso da sua rede ou escola e nós a responsabilidade pela disponibilidade e segurança dos dados.</p>
           </div>
