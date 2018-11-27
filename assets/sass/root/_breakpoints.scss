@@ -154,6 +154,21 @@
       background-image: url('assets/img/sas-mobile-div.png') !important;
     }
 
+    .section-c{
+      ul{
+        margin-top: 25px;
+      }
+    }
+
+    .section-d{
+      .subtitle{
+        margin-bottom:10px !important;
+      }
+      .btn-base, .btn-baseb{
+        margin-bottom:40px !important;
+      }
+    }
+
     .section-g{
       height: auto !important;
       .background{
@@ -201,6 +216,9 @@
         height:auto !important;
       }
     }
+  }
+  .txt-right, .txt-left{
+    text-align:center !important;
   }
 }
 

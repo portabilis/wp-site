@@ -59,10 +59,10 @@ get_header(); ?>
   <div class="section-a">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 offset-lg-1 wow animated zoomIn">
+        <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-man.jpg"; ?>" />
         </div>
-        <div class="col-lg-4 offset-lg-2 wow animated fadeInRight" data-wow-delay="0.25s">
+        <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Intersetorialidade</h3>
           <p>Sabemos da importância da visão socioassistencial e que a intersetorialidade pode ajudar a direcionar e adaptar os processos pedagógicos, sob os aspectos das populações em situação de vulnerabilidade e risco social, que estão quase  em sua totalidade nas redes públicas de ensino.</p>
           <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>
@@ -78,10 +78,10 @@ get_header(); ?>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 offset-lg-2 text-right wow animated fadeInLeft" data-wow-delay="0.25s">
+        <div class="col-lg-4 col-sm-6 offset-lg-2 txt-right wow animated fadeInLeft" data-wow-delay="0.25s">
           <a href="#" class="btn-basec btn-blue" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
         </div>
-        <div class="col-lg-4 text-left  wow animated fadeInRight" data-wow-delay="0.5s">
+        <div class="col-lg-4 col-sm-6 text-left txt-left  wow animated fadeInRight" data-wow-delay="0.5s">
           <ul>
             <li>sem compromisso</li>
             <li>gratuito</li>
@@ -94,63 +94,54 @@ get_header(); ?>
   <div class="section-d section-padding">
     <div class="container">
       <div class="row wow animated fadeInUp">
-        <div class="col-lg-9">
+        <div class="col-lg-8 col-sm-6">
           <h2 class="wow animated fadeInUp">Conteúdos incríveis</h2>
           <p class="subtitle wow animated fadeInUp" data-wow-delay="0.25s">Acesse gratuitamente nossos materiais sobre educação e assistência social no nosso blog.</p>
         </div>
-        <div class="col-lg-3">
-          <a href="#" class="btn-baseb btn-blue" title="botao">botão?</a>
+        <div class="col-lg-4 col-sm-6 txt-right">
+          <br>
+          <a href="#" class="btn-baseb btn-blue" title="botao">Conheça os nossos materiais <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
       <div class="row wow animated fadeIn">
-        <div class="col-lg">
+        <div class="col-lg-3 col-sm-6">
           <article>
             <span class="category">
               Educação
             </span>
             <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
             <p>E-book: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+            <a href="#" class="btn-base btn-whitec" title="botao">Baixar apresentação <i class="fas fa-long-arrow-alt-down"></i></a>
           </article>
         </div>
-        <div class="col-lg">
+        <div class="col-lg-3 col-sm-6">
           <article>
             <span class="category">
               Educação
             </span>
             <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
             <p>E-book: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+            <a href="#" class="btn-base btn-whitec" title="botao">Baixar apresentação <i class="fas fa-long-arrow-alt-down"></i></a>
           </article>
         </div>
-        <div class="col-lg">
-          <article>
-            <span class="category">
-              Educação
-            </span>
-            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
-            <p>E-book: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
-          </article>
-        </div>
-        <div class="col-lg">
+        <div class="col-lg-3 col-sm-6">
           <article>
             <span class="category">
               Educação
             </span>
             <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
             <p>Apresentação: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+            <a href="#" class="btn-base btn-whitec" title="botao">Baixar apresentação <i class="fas fa-long-arrow-alt-down"></i></a>
           </article>
         </div>
-        <div class="col-lg">
+        <div class="col-lg-3 col-sm-6">
           <article>
             <span class="category">
               Educação
             </span>
             <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
             <p>Apresentação: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-baseb btn-white" title="botao">Botão</a>
+            <a href="#" class="btn-base btn-whitec" title="botao">Baixar apresentação <i class="fas fa-long-arrow-alt-down"></i></a>
           </article>
         </div>
       </div>

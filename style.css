@@ -9658,10 +9658,32 @@ ul {
   background-color: #5947b3;
 }
 
+.btn-whitec {
+  color: #FFF;
+  border: 1px solid #FFF;
+  font-size: 0.875rem;
+}
+
+.btn-whitec i {
+  margin-left: 5px;
+  font-size: 0.875rem;
+}
+
+.btn-whitec:hover {
+  color: #242b33;
+  background-color: #FFF;
+  border: 1px solid #FFF;
+}
+
 .btn-blue {
   background-color: #0172ff;
   color: #FFF;
   border: 1px solid #0172ff;
+}
+
+.btn-blue i {
+  margin-left: 5px;
+  font-size: 0.875rem;
 }
 
 .btn-blue:hover {
@@ -9796,6 +9818,15 @@ ul {
     height: 894px !important;
     background-image: url("assets/img/sas-mobile-div.png") !important;
   }
+  #page .section-c ul {
+    margin-top: 25px;
+  }
+  #page .section-d .subtitle {
+    margin-bottom: 10px !important;
+  }
+  #page .section-d .btn-base, #page .section-d .btn-baseb {
+    margin-bottom: 40px !important;
+  }
   #page .section-g {
     height: auto !important;
   }
@@ -9833,6 +9864,9 @@ ul {
   #page .section-p .background-img {
     padding: 2rem 1rem !important;
     height: auto !important;
+  }
+  .txt-right, .txt-left {
+    text-align: center !important;
   }
 }
 
@@ -10253,6 +10287,10 @@ ul {
 #page .section-d article p {
   color: #FFF;
   letter-spacing: -0.25px;
+}
+
+#page .section-d article .btn-base {
+  margin-bottom: 2rem;
 }
 
 #page .section-e h3 {
@@ -10995,6 +11033,14 @@ ul {
   border-top: 1px solid #e0edfe;
   margin-top: 6rem;
   margin-bottom: 6rem;
+}
+
+#page .txt-right {
+  text-align: right;
+}
+
+#page .txt-left {
+  text-align: left;
 }
 
 #footer {

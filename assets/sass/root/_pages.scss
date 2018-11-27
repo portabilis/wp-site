@@ -181,6 +181,9 @@
         color:#FFF;
         letter-spacing:-0.25px;
       }
+      .btn-base{
+        margin-bottom:2rem;
+      }
     }
   }
   .section-e{
@@ -825,5 +828,11 @@
     border-top:1px solid #e0edfe;
     margin-top:6rem;
     margin-bottom:6rem;
+  }
+  .txt-right{
+    text-align:right;
+  }
+  .txt-left{
+    text-align:left;
   }
 }

@@ -55,10 +55,30 @@
   background-color:#5947b3;
 }
 
+.btn-whitec{
+  color:#FFF;
+  border:1px solid #FFF;
+  font-size:0.875rem;
+  i{
+    margin-left:5px;
+    font-size:0.875rem;
+  }
+}
+
+.btn-whitec:hover{
+  color:#242b33;
+  background-color:#FFF;
+  border:1px solid #FFF;
+}
+
 .btn-blue{
   background-color:#0172ff;
   color:#FFF;
   border:1px solid #0172ff;
+  i{
+    margin-left:5px;
+    font-size:0.875rem;
+  }
 }
 
 .btn-blue:hover{
