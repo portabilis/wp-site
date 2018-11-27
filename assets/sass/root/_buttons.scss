@@ -37,6 +37,10 @@
   background-color:#FFF;
   color:$blue3;
   border:1px solid #FFF;
+  i{
+    margin-left:5px;
+    font-size:0.875rem;
+  }
 }
 
 .btn-white:hover{
@@ -69,6 +73,21 @@
   color:#242b33;
   background-color:#FFF;
   border:1px solid #FFF;
+}
+
+.btn-whited{
+  background-color:#FFF;
+  color:$blue3;
+  border:1px solid #FFF;
+  i{
+    margin-left:5px;
+    font-size:0.875rem;
+  }
+}
+
+.btn-whited:hover{
+  color:#FFF;
+  background-color:#33cc57;
 }
 
 .btn-blue{

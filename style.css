@@ -9642,6 +9642,11 @@ ul {
   border: 1px solid #FFF;
 }
 
+.btn-white i {
+  margin-left: 5px;
+  font-size: 0.875rem;
+}
+
 .btn-white:hover {
   color: #FFF;
   background-color: #0072FF;
@@ -9673,6 +9678,22 @@ ul {
   color: #242b33;
   background-color: #FFF;
   border: 1px solid #FFF;
+}
+
+.btn-whited {
+  background-color: #FFF;
+  color: #0072FF;
+  border: 1px solid #FFF;
+}
+
+.btn-whited i {
+  margin-left: 5px;
+  font-size: 0.875rem;
+}
+
+.btn-whited:hover {
+  color: #FFF;
+  background-color: #33cc57;
 }
 
 .btn-blue {
@@ -9833,6 +9854,16 @@ ul {
   #page .section-g .background {
     display: none !important;
   }
+  #page .section-h .btn-resp {
+    display: block !important;
+    margin-top: 25px;
+  }
+  #page .section-h .detail {
+    display: none !important;
+  }
+  #page .section-h .desc-version {
+    margin-bottom: 25px !important;
+  }
   #page .section-m {
     height: auto !important;
   }
@@ -9866,6 +9897,9 @@ ul {
     height: auto !important;
   }
   .txt-right, .txt-left {
+    text-align: center !important;
+  }
+  .txt-center {
     text-align: center !important;
   }
 }

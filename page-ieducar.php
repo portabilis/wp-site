@@ -185,16 +185,16 @@ get_header(); ?>
       </div>
       <div class="row wow animated fadeIn">
         <div class="col-sm-12">
-          <p class="download">Faça o download do aplicativo:</p>
+          <p class="download txt-center">Faça o download do aplicativo:</p>
         </div>
       </div>
       <div class="row wow animated fadeIn">
-        <div class="col-sm-2">
+        <div class="col-sm-3 col-lg-2 txt-center mb-sm-0 mb-3">
           <a href="#" title="">
            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-google-a.jpg"; ?>" />
           </a>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3 col-lg-2 txt-center">
           <a href="#" title="">
             <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-google-b.jpg"; ?>" />
           </a>
@@ -215,6 +215,7 @@ get_header(); ?>
           </div>
           <div class="desc-version">
             Pensado para pequenas redes de ensino e escolas particulares.
+            <a href="#" style="display: none"  class="btn-base btn-blue btn-resp" data-toggle="modal" data-target="#desc-a" title="">+ Detalhes</a>
           </div>
         </div>
         <div class="col-sm-4">
@@ -223,6 +224,7 @@ get_header(); ?>
           </div>
           <div class="desc-version-b">
             Redes de médio e grande porte que buscam atendimento especializado.
+            <a href="#" style="display: none"  class="btn-base btn-white btn-resp" data-toggle="modal" data-target="#desc-b" title="">+ Detalhes</a>
           </div>
         </div>
       </div>
@@ -462,9 +464,13 @@ get_header(); ?>
   <div class="section-k blue section-padding">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-8">
           <h2 class="wow animated fadeInUp">Materiais educations</h2>
           <p class="big subtitle">Baixe Gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social.</p>
+        </div>
+        <div class="col-lg-4">
+          <br>
+          <a href="#" class="btn-baseb btn-white" title="botao">Acesse todos os materiais ricos <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
     </div>
@@ -497,6 +503,47 @@ get_header(); ?>
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabelb">CTA POP UP 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="desc-a" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelb" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabelb">DESC 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="desc-b" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelb" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabelb">DESC 2</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

@@ -175,6 +175,18 @@
         display:none !important;
       }
     }
+    .section-h{
+      .btn-resp{
+        display:block !important;
+        margin-top:25px;
+      }
+      .detail{
+        display:none !important;
+      }
+      .desc-version{
+        margin-bottom:25px !important;
+      }
+    }
     .section-m{
       height:auto !important;
       .wrap-container{
@@ -218,6 +230,9 @@
     }
   }
   .txt-right, .txt-left{
+    text-align:center !important;
+  }
+  .txt-center{
     text-align:center !important;
   }
 }
