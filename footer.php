@@ -39,10 +39,10 @@
           <div class="col-lg-12 col-md-8">
             <div class="footer-title">NEWSLETTER</div>
             <div class="row">
-              <div class="col-7">
+              <div class="col-sm-7">
                 <input type="text" class="news form-control" name="news" placeholder="josedasilvap@yahoo.com.br">
               </div>
-              <div class="col-5">
+              <div class="col-sm-5">
                 <a href="#" class="btn-baseb btn-blue" title="">ASSINAR</a>
               </div>
             </div>
