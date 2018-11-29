@@ -19,7 +19,7 @@ function site_setup() {
     'secondary' => esc_html__( 'Menutopo 2', 'site' ),
   ) );
 
-	add_image_size('home-thumb',600,800,true);
+	add_image_size('funcionario-thumb',250,250,true);
 }
 endif; // site_setup
 add_action( 'after_setup_theme', 'site_setup' );

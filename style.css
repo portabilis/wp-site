@@ -9749,10 +9749,10 @@ ul {
   color: #0172ff;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .section-e .col-lg-3 {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 
@@ -9781,7 +9781,7 @@ ul {
     padding-top: 25px !important;
   }
   #banner-sas {
-    height: 690px !important;
+    height: 700px !important;
   }
   #banner-sas .wrap-title {
     position: static !important;
@@ -9820,8 +9820,8 @@ ul {
     z-index: 10;
   }
   #page .div-banner-sas {
-    top: -648px !important;
-    height: 649px !important;
+    top: -700px !important;
+    height: 700px !important;
     background-image: url("assets/img/sas-div-mobile.png") !important;
   }
   #page .section-j h3 {
@@ -9837,6 +9837,12 @@ ul {
   #page .section-p .background-img {
     padding: 4rem 2rem !important;
     height: auto !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #footer .svg-icon {
+    display: none !important;
   }
 }
 
@@ -9967,6 +9973,9 @@ ul {
   #footer .footer-title {
     margin-top: 10px !important;
   }
+  #footer .svg-icon {
+    display: inline-block !important;
+  }
 }
 
 #header {
@@ -9996,6 +10005,20 @@ ul {
 
 #header #menu #navbarCollapse ul.navbar-nav li.menu-item:last-child a {
   border-right: 0px;
+}
+
+#header.sas {
+  background-color: #33cc57 !important;
+}
+
+#header.sas li.menu-item a {
+  color: #FFF !important;
+  border-right: 1px solid #70db89 !important;
+}
+
+#header.sas li.menu-item a:hover {
+  color: #FFC95C !important;
+  text-decoration: none;
 }
 
 #banner {
@@ -10046,7 +10069,6 @@ ul {
 #banner-ieducar .wrap-title h1 {
   text-align: left;
   color: #FFF;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   line-height: 4.5rem;
   margin-bottom: 2rem;
 }
@@ -10063,8 +10085,7 @@ ul {
 #banner-ieducar .bubble {
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  right: 10%;
   margin: 0 auto;
 }
 
@@ -10100,14 +10121,6 @@ ul {
 
 #banner-sas .wrap-title p {
   margin: 0;
-}
-
-#banner-sas .bubble {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
 }
 
 #banner-oportunidade {
@@ -11009,6 +11022,7 @@ ul {
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  border-radius: 5px;
 }
 
 #page .section-n .gallery img:hover {
@@ -11245,4 +11259,9 @@ ul {
 
 #footer .copy .copy-logo {
   text-align: right;
+}
+
+#footer .btn-baseb {
+  width: 100%;
+  text-align: center;
 }

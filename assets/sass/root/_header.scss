@@ -25,4 +25,17 @@
       }
     }
   }
+  &.sas{
+    background-color:#33cc57 !important;
+    li.menu-item{
+      a{
+        color:#FFF !important;
+        border-right:1px solid #70db89 !important;
+      }
+      a:hover{
+        color:$yellow2 !important;
+        text-decoration:none;
+      }
+    }
+  }
 }

@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
 <div id="banner-ieducar">
-  <img class="bubble wow animated fadeInDown" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/bubble.png"; ?>" />
+  <img class="bubble wow animated fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/bubble.png"; ?>" />
   <div class="wrap-title wow animated fadeInUp">
     <h1><?php the_field('ieducar_banner_titulo'); ?></h1>
     <div class="big subtitle"><?php the_field('ieducar_banner_subtitulo'); ?></div>
@@ -75,63 +75,63 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_01.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-globe.png"; ?>" />
             <h4>Totalmente on-line</h4>
             <p>Acessível de qualquer lugar e cadastro único do aluno para toda a rede de ensino.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_02.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-activity.png"; ?>" />
             <h4>Informações em tempo real</h4>
             <p>Dados quantitativos e estatísticos atualizados de todos os processos.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_03.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/censo.png"; ?>" />
             <h4>Educacenso/INEP</h4>
             <p>Importação e exportação automatizadas dos dados Censo Escolar em poucos cliques.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_04.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-file-sheet.png"; ?>" />
             <h4>Sistema de avaliação flexível</h4>
             <p>Avaliação e relatórios adaptados com notas numéricas, conceituais ou avaliação descritiva.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_05.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-users.png"; ?>" />
             <h4>Gestão de servidores</h4>
             <p>Gerenciamento de alocações, afastamentos, substituições, faltas e atrasos.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_06.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-calendar.png"; ?>" />
             <h4>Quadro de horários</h4>
             <p>Dados  para análise de demandas e disponibilidade de profissionais.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_07.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-car.png"; ?>" />
             <h4>Transporte escolar</h4>
             <p>Controle de veículos, motoristas, rotas, itinerários e emissão de carteirinha.</p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_08.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-book.png"; ?>" />
             <h4>Biblioteca</h4>
             <p>Gestão completa de acervo com controle de reservas, empréstimos e devoluções. </p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_09.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-data.png"; ?>" />
             <h4>Relatórios e indicadores</h4>
             <p>Disponibilização de mais de 150 relatórios e indicadores.</p>
           </div>
@@ -148,34 +148,28 @@ get_header(); ?>
           <h3 class="wow animated fadeInUp">Recursos principais</h3>
           <ul>
             <li class="row wow animated zoomIn">
-              <div class="col-3">
-                <div class="icon">
-                  <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_10.jpg"; ?>" />
-                </div>
+              <div class="col-3 pt-sm-2 col-lg-2">
+                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_10.jpg"; ?>" />
               </div>
-              <div class="col-9">
+              <div class="col-9 col-lg-10">
                 <p class="title">Planejamento e avaliação</p>
                 <p class="desc">Planejamento das aulas, metodologias e estratégias desenvolvidas em sala de aula.</p>
               </div>
             </li>
             <li class="row wow animated zoomIn">
-              <div class="col-3">
-                <div class="icon">
-                  <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_11.jpg"; ?>" />
-                </div>
+              <div class="col-3 pt-sm-2 col-lg-2">
+                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_11.jpg"; ?>" />
               </div>
-              <div class="col-9">
+              <div class="col-9 col-lg-10">
                 <p class="title">Registro de conteúdos e observações</p>
                 <p class="desc">Controle dos conteúdos aplicados e registro de observações para acompanhamento pedagógico.</p>
               </div>
             </li>
             <li class="row wow animated zoomIn">
-              <div class="col-3">
-                <div class="icon">
-                  <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_12.jpg"; ?>" />
-                </div>
+              <div class="col-3 pt-sm-2 col-lg-2">
+                <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_12.jpg"; ?>" />
               </div>
-              <div class="col-9">
+              <div class="col-9 col-lg-10">
                 <p class="title">Frequência com aplicativo móvel</p>
                 <p class="desc">Controle de presença dos alunos em aplicativo para celular sem necessidade de internet.</p>
               </div>

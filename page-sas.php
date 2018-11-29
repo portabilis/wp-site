@@ -1,5 +1,5 @@
 <?php
-get_header(); ?>
+get_header('sas'); ?>
 <div id="banner-sas">
   <div class="wrap-title wow animated fadeInUp">
     <h1><?php the_field('sas_banner_titulo'); ?></h1>
@@ -23,9 +23,7 @@ get_header(); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <div class="circle">
-                      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_19.jpg"; ?>" />
-                    </div>
+                    <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_19.jpg"; ?>" />
                   </div>
                   <div class="col-9">
                     <h3>Mais agilidade e menos burocrácia</h3>
@@ -59,9 +57,7 @@ get_header(); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <div class="circle">
-                      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_20.jpg"; ?>" />
-                    </div>
+                    <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_20.jpg"; ?>" />
                   </div>
                   <div class="col-9">
                     <h3>Atendimento e acompanhamento</h3>
@@ -95,9 +91,7 @@ get_header(); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <div class="circle">
-                      <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_21.jpg"; ?>" />
-                    </div>
+                    <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_21.jpg"; ?>" />
                   </div>
                   <div class="col-9">
                     <h3>Dados para tomada de decisão</h3>
@@ -303,42 +297,42 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-4 wow animated zoomIn">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_22.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-globe.png"; ?>" />
             <h4>Embarque bem sucedido Portabilis</h4>
             <p>Nossa equipe elimina toda a complexidade da adoção, entregando a solução adaptada e configurada de acordo com a sua realidade.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_23.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-activity.png"; ?>" />
             <h4>Sua voz tem poder aqui</h4>
             <p>Você terá a chance de direcionar o desenvolvimento do maior software livre de gestão escolar do Brasil!</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_24.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/censo.png"; ?>" />
             <h4>Atualizações mais confiáveis</h4>
             <p>Somos os mantenedores oficiais do i-Educar e ofere-cemos atualizações mais rápidas para o seu ambiente.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_25.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-file-sheet.png"; ?>" />
             <h4>Consultoria de sucesso Portabilis</h4>
             <p>No dia a dia, vamos te ajudar com os obstáculos e contribuir para que você extraia o máximo de potencial da solução.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_26.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-users.png"; ?>" />
             <h4>Você investindo na educação do País</h4>
             <p>Quando você nos contrata, investimos estes recursos para melhorar o software que beneficia milhares de pessoas no país.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_27.jpg"; ?>" />
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-calendar.png"; ?>" />
             <h4>Garantia de disponibilidade e segurança</h4>
             <p>Você se preocupa com o sucesso da sua rede ou escola e nós a responsabilidade pela disponibilidade e segurança dos dados.</p>
           </div>
