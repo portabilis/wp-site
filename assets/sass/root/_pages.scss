@@ -139,13 +139,24 @@
   }
   .section-b{
     background-color:#f6f9ff;
+    h2{
+      text-align:left;
+      line-height:3rem;
+    }
   }
   .section-c{
-    background-color:#f6f9ff;
+    background-color:#0072ff;
     margin-top:6rem;
 
     h2{
       margin-bottom:3rem;
+      color:#FFF;
+    }
+
+    ul{
+      li{
+        color:#FFF;
+      }
     }
 
     .btn-basec{

@@ -11,15 +11,15 @@ get_header(); ?>
   </div>
   <div class="section-a">
     <div class="container">
-      <div class="row justify-content-center title-home">
-        <div class="col-lg-9 col-sm-12">
+      <div class="row no-gutters justify-content-center title-home">
+        <div class="col-lg-7 col-sm-12">
           <h2 class="wow animated fadeInUp">O que a Portabilis faz?</h2>
           <p class="subtitle text-center wow animated fadeInUp" data-wow-delay="0.25s">A Portabilis ajuda que os municípios tenham uma gestão mais precisa e eficiente através do uso de tecnologia e dados nas áreas da educação e da assistência social.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-woman.jpg"; ?>" />
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao1.png"; ?>" />
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Na educação</h3>
@@ -39,14 +39,14 @@ get_header(); ?>
           <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 order-sm-2 order-1 wow animated zoomIn" data-wow-delay="0.25s">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-family.jpg"; ?>" />
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao2.png"; ?>" />
         </div>
       </div>
     </div>
   </div>
   <div class="section-b section-padding section-margin">
     <div class="container">
-      <div class="row">
+      <div class="row no-gutters">
         <div class="col-lg-4 offset-lg-1 col-sm-6 align-self-center wow animated fadeInLeft">
           <h2>Por que educação e assistência social? </h2>
         </div>
@@ -59,8 +59,8 @@ get_header(); ?>
   <div class="section-a">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-man.jpg"; ?>" />
+        <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn align-self-center">
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao3.png"; ?>" />
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Intersetorialidade</h3>
@@ -79,7 +79,7 @@ get_header(); ?>
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-6 offset-lg-2 txt-right wow animated fadeInLeft" data-wow-delay="0.25s">
-          <a href="#" class="btn-basec btn-blue" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
+          <a href="#" class="btn-basec btn-white" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
         </div>
         <div class="col-lg-4 col-sm-6 text-left txt-left  wow animated fadeInRight" data-wow-delay="0.5s">
           <ul>
