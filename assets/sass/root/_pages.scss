@@ -772,12 +772,13 @@
     .background-color{
       background-color:#E0EDFF;
       padding:4rem;
-      padding-top:150px;
       height:500px;
+      h2{
+        line-height:3rem;
+      }
     }
     .background-img{
       padding:4rem;
-      padding-top:100px;
       height:500px;
       background-repeat: no-repeat;
       background-position: center;
@@ -786,6 +787,23 @@
       -o-background-size: cover;
       background-size: cover;
       background-image: url('assets/img/destaque.jpg');
+
+      a{
+        color:#FFF;
+        margin-top:2rem;
+        display:block;
+        i{
+          margin-left:5px;
+        }
+      }
+
+      h2{
+        line-height:3rem;
+        font-weight:100;
+        strong{
+          font-weight:700;
+        }
+      }
     }
   }
 

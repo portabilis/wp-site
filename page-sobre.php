@@ -130,17 +130,18 @@ get_header(); ?>
   <div class="section-p">
     <div class="row no-gutters">
       <div class="col-lg-6 wow animated fadeInLeft">
-        <div class="background-color">
+        <div class="background-color pt-lg-7 px-lg-8 pt-xl-11 px-xl-12">
           <h2>Além de destaque em gestão, 
 a Portabilis também é destaque na imprensa</h2>
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="background-img wow animated fadeInRight">
-          <h2 class="white align-self-center">“Monte Alegre (RN) economiza <br>
+        <div class="background-img pt-lg-5 px-lg-8 pt-xl-7 px-xl-12 wow animated fadeInRight">
+          <h2 class="white">“Monte Alegre (RN) economiza <br>
 <strong>R$2,4 milhões</strong> por ano com 
 uso do i-Educar”</h2>
-          <span>Fonte: Mec</span>
+          <span>Fonte: Mec</span><br>
+          <a class="descubra" href="#" title="">Descubra como <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
     </div>
