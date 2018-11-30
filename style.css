@@ -10174,11 +10174,15 @@ ul {
     padding-top: 25px !important;
   }
   #banner-ieducar {
+    overflow: hidden;
     height: 400px !important;
   }
   #banner-ieducar .wrap-title {
     position: static !important;
     padding-top: 25px !important;
+  }
+  #banner-ieducar .bubble {
+    right: -300px !important;
   }
   #banner-sas {
     height: 700px !important;
@@ -10273,6 +10277,9 @@ ul {
   }
   #banner-sas .wrap-title h1, #banner-sas .wrap-title .subtitle {
     padding-right: 0 !important;
+  }
+  #banner-ieducar .bubble {
+    display: none !important;
   }
   #page .pad-sas {
     padding-top: 60px !important;
@@ -11550,6 +11557,10 @@ ul {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 3rem;
   display: block;
+}
+
+#page .section-q .font {
+  margin-bottom: 3rem;
 }
 
 #page h2 {

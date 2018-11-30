@@ -168,8 +168,15 @@ uso do i-Educar”</h2>
         <div class="col-lg-4 col-sm-6">
           <article class="wow animated zoomIn">
             <a target="_blank" href="<?php the_field('cases_url'); ?>">
-              <p><?php the_title(); ?></p>
-              <span>Fonte: <?php the_field('cases_fonte'); ?></span>
+              <div class="row">
+                <div class="col-2 pt-3">
+                  <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/cases-link.jpg"; ?>" />
+                </div>
+                <div class="col-10">
+                  <p><?php the_title(); ?></p>
+                  <span class="font">Fonte: <?php the_field('cases_fonte'); ?></span>
+                </div>
+              </div>
             </a>
           </article>
         </div>
@@ -190,21 +197,21 @@ uso do i-Educar”</h2>
       <div class="row wow animated fadeInUp">
         <div class="col-lg-4">
           <?php if(!empty(get_field('material_para_imprensa_1'))): ?>
-          <a class="archive" href="<?php the_field('material_para_imprensa_1'); ?>">
+          <a target="_blank" class="archive" href="<?php the_field('material_para_imprensa_1'); ?>">
             Arquivo 1
           </a>
           <?php endif; ?>
         </div>
         <div class="col-lg-4">
           <?php if(!empty(get_field('material_para_imprensa_2'))): ?>
-          <a class="archive" href="<?php the_field('material_para_imprensa_2'); ?>">
+          <a target="_blank" class="archive" href="<?php the_field('material_para_imprensa_2'); ?>">
             Arquivo 2
           </a>
           <?php endif; ?>
         </div>
         <div class="col-lg-4">
           <?php if(!empty(get_field('material_para_imprensa_3'))): ?>
-          <a class="archive" href="<?php the_field('material_para_imprensa_3'); ?>">
+          <a target="_blank" class="archive" href="<?php the_field('material_para_imprensa_3'); ?>">
             Arquivo 3
           </a>
           <?php endif; ?>
