@@ -158,10 +158,10 @@ get_header('sas'); ?>
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="title-version-b">
+          <div class="title-version-b green">
             <strong>Portabilis</strong>Pro
           </div>
-          <div class="desc-version-b">
+          <div class="desc-version-b green">
             Redes de médio e grande porte que buscam atendimento especializado.
             <a href="#" style="display: none"  class="btn-base btn-white btn-resp" data-toggle="modal" data-target="#desc-b" title="">+ Detalhes</a>
           </div>

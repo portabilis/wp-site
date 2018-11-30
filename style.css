@@ -11074,11 +11074,20 @@ ul {
   border-top-right-radius: 5px;
 }
 
+#page .section-h .title-version-b.green {
+  background-color: #33cc57;
+  border: 1px solid #33cc57;
+}
+
 #page .section-h .desc-version-b {
   background-color: #0072FF;
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
   padding: 1.25rem 1rem;
+}
+
+#page .section-h .desc-version-b.green {
+  background-color: #2db34c;
 }
 
 #page .section-h .detail {

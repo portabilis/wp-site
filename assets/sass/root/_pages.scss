@@ -411,6 +411,10 @@
       padding:1.25rem 1rem;
     }
     .title-version-b{
+      &.green{
+        background-color:#33cc57;
+        border: 1px solid #33cc57;
+      }
       font-size:1.125rem;
       background-color:#2688FF;
       color:#FFF;
@@ -420,6 +424,9 @@
       border-top-right-radius: 5px;
     }
     .desc-version-b{
+      &.green{
+        background-color:#2db34c;
+      }
       background-color:#0072FF;
       color:rgba(255, 255, 255, 0.7);
       text-align:center;
