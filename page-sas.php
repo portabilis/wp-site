@@ -370,7 +370,7 @@ get_header('sas'); ?>
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
               <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep5.png"; ?>" alt="">
             </div>
-            <div class="col-sm-8 col-lg-12 wow animated fadeInRight">
+            <div class="col-sm-8 col-lg-12 wow animated fadeInUp">
               <div class="row no-gutters">
                 <div class="col-sm-12">
                   <h4>O trabalho foi organizado e agora emitimos relatórios de forma simples e rápida. Os relatórios gráficos e os recursos de mapa também nos permitem uma visão mais ampla das áreas em situação de vulnerabilidade do território, beneficiários de programas e localização georreferenciada das famílias. </h4>
@@ -387,7 +387,7 @@ get_header('sas'); ?>
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
               <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep6.png"; ?>" alt="">
             </div>
-            <div class="col-sm-8 col-lg-12 wow animated fadeInRight">
+            <div class="col-sm-8 col-lg-12 wow animated fadeInUp">
               <div class="row no-gutters">
                 <div class="col-sm-12">
                   <h4>O software da Portabilis é uma ferramenta de extrema importância para a gestão da Assistência Social pois facilita muito nosso cotidiano profissional! Ajuda a manter o registro de atendimentos, cadastros dos usuários, dentre outras funcionalidades imprescindíveis para a atuação na área social.</h4>
@@ -404,7 +404,7 @@ get_header('sas'); ?>
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
               <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep7.png"; ?>" alt="">
             </div>
-            <div class="col-sm-8 col-lg-12 wow animated fadeInRight">
+            <div class="col-sm-8 col-lg-12 wow animated fadeInUp">
               <div class="row no-gutters">
                 <div class="col-sm-12">
                   <h4>Além de contar com capacitação para o uso adequado, temos à disposição um bom suporte da empresa. Como gestora, recomendo a Portabilis como exemplo de software eficaz para a gestão da política municipal de assistência social. </h4>

@@ -54,7 +54,7 @@
       'walker'          => new WP_Bootstrap_Navwalker()
       ));
       ?>
-      <a href="<?php echo esc_url( home_url( '/fale-conosco' ) ); ?>" class="btn-base btn-white ml-md-5" title="Fale conosco">Fale conosco</a>
+      <a href="<?php echo esc_url( home_url( '/fale-conosco' ) ); ?>" class="btn-base btn-whited ml-md-5" title="Fale conosco">Fale conosco</a>
     </div>
   </nav>
 </div>
