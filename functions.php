@@ -18,6 +18,12 @@ function site_setup() {
   register_nav_menus( array(
     'secondary' => esc_html__( 'Menutopo 2', 'site' ),
   ) );
+  register_nav_menus( array(
+    'primary_f' => esc_html__( 'Menurodape 1', 'site' ),
+  ) );
+  register_nav_menus( array(
+    'secondary_f' => esc_html__( 'Menurodape 2', 'site' ),
+  ) );
 
 	add_image_size('funcionario-thumb',250,250,true);
 }

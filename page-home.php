@@ -21,7 +21,7 @@ get_header(); ?>
         <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao1.png"; ?>" />
         </div>
-        <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
+        <div class="col-lg-4 offset-lg-2 col-sm-6 align-self-center wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Na educação</h3>
           <p>Guiamos os gestores através de dados reais, superando a falta de informação, facilitando a tomada de decisão e viabilizando que as metas pedagógicas sejam cada vez mais alcançáveis e possíveis.</p>
           <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>

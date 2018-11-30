@@ -3,20 +3,27 @@
     <div class="row no-gutters wow animated fadeIn">
       <div class="col-sm-4 col-lg-2">
         <div class="footer-title">PORTABILIS</div>
-        <ul>
-          <li><a href="#" title="">A Portabilis</a></li>
-          <li><a href="#" title="">Soluções</a></li>
-          <li><a href="#" title="">Oportunidades</a></li>
-          <li><a href="#" title="">Blog</a></li>
-          <li><a href="#" title="">Fale conosco</a></li>
-        </ul>
+        <?php
+        wp_nav_menu(array(
+        'menu'            => 'primary_f',
+        'theme_location'  => 'primary_f',
+        'container'       => 'div',
+        'menu_id'         => false,
+        'depth'           => 1
+        ));
+        ?>
       </div>
       <div class="col-sm-4 col-lg-2">
         <div class="footer-title">PRODUTOS</div>
-        <ul>
-          <li><a href="#" title="">Educação</a></li>
-          <li><a href="#" title="">Assistência Social</a></li>
-        </ul>
+        <?php
+        wp_nav_menu(array(
+        'menu'            => 'secondary_f',
+        'theme_location'  => 'secondary_f',
+        'container'       => 'div',
+        'menu_id'         => false,
+        'depth'           => 1
+        ));
+        ?>
       </div>
       <div class="col-sm-4 col-lg-3">
         <div class="footer-title">AJUDA E SUPORTE</div>
