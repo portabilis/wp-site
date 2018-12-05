@@ -24,7 +24,7 @@ get_header(); ?>
         <div class="col-lg-4 offset-lg-2 col-sm-6 align-self-center wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Na educação</h3>
           <p>Guiamos os gestores através de dados reais, superando a falta de informação, facilitando a tomada de decisão e viabilizando que as metas pedagógicas sejam cada vez mais alcançáveis e possíveis.</p>
-          <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>
+          <a href="<?php echo home_url( '/ieducar' ); ?>" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
       </div>
       <div class="row">
@@ -36,7 +36,7 @@ get_header(); ?>
         <div class="col-lg-4 offset-lg-1 col-sm-6 order-sm-1 order-2 wow animated fadeInLeft">
           <h3>Na assistência social</h3>
           <p>Auxiliamos os gestores do SUAS no acompanhamento da evolução e emancipação das famílias atendidas nos serviços socioassistenciais, gerando dados para otimizar os fluxos e projetos da secretaria.</p>
-          <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>
+          <a href="<?php echo home_url( '/sas' ); ?>" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 order-sm-2 order-1 wow animated zoomIn" data-wow-delay="0.25s">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao2.png"; ?>" />
@@ -65,7 +65,7 @@ get_header(); ?>
         <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Intersetorialidade</h3>
           <p>Sabemos da importância da visão socioassistencial e que a intersetorialidade pode ajudar a direcionar e adaptar os processos pedagógicos, sob os aspectos das populações em situação de vulnerabilidade e risco social, que estão quase  em sua totalidade nas redes públicas de ensino.</p>
-          <a href="#" class="btn-baseb btn-blue" title="">Saiba mais</a>
+          <a href="http://portabil.is/intersetorialidade" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@ get_header(); ?>
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-6 offset-lg-2 txt-right wow animated fadeInLeft" data-wow-delay="0.25s">
-          <a href="#" class="btn-basec btn-white" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
+          <a href="<?php echo home_url( '/fale-conosco' ); ?>" class="btn-basec btn-white" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
         </div>
         <div class="col-lg-4 col-sm-6 text-left txt-left  wow animated fadeInRight" data-wow-delay="0.5s">
           <ul>

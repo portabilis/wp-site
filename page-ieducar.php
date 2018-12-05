@@ -184,12 +184,12 @@ get_header(); ?>
       </div>
       <div class="row wow animated fadeIn">
         <div class="col-sm-3 col-lg-2 txt-center mb-sm-0 mb-3">
-          <a href="#" title="">
+          <a target="_blank" href="https://itunes.apple.com/us/app/portabilis-diário/id1308588897?mt=8" title="">
            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-google-a.jpg"; ?>" />
           </a>
         </div>
         <div class="col-sm-3 col-lg-2 txt-center">
-          <a href="#" title="">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ionicframework.appoffline153013" title="">
             <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/btn-google-b.jpg"; ?>" />
           </a>
         </div>
@@ -209,7 +209,7 @@ get_header(); ?>
           </div>
           <div class="desc-version">
             Pensado para pequenas redes de ensino e escolas particulares.
-            <a href="#" style="display: none"  class="btn-base btn-blue btn-resp" data-toggle="modal" data-target="#desc-a" title="">+ Detalhes</a>
+            <a href="#" style="display: none"  class="btn-base btn-blue btn-resp" data-toggle="modal" data-target="#cta-a" title="">+ Detalhes</a>
           </div>
         </div>
         <div class="col-sm-4">
@@ -218,7 +218,7 @@ get_header(); ?>
           </div>
           <div class="desc-version-b">
             Redes de médio e grande porte que buscam atendimento especializado.
-            <a href="#" style="display: none"  class="btn-base btn-white btn-resp" data-toggle="modal" data-target="#desc-b" title="">+ Detalhes</a>
+            <a href="#" style="display: none"  class="btn-base btn-white btn-resp" data-toggle="modal" data-target="#cta-b" title="">+ Detalhes</a>
           </div>
         </div>
       </div>
@@ -333,10 +333,10 @@ get_header(); ?>
           <div class="col-sm-4">
           </div>
           <div class="col-sm-4 check">
-            <a href="#"  class="btn-base btn-blue" data-toggle="modal" data-target="#cta-a" title="">CTA - POP UP - Conversão</a>
+            <a href="#"  class="btn-base btn-blue" data-toggle="modal" data-target="#cta-a" title="">+Detalhes</a>
           </div>
           <div class="col-sm-4 check">
-            <a href="#" class="btn-base btn-blue" data-toggle="modal" data-target="#cta-b" title="">CTA - POP UP - Conversão</a>
+            <a href="#" class="btn-base btn-blue" data-toggle="modal" data-target="#cta-b" title="">+Detalhes</a>
           </div>
         </div>
       </div>
@@ -475,17 +475,16 @@ get_header(); ?>
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">CTA POP UP 1</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Quero conhecer o i-Educar!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <h5 class="modal-subtitle" id="exampleModalLabel">Preencha o formulário abaixo para conhecer mais sobre o maior software livre de gestão escolar do Brasil!</h5>
+        <?php
+        echo do_shortcode(get_field('ieducar_comu', false, false));
+        ?>
       </div>
     </div>
   </div>
@@ -496,17 +495,16 @@ get_header(); ?>
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabelb">CTA POP UP 2</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Quero conhecer o i-Educar!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <h5 class="modal-subtitle" id="exampleModalLabel">Preencha o formulário abaixo para conhecer mais sobre o maior software livre de gestão escolar do Brasil!</h5>
+        <?php
+        echo do_shortcode(get_field('ieducar_pro', false, false));
+        ?>
       </div>
     </div>
   </div>

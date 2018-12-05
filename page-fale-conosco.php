@@ -22,28 +22,9 @@ get_header(); ?>
             <br><br>
         </div>
         <div class="col-sm-6">
-          <form>
-            <div class="row">
-              <div class="col-12 form-group">
-                <input type="text" class="form-control" placeholder="Nome" name="">
-              </div>
-              <div class="col-12 form-group">
-                <input type="text" class="form-control" placeholder="E-mail" name="">
-              </div>
-              <div class="col-12 form-group">
-                <input type="text" class="form-control" placeholder="Telefone" name="">
-              </div>
-              <div class="col-8 form-group">
-                <input type="text" class="form-control" placeholder="Cidade" name="">
-              </div>
-              <div class="col-4 form-group">
-                <input type="text" class="form-control" placeholder="UF" name="">
-              </div>
-              <div class="col-12 form-group">
-                <textarea class="form-control" placeholder="Mensagem"></textarea>
-              </div>
-            </div>
-          </form>
+          <?php
+          echo do_shortcode(get_field('fale_conosco_formulario', false, false));
+          ?>
         </div>
       </div>
     </div>

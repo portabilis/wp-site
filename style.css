@@ -9955,6 +9955,32 @@ ul {
   z-index: 1000;
 }
 
+.modal .modal-title {
+  text-align: center !important;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.modal .modal-subtitle {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #506073;
+  margin-bottom: 1.5rem;
+}
+
+.modal .modal-body .form-control {
+  border: 0;
+  border-bottom: 1px solid #E0EDFF;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal .modal-body .form-control::placeholder {
+  color: #003473;
+  font-weight: bold;
+}
+
 .popover .popover-header {
   background-color: #242B33;
   color: #FFF;
@@ -11677,11 +11703,11 @@ ul {
   color: #0072ff;
 }
 
-#footer .news {
+#footer input.news {
   padding: 12.5px;
 }
 
-#footer .news::placeholder {
+#footer input.news::placeholder {
   color: rgba(38, 38, 38, 0.5);
 }
 

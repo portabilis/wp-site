@@ -45,14 +45,9 @@
           </div>
           <div class="col-lg-12 col-sm-8">
             <div class="footer-title">NEWSLETTER</div>
-            <div class="row no-gutters">
-              <div class="col-sm-8">
-                <input type="text" class="news form-control" name="news" placeholder="josedasilvap@yahoo.com.br">
-              </div>
-              <div class="col-sm-4 pl-sm-2">
-                <a href="#" class="btn-baseb btn-blue" title="">ASSINAR</a>
-              </div>
-            </div>
+            <?php
+            echo do_shortcode(get_field('home_newsletter', false, false));
+            ?>
           </div>
         </div>
       </div>
