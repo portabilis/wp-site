@@ -10620,6 +10620,87 @@ ul {
   margin: 0;
 }
 
+#banner-blog {
+  background-color: #0172ff;
+  color: #FFF;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  position: relative;
+}
+
+#banner-blog h1 {
+  text-align: left;
+  font-family: 'Muli', sans-serif;
+  font-weight: 500;
+}
+
+#banner-blog h5 {
+  color: #FFF;
+  font-family: 'Muli', sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+#banner-blog a {
+  color: #FFF;
+}
+
+#banner-blog article {
+  margin-bottom: 3rem;
+}
+
+#banner-blog .btn-white {
+  color: #0072FF;
+}
+
+#banner-blog .btn-white:hover {
+  color: #FFF;
+  background-color: #0072FF;
+}
+
+#banner-blog .cat {
+  background-color: #FFF;
+  color: #0072FF;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+#banner-blog .subs-box {
+  position: absolute;
+  bottom: -3.5rem;
+  z-index: 2;
+  width: 100%;
+}
+
+#banner-blog .subs-box .subs-container {
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  background-color: #242b33;
+}
+
+#banner-blog .subs-box .subs-container h2 {
+  text-align: left;
+  color: #FFF;
+}
+
+#banner-blog .subs-box .subs-container .big {
+  margin-bottom: 0;
+}
+
+#banner-blog .subs-box .subs-container input {
+  padding: 0.5rem 1rem;
+}
+
+#banner-blog .subs-box .subs-container .btn-blue:hover {
+  color: #0072FF;
+}
+
 #page {
   position: relative;
   z-index: 1;
@@ -11596,6 +11677,73 @@ ul {
 
 #page .section-q .font {
   margin-bottom: 3rem;
+}
+
+#page.blog .blog-category {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+
+#page.blog .blog-posts {
+  padding-bottom: 6rem;
+  background-color: #FFF;
+}
+
+#page.blog .blog-posts article {
+  background-color: #edf0f5;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+#page.blog .blog-posts article .desc {
+  padding: 1rem;
+}
+
+#page.blog .blog-posts article .desc h5 {
+  font-size: 1.125rem;
+  text-align: left;
+  color: #506073;
+}
+
+#page.blog .blog-posts article .desc p {
+  color: #506073;
+}
+
+#page.blog .blog-posts article .desc .cat {
+  background-color: #dee1e8;
+  color: #506073;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+#page.blog .blog-posts article .desc.sub h5 {
+  margin-bottom: 1.5rem;
+}
+
+#page.blog .blog-posts .mais-posts {
+  display: block;
+  text-align: center;
+  background-color: #c8cfdf;
+  border: 1px solid #c8cfdf;
+  color: #506073;
+  padding: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#page.blog .blog-posts .mais-posts:hover {
+  background-color: #FFF;
+  text-decoration: none;
 }
 
 #page h2 {

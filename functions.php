@@ -19,6 +19,9 @@ function site_setup() {
     'secondary' => esc_html__( 'Menutopo 2', 'site' ),
   ) );
   register_nav_menus( array(
+    'tertiary' => esc_html__( 'Menutopo Blog', 'site' ),
+  ) );
+  register_nav_menus( array(
     'primary_f' => esc_html__( 'Menurodape 1', 'site' ),
   ) );
   register_nav_menus( array(
@@ -26,6 +29,7 @@ function site_setup() {
   ) );
 
 	add_image_size('funcionario-thumb',250,250,true);
+  add_image_size('blog-thumb',450,500,true);
 }
 endif; // site_setup
 add_action( 'after_setup_theme', 'site_setup' );
@@ -49,82 +53,3 @@ function site_scripts() {
 add_action( 'wp_enqueue_scripts', 'site_scripts' );
 
 require get_template_directory() . '/inc/wp-bootstrap-navwalker.php';
-
-function register_post_type_cases(){
-  $singular = 'Case';
-  $plural = 'Cases';
-  $labels = array(
-    'name' => $plural,
-    'singular_name' => $singular,
-    'add_new_item' => 'Adicionar novo '.$singular,
-    );
-  $args = array(
-    'labels' => $labels,
-    'public' => true,
-        'supports' => array('title'),
-        'menu_position' => 4
-    );
-
-  register_post_type('cases',$args);
-}
-add_action( 'init','register_post_type_cases');
-
-
-function register_post_type_funcionario(){
-  $singular = 'Funcionário';
-  $plural = 'Funcionários';
-  $labels = array(
-    'name' => $plural,
-    'singular_name' => $singular,
-    'add_new_item' => 'Adicionar novo '.$singular,
-    );
-  $args = array(
-    'labels' => $labels,
-    'public' => true,
-        'supports' => array('title', 'thumbnail'),
-        'menu_position' => 5
-    );
-
-  register_post_type('funcionario',$args);
-}
-add_action( 'init','register_post_type_funcionario');
-
-
-function register_post_type_vagas(){
-  $singular = 'Vaga';
-  $plural = 'Vagas';
-  $labels = array(
-    'name' => $plural,
-    'singular_name' => $singular,
-    'add_new_item' => 'Adicionar nova '.$singular,
-    );
-  $args = array(
-    'labels' => $labels,
-    'public' => true,
-        'supports' => array('title'),
-        'menu_position' => 6
-    );
-
-  register_post_type('vagas',$args);
-}
-add_action( 'init','register_post_type_vagas');
-
-function register_post_type_faq(){
-  $singular = 'FAQ item';
-  $plural = 'FAQ itens';
-  $labels = array(
-    'name' => $plural,
-    'singular_name' => $singular,
-    'add_new_item' => 'Adicionar novo '.$singular,
-    );
-  $args = array(
-    'labels' => $labels,
-    'public' => true,
-        'supports' => array('title'),
-        'menu_position' => 7
-    );
-
-  register_post_type('faq',$args);
-}
-add_action( 'init','register_post_type_faq');
-

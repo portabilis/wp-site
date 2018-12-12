@@ -148,3 +148,71 @@
     }
   }
 }
+
+#banner-blog{
+  background-color:#0172ff;
+  color:#FFF;
+  padding-top:5rem;
+  padding-bottom:8rem;
+  position:relative;
+  h1{
+    text-align:left;
+    font-family: 'Muli', sans-serif;
+    font-weight:500;
+  }
+  h5{
+    color:#FFF;
+    font-family: 'Muli', sans-serif;
+    font-size:1rem;
+    text-align:left;
+    font-weight:500;
+  }
+  a{
+    color:#FFF;
+  }
+  article{
+    margin-bottom:3rem;
+  }
+  .btn-white{
+    color:$blue3;
+  }
+  .btn-white:hover{
+    color:#FFF;
+    background-color:$blue3;
+  }
+  .cat{
+    background-color:#FFF;
+    color:$blue3;
+    display:inline-block;
+    padding:0.25rem 0.5rem;
+    border-radius:5px;
+    font-weight:400;
+    margin-bottom:2rem;
+    font-size:0.7rem;
+    text-transform: uppercase;
+  }
+  .subs-box{
+    position:absolute;
+    bottom:-3.5rem;
+    z-index:2;
+    width:100%;
+    .subs-container{
+      padding:1.5rem 2rem;
+      border-radius:5px;
+      background-color:#242b33;
+      h2{
+        text-align:left;
+        color:#FFF;
+      }
+      .big{
+        margin-bottom:0;
+      }
+      input{
+        padding:0.5rem 1rem;
+      }
+      .btn-blue:hover{
+        color:$blue3;
+      }
+    }
+  }
+}
