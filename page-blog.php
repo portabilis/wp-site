@@ -101,5 +101,39 @@ get_header('blog'); ?>
       <div class="row btn-mais"></div>
     </div>
   </div>
+  <div class="blog-materiais wow animated fadeIn">
+    <div class="container">
+      <h2>Materiais educativos</h2>
+      <?php
+      $args = array(
+        'posts_per_page' => 6,
+        'orderby' => 'post_date',
+        'order' => 'DESC');
+      $query = new WP_Query( $args );
+      if ( $query->have_posts() ) : ?>
+      <div class="row">
+        <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+        <article class="col-lg-4">
+          <a href="<?php the_permalink(); ?>" title="">
+            <div class="row">
+              <div class="col-lg-4">
+                <?php 
+                the_post_thumbnail('blog-thumb', array(
+                  'class' => "img-fluid",
+                ))
+                ?>
+              </div>
+              <div class="col-lg-8 align-self-center">
+                <h5><?php the_title(); ?></h5>
+                <p><?php the_excerpt_custom(20); ?></p>
+              </div>
+            </div>
+          </a>
+        </article>
+        <?php endwhile; ?>
+      </div>
+      <?php endif; ?>
+    </div>
+  </div>
 </div>
 <?php get_footer(); ?>
