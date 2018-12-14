@@ -22,7 +22,7 @@
 </div>
 <div id="header" class="sas">
   <nav id="menu" class="navbar navbar-expand-md navbar-dark wow animated fadeIn">
-    <a class="navbar-brand mr-md-5" href="<?php echo home_url( '/' ); ?>">
+    <a class="navbar-brand mr-md-5" href="<?php echo home_url( '/home' ); ?>">
       <img class="img-fluid e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo-sas.jpg"; ?>" />
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
