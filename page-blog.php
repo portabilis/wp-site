@@ -113,17 +113,17 @@ get_header('blog'); ?>
       if ( $query->have_posts() ) : ?>
       <div class="row">
         <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-        <article class="col-lg-4">
+        <article class="col-lg-4 col-sm-6">
           <a href="<?php the_permalink(); ?>" title="">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-sm-4 mb-4 mb-sm-0">
                 <?php 
                 the_post_thumbnail('blog-thumb', array(
                   'class' => "img-fluid",
                 ))
                 ?>
               </div>
-              <div class="col-lg-8 align-self-center">
+              <div class="col-sm-8 align-self-center">
                 <h5><?php the_title(); ?></h5>
                 <p><?php the_excerpt_custom(20); ?></p>
               </div>

@@ -10186,11 +10186,20 @@ ul {
   .section-g .background {
     left: 65% !important;
   }
+  #banner-blog .subs-box {
+    bottom: -5rem !important;
+  }
+  #blog-single-header {
+    height: 550px !important;
+  }
 }
 
 @media (max-width: 991.98px) {
   html {
     font-size: 14px !important;
+  }
+  #blog-single-header {
+    height: 425px !important;
   }
   #banner {
     height: 600px !important;
@@ -10274,11 +10283,23 @@ ul {
   #footer .svg-icon {
     display: none !important;
   }
+  #blog-single-header {
+    height: 325px !important;
+  }
 }
 
 @media (max-width: 575.98px) {
   html {
     font-size: 12px !important;
+  }
+  #blog-single-header {
+    height: 225px !important;
+  }
+  #banner-blog {
+    padding-bottom: 0rem !important;
+  }
+  #banner-blog .subs-box {
+    position: static !important;
   }
   #header #menu #navbarCollapse {
     background-color: #FFF !important;

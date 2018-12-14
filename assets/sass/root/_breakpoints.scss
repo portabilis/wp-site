@@ -16,10 +16,23 @@
       left:65% !important;
     }
   }
+  #banner-blog{
+    .subs-box{
+      bottom:-5rem !important;
+    }
+  }
+
+  #blog-single-header{
+    height:550px !important;
+  }
 }
 @include media-breakpoint-down(md) {
   html{
     font-size:14px !important;
+  }
+
+  #blog-single-header{
+    height:425px !important;
   }
 
   #banner{
@@ -115,11 +128,27 @@
       display:none !important;
     }
   }
+
+  #blog-single-header{
+    height:325px !important;
+  }
+
 }
 
 @include media-breakpoint-down(xs) {
   html{
     font-size:12px !important;
+  }
+
+  #blog-single-header{
+    height:225px !important;
+  }
+
+  #banner-blog{
+    padding-bottom:0rem !important;
+    .subs-box{
+      position:static !important;
+    }
   }
 
   #header{
