@@ -60,6 +60,28 @@ get_header('blog-single'); ?>
           </div>
         </div>
       </div>
+      <div class="comments col-lg-10 offset-lg-1">
+        <?php
+        if ( comments_open() || get_comments_number() ) :
+          comments_template();
+        endif;
+        ?>
+      </div>
+    </div>
+  </div>
+  <div class="related">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Publicações Relacionadas</h2>
+        </div>
+      </div>
+      <div class="row blog-related-list"></div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <a data-id="2" href="#" class="btn-mais" title="">ver mais publicações</a>
+        </div>
+      </div>
     </div>
   </div>
 </div><!-- #content -->

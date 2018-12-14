@@ -93,10 +93,10 @@ get_header(); ?>
   </div>
   <div class="section-d section-padding">
     <div class="container">
-      <div class="row wow animated fadeInUp">
+      <div class="row wow animated fadeIn">
         <div class="col-lg-8 col-sm-6">
-          <h2 class="wow animated fadeInUp">Conteúdos incríveis</h2>
-          <p class="subtitle wow animated fadeInUp" data-wow-delay="0.25s">Acesse gratuitamente nossos materiais sobre educação e assistência social no nosso blog.</p>
+          <h2>Conteúdos incríveis</h2>
+          <p class="subtitle">Acesse gratuitamente nossos materiais sobre educação e assistência social no nosso blog.</p>
         </div>
         <div class="col-lg-4 col-sm-6 txt-right">
           <br>

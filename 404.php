@@ -1,15 +1,14 @@
 <?php
 get_header(); ?>
-<div id="content">
-	<section id="paginas" class="sobre-desc">
-		<div class="container">
-			<div class="row wow fadeIn">
-				<div class="col-md-12 text-center">
-					<h1 class="alexc">A página não existe!</h1>
-				</div>
-			</div>
-		</div>
-	</section>
+<div id="page">
+  <div class="contato">
+    <div class="container">
+      <div class="row wow animated fadeIn">
+        <div class="col-12">
+          <h1 class="text-center">Página não Encontrada!</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
 <?php get_footer(); ?>

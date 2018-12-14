@@ -848,6 +848,11 @@
     }
   }
   &.blog{
+    h1.page-title{
+      margin-top:6rem;
+      margin-bottom:3rem;
+      text-align:center;
+    }
     .blog-category{
       padding-top:8rem;
       padding-bottom:4rem;
@@ -994,7 +999,7 @@
       margin-bottom:4rem;
     }
     .tags{
-      margin-bottom:4rem;
+      margin-bottom:2rem;
       .img-avatar{
         border-radius:50%;
       }
@@ -1022,6 +1027,59 @@
         background-color:#506073;
         color:#FFF;
         text-decoration:none;
+      }
+    }
+    .related{
+      background-color:#242b33;
+      padding:6rem 0;
+      h2{
+        font-weight:600;
+        color:#FFF;
+        text-align:left;
+      }
+
+      article{
+        background-color:#FFF;
+        border-radius:5px;
+        margin-bottom:1.5rem;
+        .desc{
+          padding:1rem;
+          h5{
+            font-size:1.125rem;
+            text-align:left;
+            color:#506073;
+            margin-bottom:1.5rem;
+          }
+          p{
+            color:#506073;
+          }
+          .cat{
+            background-color:#dee1e8;
+            color:#506073;
+            display:inline-block;
+            padding:0.25rem 0.5rem;
+            border-radius:5px;
+            font-weight:400;
+            margin-bottom:1.5rem;
+            font-size:0.7rem;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .btn-mais{
+        border-radius:5px;
+        color:#506073;
+        display:inline-block;
+        padding:0.75rem 1.25rem;
+        font-weight:600;
+        background-color:#FFF;
+        border:1px solid #FFF;
+        @include transition(all 0.5s ease-in-out);
+      }
+      .btn-mais:hover{
+        text-decoration:none;
+        background-color:#242b33;
+        color:#FFF;
       }
     }
   }
