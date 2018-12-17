@@ -29,7 +29,7 @@ function site_setup() {
   ) );
 
 	add_image_size('funcionario-thumb',250,250,true);
-  add_image_size('blog-thumb',450,500,true);
+  add_image_size('blog-thumb',450,450,true);
 }
 endif; // site_setup
 add_action( 'after_setup_theme', 'site_setup' );

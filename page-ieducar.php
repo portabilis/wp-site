@@ -464,7 +464,7 @@ get_header(); ?>
         </div>
         <div class="col-lg-4">
           <br>
-          <a href="#" class="btn-baseb btn-white" title="botao">Acesse todos os materiais ricos <i class="fas fa-long-arrow-alt-right"></i></a>
+          <a href="<?php echo home_url( '/blog' ); ?>" class="btn-baseb btn-white" title="botao">Acesse todos os materiais ricos <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
     </div>

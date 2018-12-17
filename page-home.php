@@ -100,51 +100,39 @@ get_header(); ?>
         </div>
         <div class="col-lg-4 col-sm-6 txt-right">
           <br>
-          <a href="#" class="btn-baseb btn-blue" title="botao">Conheça os nossos materiais <i class="fas fa-long-arrow-alt-right"></i></a>
+          <a href="<?php echo home_url( '/blog' ); ?>" class="btn-baseb btn-blue" title="botao">Conheça os nossos materiais <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
+      <?php
+      $args = array(
+        'posts_per_page' => 4,
+        'orderby' => 'post_date',
+        'order' => 'DESC');
+      $query = new WP_Query( $args );
+      if ( $query->have_posts() ) : ?>
       <div class="row wow animated fadeIn">
+        <?php while ( $query->have_posts() ) : $query->the_post(); ?>
         <div class="col-lg-3 col-sm-6">
           <article>
             <span class="category">
-              Educação
+              <?php
+              $categories = get_the_category();
+              $category = $categories[0]->name;
+              echo $category;
+              ?>
             </span>
-            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
-            <p>E-book: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-base btn-whitec" title="botao">Baixar apresentação <i class="fas fa-long-arrow-alt-down"></i></a>
+            <?php 
+              the_post_thumbnail('blog-thumb', array(
+                'class' => "img-fluid thumb",
+              ));
+            ?>
+            <p><?php the_excerpt_custom(45); ?></p>
+            <a href="<?php the_permalink(); ?>" class="btn-base btn-whitec" title="botao">Saiba mais</a>
           </article>
         </div>
-        <div class="col-lg-3 col-sm-6">
-          <article>
-            <span class="category">
-              Educação
-            </span>
-            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
-            <p>E-book: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-base btn-whitec" title="botao">Baixar apresentação <i class="fas fa-long-arrow-alt-down"></i></a>
-          </article>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <article>
-            <span class="category">
-              Educação
-            </span>
-            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
-            <p>Apresentação: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-base btn-whitec" title="botao">Baixar apresentação <i class="fas fa-long-arrow-alt-down"></i></a>
-          </article>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <article>
-            <span class="category">
-              Educação
-            </span>
-            <img class="img-fluid thumb" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/thumb.jpg"; ?>">
-            <p>Apresentação: tudo que você precisa saber sobre alimentação escolar.</p>
-            <a href="#" class="btn-base btn-whitec" title="botao">Baixar apresentação <i class="fas fa-long-arrow-alt-down"></i></a>
-          </article>
-        </div>
+        <?php endwhile; ?>
       </div>
+      <?php endif; ?>
     </div>
   </div>
 </div>
