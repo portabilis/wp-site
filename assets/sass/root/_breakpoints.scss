@@ -35,6 +35,27 @@
     height:425px !important;
   }
 
+  #header{
+    #menu{
+      #navbarCollapse{
+        background-color:#FFF !important;
+        ul.navbar-nav{
+          li.menu-item{
+            a{
+              border:0 !important;
+              padding:15px !important;
+              text-align:center !important;
+              color:#0172ff !important;
+            }
+          }
+        }
+        .btn-base{
+          display:none !important;
+        }
+      }
+    }
+  }
+
   #banner{
     height:600px !important;
     .wrap-title{
@@ -148,27 +169,6 @@
     padding-bottom:0rem !important;
     .subs-box{
       position:static !important;
-    }
-  }
-
-  #header{
-    #menu{
-      #navbarCollapse{
-        background-color:#FFF !important;
-        ul.navbar-nav{
-          li.menu-item{
-            a{
-              border:0 !important;
-              padding:15px !important;
-              text-align:center !important;
-              color:#0172ff !important;
-            }
-          }
-        }
-        .btn-base{
-          display:none !important;
-        }
-      }
     }
   }
 

@@ -21,22 +21,12 @@ get_header('blog-single'); ?>
         <h1><?php the_title(); ?></h1>
         <?php the_content(); ?>
       </div>
-      <div class="subs-box col-lg-10 offset-lg-1">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p class="big">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </div>
-          <div class="col-lg-6 align-self-center">
-            <div class="row no-gutters">
-              <div class="col-lg-12">
-                <input type="text" class="form-control" name="" placeholder="E-mail">
-              </div>
-              <div class="col-lg-12">
-                <a href="#" class="btn-base btn-blue" title="">Increver-se</a>
-              </div>
-            </div>
-          </div>
+      <div class="col-lg-10 offset-lg-1">
+        <div class="subs-box">
+          <?php
+          $page = get_page_by_path( 'blog' );
+          echo do_shortcode(get_field('blog_newsletter_single', $page->ID));
+          ?>
         </div>
       </div>
       <div class="col-lg-10 offset-lg-1">

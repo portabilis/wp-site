@@ -46,7 +46,8 @@
           <div class="col-lg-12 col-sm-8">
             <div class="footer-title">NEWSLETTER</div>
             <?php
-            echo do_shortcode(get_field('home_newsletter', false, false));
+            $page = get_page_by_path( 'home' );
+            echo do_shortcode(get_field('footer_newsletter', $page->ID));
             ?>
           </div>
         </div>

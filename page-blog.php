@@ -60,21 +60,11 @@ get_header('blog'); ?>
   </div>
   <div class="subs-box">
     <div class="container">
-      <div class="subs-container row">
-        <div class="col-lg-6">
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <p class="big">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </div>
-        <div class="col-lg-5 offset-lg-1 align-self-center">
-          <div class="row no-gutters">
-            <div class="col-sm-8 pr-1">
-              <input type="text" class="form-control" name="" placeholder="E-mail">
-            </div>
-            <div class="col-sm-4">
-              <a href="#" class="btn-base btn-blue" title="">Increver-se</a>
-            </div>
-          </div>
-        </div>
+      <div class="subs-container">
+        <?php
+        $page = get_page_by_path( 'blog' );
+        echo do_shortcode(get_field('blog_newsletter', $page->ID));
+        ?>
       </div>
     </div>
   </div>

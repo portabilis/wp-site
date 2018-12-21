@@ -10201,6 +10201,18 @@ ul {
   #blog-single-header {
     height: 425px !important;
   }
+  #header #menu #navbarCollapse {
+    background-color: #FFF !important;
+  }
+  #header #menu #navbarCollapse ul.navbar-nav li.menu-item a {
+    border: 0 !important;
+    padding: 15px !important;
+    text-align: center !important;
+    color: #0172ff !important;
+  }
+  #header #menu #navbarCollapse .btn-base {
+    display: none !important;
+  }
   #banner {
     height: 600px !important;
   }
@@ -10300,18 +10312,6 @@ ul {
   }
   #banner-blog .subs-box {
     position: static !important;
-  }
-  #header #menu #navbarCollapse {
-    background-color: #FFF !important;
-  }
-  #header #menu #navbarCollapse ul.navbar-nav li.menu-item a {
-    border: 0 !important;
-    padding: 15px !important;
-    text-align: center !important;
-    color: #0172ff !important;
-  }
-  #header #menu #navbarCollapse .btn-base {
-    display: none !important;
   }
   h1 {
     font-size: 2.5rem !important;
