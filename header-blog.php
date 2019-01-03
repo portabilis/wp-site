@@ -22,7 +22,7 @@
 </div>
 <div id="header" class="blog">
   <nav id="menu" class="navbar navbar-expand-md navbar-dark wow animated fadeIn">
-    <a class="navbar-brand mr-md-5" href="<?php echo home_url( '/home' ); ?>">
+    <a class="navbar-brand mr-md-5" href="<?php echo home_url( '/blog' ); ?>">
       <img class="img-fluid e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo.jpg"; ?>" />
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@
       'walker'          => new WP_Bootstrap_Navwalker()
       ));
       ?>
-      <a href="<?php echo esc_url( home_url( '/fale-conosco' ) ); ?>" class="btn-base btn-white ml-md-5" title="Fale conosco">Fale conosco</a>
+      <a href="https://nsite.portabilis.com.br/fale-conosco/" class="btn-base btn-white ml-md-5" title="Fale conosco">Fale conosco</a>
     </div>
   </nav>
 </div>

@@ -103,37 +103,28 @@ get_header(); ?>
           <a href="<?php echo home_url( '/blog' ); ?>" class="btn-baseb btn-blue" title="botao">Conheça os nossos materiais <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
-      <?php
-      $args = array(
-        'posts_per_page' => 4,
-        'orderby' => 'post_date',
-        'order' => 'DESC');
-      $query = new WP_Query( $args );
-      if ( $query->have_posts() ) : ?>
-      <div class="row wow animated fadeIn">
-        <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-        <div class="col-lg-3 col-sm-6">
-          <article>
-            <span class="category">
-              <?php
-              $categories = get_the_category();
-              $category = $categories[0]->name;
-              echo $category;
-              ?>
-            </span>
-            <?php 
-              the_post_thumbnail('blog-thumb', array(
-                'class' => "img-fluid thumb",
-              ));
-            ?>
-            <p><?php the_excerpt_custom(45); ?></p>
-            <a href="<?php the_permalink(); ?>" class="btn-base btn-whitec" title="botao">Saiba mais</a>
-          </article>
-        </div>
-        <?php endwhile; ?>
+      <div class="row wow animated fadeIn blog-posts-ajax">
+
       </div>
-      <?php endif; ?>
     </div>
   </div>
 </div>
+<script>
+$.ajax({
+    type:'POST',
+    url: '<?php echo "https://nblog.portabilis.com.br/wp-admin/admin-ajax.php"; ?>',
+    data: {
+    action: 'portabilisBlogMais',
+    id: '0'
+    },
+    success: function(data){
+      page = parseInt(data[0].id)+1;
+      var article = '';
+      for(var i = 0; i < data.length; i++){
+        article = '<div class="col-lg-3 col-sm-6"><article><span style="margin-bottom:15px" class="category">'+data[i].category+'</span>'+data[i].img+'<p style="margin-top:15px">'+data[i].excerpt+'</p><a href="'+data[i].url+'" class="btn-base btn-whitec" title="botao">Saiba mais</a></article></div>';
+        $('.blog-posts-ajax').append(article);
+      }
+    }
+});
+</script>
 <?php get_footer(); ?>

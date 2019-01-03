@@ -98,7 +98,8 @@ get_header('blog'); ?>
       $args = array(
         'posts_per_page' => 6,
         'orderby' => 'post_date',
-        'order' => 'DESC');
+        'order' => 'DESC',
+        'category_name' => 'ebooks');
       $query = new WP_Query( $args );
       if ( $query->have_posts() ) : ?>
       <div class="row">
