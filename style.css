@@ -11903,6 +11903,11 @@ ul {
   margin-bottom: 2rem;
 }
 
+#page.blog-single .blog-content h2 {
+  text-align: left;
+  color: #506073;
+}
+
 #page.blog-single .subs-box {
   padding: 2.5rem 3rem;
   border-radius: 5px;
@@ -11977,6 +11982,10 @@ ul {
   background-color: #506073;
   color: #FFF;
   text-decoration: none;
+}
+
+#page.blog-single .comments {
+  margin-bottom: 6rem;
 }
 
 #page.blog-single .related {
