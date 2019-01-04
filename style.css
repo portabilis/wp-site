@@ -11908,6 +11908,10 @@ ul {
   color: #506073;
 }
 
+#page.blog-single .blog-content img {
+  max-width: 100%;
+}
+
 #page.blog-single .subs-box {
   padding: 2.5rem 3rem;
   border-radius: 5px;
