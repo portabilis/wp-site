@@ -423,8 +423,8 @@ get_header('sas'); ?>
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <h2 class="wow animated fadeInUp">Materiais educations</h2>
-          <p class="big subtitle">Baixe Gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social.</p>
+          <h2 class="wow animated fadeInUp">Materiais educativos</h2>
+          <p class="big subtitle">Leia gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social.</p>
         </div>
         <div class="col-lg-4">
           <br>

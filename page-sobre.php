@@ -2,8 +2,8 @@
 get_header(); ?>
 <div id="banner-sobre">
   <div class="wrap-title wow animated fadeInUp">
-    <h1><?php the_field('sobre_banner_titulo'); ?></h1>
-    <div class="big subtitle"><?php the_field('sobre_banner_subtitulo'); ?></div>
+    <div class="big subtitle"><?php the_field('sobre_banner_subtitulo'); ?></div><br>
+    <h1><?php the_field('sobre_banner_titulo'); ?></h1> 
   </div>
 </div>
 <div id="page" class="pad-ieducar">
@@ -141,7 +141,7 @@ a Portabilis também é destaque na imprensa</h2>
 <strong>R$2,4 milhões</strong> por ano com 
 uso do i-Educar”</h2>
           <span>Fonte: Mec</span><br>
-          <a class="descubra" href="#" title="">Descubra como <i class="fas fa-long-arrow-alt-right"></i></a>
+          <a class="descubra" target="_blank" href="http://www.planejamento.gov.br/assuntos/programa-de-investimento-em-logistica-pil/noticias/monte-alegre-rn-economiza-r-2-4-milhoes-por-ano-com-uso-de-software-publico" title="">Descubra como <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
     </div>

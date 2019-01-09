@@ -10201,18 +10201,6 @@ ul {
   #blog-single-header {
     height: 425px !important;
   }
-  #header #menu #navbarCollapse {
-    background-color: #FFF !important;
-  }
-  #header #menu #navbarCollapse ul.navbar-nav li.menu-item a {
-    border: 0 !important;
-    padding: 15px !important;
-    text-align: center !important;
-    color: #0172ff !important;
-  }
-  #header #menu #navbarCollapse .btn-base {
-    display: none !important;
-  }
   #banner {
     height: 600px !important;
   }
@@ -10222,14 +10210,11 @@ ul {
   }
   #banner-ieducar {
     overflow: hidden;
-    height: 400px !important;
+    height: 700px !important;
   }
   #banner-ieducar .wrap-title {
     position: static !important;
-    padding-top: 25px !important;
-  }
-  #banner-ieducar .bubble {
-    right: -300px !important;
+    padding-top: 75px !important;
   }
   #banner-sas {
     height: 700px !important;
@@ -10275,6 +10260,11 @@ ul {
     height: 700px !important;
     background-image: url("assets/img/sas-div-mobile.png") !important;
   }
+  #page .div-banner-ieducar {
+    top: -663px !important;
+    height: 663px !important;
+    background-image: url("assets/img/ieducar-div-mobile.png") !important;
+  }
   #page .section-j h3 {
     font-size: 1.125rem !important;
   }
@@ -10297,6 +10287,18 @@ ul {
   }
   #blog-single-header {
     height: 325px !important;
+  }
+  #header #menu #navbarCollapse {
+    background-color: #FFF !important;
+  }
+  #header #menu #navbarCollapse ul.navbar-nav li.menu-item a {
+    border: 0 !important;
+    padding: 15px !important;
+    text-align: center !important;
+    color: #0172ff !important;
+  }
+  #header #menu #navbarCollapse .btn-base {
+    display: none !important;
   }
 }
 
@@ -10325,16 +10327,27 @@ ul {
   #banner-sas .wrap-title h1, #banner-sas .wrap-title .subtitle {
     padding-right: 0 !important;
   }
-  #banner-ieducar .bubble {
-    display: none !important;
+  #banner-ieducar {
+    height: 450px !important;
+  }
+  #banner-ieducar .wrap-title {
+    padding-top: 40px !important;
+  }
+  #banner-ieducar .wrap-title h1, #banner-ieducar .wrap-title .subtitle {
+    padding-right: 0 !important;
   }
   #page .pad-sas {
     padding-top: 60px !important;
   }
   #page .div-banner-sas {
-    top: -630px !important;
-    height: 894px !important;
+    top: -252px !important;
+    height: 252px !important;
     background-image: url("assets/img/sas-mobile-div.png") !important;
+  }
+  #page .div-banner-ieducar {
+    top: -252px !important;
+    height: 252px !important;
+    background-image: url("assets/img/ieducar-mobile.png") !important;
   }
   #page .section-c ul {
     margin-top: 25px;
@@ -10552,14 +10565,14 @@ ul {
 
 #banner-ieducar {
   background-color: #0172ff;
-  height: 600px;
+  height: 700px;
   position: relative;
   top: -1px;
 }
 
 #banner-ieducar .wrap-title {
   position: fixed;
-  top: 200px;
+  top: 250px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -10570,22 +10583,17 @@ ul {
   color: #FFF;
   line-height: 4.5rem;
   margin-bottom: 2rem;
+  padding-right: 50%;
 }
 
 #banner-ieducar .wrap-title .subtitle {
   text-align: left;
   color: rgba(255, 255, 255, 0.7);
+  padding-right: 50%;
 }
 
 #banner-ieducar .wrap-title p {
   margin: 0;
-}
-
-#banner-ieducar .bubble {
-  position: absolute;
-  top: 0;
-  right: 10%;
-  margin: 0 auto;
 }
 
 #banner-sas {
@@ -10615,7 +10623,7 @@ ul {
 #banner-sas .wrap-title .subtitle {
   text-align: left;
   color: rgba(255, 255, 255, 0.7);
-  padding-right: 60%;
+  padding-right: 65%;
 }
 
 #banner-sas .wrap-title p {
@@ -10796,11 +10804,11 @@ ul {
 
 #page .div-banner-ieducar {
   position: absolute;
-  top: -630px;
+  top: -700px;
   left: 0;
   right: 0;
   width: 100%;
-  height: 894px;
+  height: 800px;
   background-image: url("assets/img/ieducar-div.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -11117,7 +11125,10 @@ ul {
   border: 1px solid #0072FF;
   border-radius: 50%;
   line-height: 1rem;
-  width: 1rem;
+  width: 1.1rem;
+  padding-top: 0.1rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
   display: inline-block;
   text-align: center;
   color: #0072FF;
@@ -11906,6 +11917,10 @@ ul {
 #page.blog-single .blog-content h2 {
   text-align: left;
   color: #506073;
+}
+
+#page.blog-single .blog-content img {
+  max-width: 100%;
 }
 
 #page.blog-single .subs-box {

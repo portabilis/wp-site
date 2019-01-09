@@ -64,5 +64,5 @@
     </div>
   </div>
 </div>
-
+<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/cda77382-cb63-488d-aa03-ee0ae26903b9-loader.js" ></script>
 <?php wp_footer(); ?>
