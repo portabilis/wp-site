@@ -1,7 +1,6 @@
 <?php
 get_header(); ?>
 <div id="banner-ieducar">
-  <img class="bubble wow animated fadeIn" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/bubble.png"; ?>" />
   <div class="wrap-title wow animated fadeInUp">
     <h1><?php the_field('ieducar_banner_titulo'); ?></h1>
     <div class="big subtitle"><?php the_field('ieducar_banner_subtitulo'); ?></div>
@@ -368,7 +367,7 @@ get_header(); ?>
           <div class="resource">
             <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-refresh.png"; ?>" />
             <h4>Atualizações mais confiáveis</h4>
-            <p>Somos os mantenedores oficiais do i-Educar e ofere-cemos atualizações mais rápidas para o seu ambiente.</p>
+            <p>i-Educar e oferecemos atualizações mais rápidas para o seu ambiente.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn">
@@ -389,7 +388,7 @@ get_header(); ?>
           <div class="resource">
             <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-shield.png"; ?>" />
             <h4>Garantia de disponibilidade e segurança</h4>
-            <p>Você se preocupa com o sucesso da sua rede ou escola e nós a responsabilidade pela disponibilidade e segurança dos dados.</p>
+            <p>Você se preocupa com o sucesso da sua rede, e nós nos preocupamos com a disponibilidade e segurança dos dados.</p>
           </div>
         </div>
       </div>
@@ -431,7 +430,7 @@ get_header(); ?>
                   <h4>“Estamos <strong>totalmente satisfeitos</strong> com os serviços da Portabilis”</h4>
                   <div class="test-div"></div>
                   <p class="test-name">Fábio Gualberto</p>
-                  <p class="test-desc">Secretário de Educação de Dom Elisei, PA</p>
+                  <p class="test-desc">Secretário de Educação de Dom Eliseu, PA</p>
                 </div>
               </div>
             </div>
@@ -459,8 +458,8 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <h2 class="wow animated fadeInUp">Materiais educations</h2>
-          <p class="big subtitle">Baixe Gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social.</p>
+          <h2 class="wow animated fadeInUp">Materiais educativos</h2>
+          <p class="big subtitle">Leia gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social..</p>
         </div>
         <div class="col-lg-4">
           <br>
