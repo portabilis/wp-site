@@ -367,7 +367,7 @@ get_header(); ?>
           <div class="resource">
             <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-refresh.png"; ?>" />
             <h4>Atualizações mais confiáveis</h4>
-            <p>i-Educar e oferecemos atualizações mais rápidas para o seu ambiente.</p>
+            <p>Somos os mantenedores oficiais do i-Educar e oferecemos atualizações mais rápidas para o seu ambiente.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn">
