@@ -112,7 +112,7 @@ get_header(); ?>
 <script>
 $.ajax({
     type:'POST',
-    url: '<?php echo "https://nblog.portabilis.com.br/wp-admin/admin-ajax.php"; ?>',
+    url: '<?php echo "https://blog.portabilis.com.br/wp-admin/admin-ajax.php"; ?>',
     data: {
     action: 'portabilisBlogMais',
     id: '0'
