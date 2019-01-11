@@ -279,7 +279,7 @@ get_header(); ?>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
           <div class="col-sm-4">
-            Sem limites de escolar e usuários
+            Sem limite de escolas ou usuários
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
@@ -402,7 +402,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-6 mb-sm-0">
           <div class="row">
             <div class="col-sm-4 wow animated fadeInLeft">
               <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep1.png"; ?>" alt="">
@@ -420,7 +420,7 @@ get_header(); ?>
           </div>
         </div>
         <div class="col-lg-5 offset-lg-1">
-          <div class="row">
+          <div class="row mb-6 mb-sm-0">
             <div class="col-sm-4 wow animated zoomIn">
               <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep2.png"; ?>" alt="">
             </div>
@@ -459,11 +459,11 @@ get_header(); ?>
       <div class="row">
         <div class="col-lg-8">
           <h2 class="wow animated fadeInUp">Materiais educativos</h2>
-          <p class="big subtitle">Leia gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social..</p>
+          <p class="big subtitle">Leia gratuitamente nossos materiais ricos sobre gestão escolar e sala de aula.</p>
         </div>
         <div class="col-lg-4">
           <br>
-          <a href="<?php echo home_url( '/blog' ); ?>" class="btn-baseb btn-white" title="botao">Acesse todos os materiais ricos <i class="fas fa-long-arrow-alt-right"></i></a>
+          <a href="https://blog.portabilis.com.br" class="btn-baseb btn-white" title="Conheça os nossos materiais">Conheça os nossos materiais <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
     </div>

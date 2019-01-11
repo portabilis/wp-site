@@ -10355,6 +10355,10 @@ ul {
   #page .section-c ul {
     margin-top: 25px;
   }
+  #page .section-c ul li {
+    text-align: left;
+    font-size: 1.25rem;
+  }
   #page .section-d .subtitle {
     margin-bottom: 10px !important;
   }

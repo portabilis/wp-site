@@ -95,7 +95,7 @@ get_header(); ?>
           </p>
         </div>
       </div>
-      <div class="row mb-sm-6 mb-4">
+      <div class="row mb-sm-6 mb-6">
         <div class="col-lg-5 col-sm-6 wow animated fadeInLeft">
           <img class="img-fluid mb-4" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/apoiando1.png"; ?>" />
         </div>
@@ -105,7 +105,7 @@ get_header(); ?>
           <span>Bahia</span>
         </div>
       </div>
-      <div class="row mb-sm-6 mb-4">
+      <div class="row mb-sm-6 mb-6">
         <div class="col-lg-5 ml-lg-auto col-sm-6 order-sm-2 wow animated fadeInRight">
           <img class="img-fluid mb-3" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/apoiando2.png"; ?>" />
         </div>
@@ -120,9 +120,11 @@ get_header(); ?>
           <img class="img-fluid mb-3" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/apoiando2.png"; ?>" />
         </div>
         <div class="col-lg-6 col-sm-6 ml-lg-auto align-self-center wow animated fadeInRight">
-          <h3>AMA-REC</h3>
-          <p>A associação de Pais e Amigos de Autistas da Região Carbonífera é uma associação sem fins lucrativos, que busca proteger os direitos das pessoas autistas.  A AMA-REC é mantenedora da <strong>Escola Especial Meu Mundo</strong>, que fornece um atendimento pedagógico e específico para a causa autística, buscando a inclusão e o acolhimento de todas as pessoas.</p>
-          <span>Santa Catarina</span>
+          <h3>Instituto Mãos de Arte</h3>
+          <p>
+          É o primeiro Instituto no Brasil a integrar simultaneamente arteterapia, tecnologia e comunicação assistiva, trabalhando na promoção da saúde, educação e cultura em todos os seus segmentos. Atendendo pessoas com deficiência física, cognitiva e intelectual de forma gratuita, o instituto favorece a sua reinserção na sociedade, a inclusão digital e a oportunidade de uma nova capacitação profissional
+          </p>
+          <span>Distrito Federal</span>
         </div>
       </div>
     </div>

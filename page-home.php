@@ -18,7 +18,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn">
+        <div class="col-lg-4 offset-lg-1 col-sm-6 mb-4 mb-sm-0 wow animated zoomIn">
           <img width="300" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-educacao.jpg"; ?>" />
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 align-self-center wow animated fadeInRight" data-wow-delay="0.25s">
@@ -38,7 +38,7 @@ get_header(); ?>
           <p>Auxiliamos os gestores do SUAS no acompanhamento da evolução e emancipação das famílias atendidas nos serviços socioassistenciais, gerando dados para otimizar os fluxos e projetos da secretaria.</p>
           <a href="<?php echo home_url( '/sas' ); ?>" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
-        <div class="col-lg-4 offset-lg-2 col-sm-6 order-sm-2 order-1 wow animated zoomIn" data-wow-delay="0.25s">
+        <div class="col-lg-4 offset-lg-2 col-sm-6 mb-4 mb-sm-0 order-sm-2 order-1 wow animated zoomIn" data-wow-delay="0.25s">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao2.png"; ?>" />
         </div>
       </div>
@@ -59,7 +59,7 @@ get_header(); ?>
   <div class="section-a">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn align-self-center">
+        <div class="col-lg-4 offset-lg-1 col-sm-6 mb-4 mb-sm-0 wow animated zoomIn align-self-center">
           <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao3.png"; ?>" />
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
@@ -100,7 +100,7 @@ get_header(); ?>
         </div>
         <div class="col-lg-4 col-sm-6 txt-right">
           <br>
-          <a href="<?php echo home_url( '/blog' ); ?>" class="btn-baseb btn-blue" title="botao">Conheça os nossos materiais <i class="fas fa-long-arrow-alt-right"></i></a>
+          <a href="<?php echo home_url( '/blog' ); ?>" class="btn-baseb btn-blue" title="Conheça os nossos materiais">Conheça os nossos materiais <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
       <div class="row wow animated fadeIn blog-posts-ajax">
@@ -121,7 +121,7 @@ $.ajax({
       page = parseInt(data[0].id)+1;
       var article = '';
       for(var i = 0; i < data.length; i++){
-        article = '<div class="col-lg-3 col-sm-6"><article><span style="margin-bottom:15px" class="category">'+data[i].category+'</span>'+data[i].img+'<p style="margin-top:15px">'+data[i].excerpt+'</p><a href="'+data[i].url+'" class="btn-base btn-whitec" title="botao">Saiba mais</a></article></div>';
+        article = '<div class="col-lg-3 col-sm-6"><article><span style="margin-bottom:15px" class="category">'+data[i].category+'</span>'+data[i].img+'<p style="margin-top:15px">'+data[i].excerpt+'</p><a href="'+data[i].url+'" class="btn-base btn-whitec" title="Saiba mais">Saiba mais</a></article></div>';
         $('.blog-posts-ajax').append(article);
       }
     }
