@@ -80,19 +80,13 @@
 
   #page{
     &.pad-home{
-      padding-top:100px !important;
+      padding-top:50px !important;
     }
     .div-banner{
-      position:absolute;
-      top:-600px !important;
-      left:0;
-      right:0;
-      width:100%;
-      height:406px;
-      background-image: url('assets/img/home-div-mobile.png') !important;
-      background-repeat: no-repeat;
-      background-position: center;
-      z-index:10;
+      top:-425px !important;
+      height:435px !important;;
+      background-image: url('assets/img/home-div-tablet.png') !important;
+      background-size: 992px auto !important;
     }
     .div-banner-sas{
       top:-700px !important;
@@ -198,6 +192,19 @@
   #page{
     .pad-sas{
       padding-top:60px !important;
+    }
+
+    .div-banner{
+      top:-380px !important;
+      height:390px !important;
+      background-image: url('assets/img/home-div-mobile.png') !important;
+      background-size:576px auto !important;;
+    }
+
+    .div-banner-sas{
+      top:-252px !important;
+      height:252px !important;
+      background-image: url('assets/img/sas-mobile-div.png') !important;
     }
 
     .div-banner-sas{
@@ -327,6 +334,17 @@
       display:inline-block !important;
     }
   }
+}
+
+@media (max-width: 425px) {
+  #page{
+    .div-banner{
+      top:-290px !important;
+      height:300px !important;
+      background-size:425px auto !important;;
+    }
+  }
+  
 }
 
 

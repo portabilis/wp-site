@@ -51,15 +51,14 @@ ul{
 .wow { visibility: hidden; }
 
 #preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background-color:#0172ff;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
   z-index: 1000;
 }
-
 .modal{
   .modal-title{
     text-align:center !important;
@@ -108,11 +107,10 @@ ul{
 }
 
 .sk-three-bounce {
-  margin: 40px auto;
-  width: 80px;
-  top:40%;
-  position:relative;
-  text-align: center; }
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+}
   .sk-three-bounce .sk-child {
     width: 20px;
     height: 20px;

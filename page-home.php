@@ -19,7 +19,7 @@ get_header(); ?>
       </div>
       <div class="row">
         <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated zoomIn">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao1.png"; ?>" />
+          <img width="300" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-educacao.jpg"; ?>" />
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 align-self-center wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Na educação</h3>
