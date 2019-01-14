@@ -39,7 +39,7 @@ get_header(); ?>
           <a href="<?php echo home_url( '/sas' ); ?>" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 mb-4 mb-sm-0 order-sm-2 order-1 wow animated zoomIn" data-wow-delay="0.25s">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao2.png"; ?>" />
+          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-assistencia-social.png"; ?>" />
         </div>
       </div>
     </div>
@@ -60,7 +60,7 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-1 col-sm-6 mb-4 mb-sm-0 wow animated zoomIn align-self-center">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-ilustracao3.png"; ?>" />
+          <img width="380" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-intersetorialidade.jpg"; ?>" />
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Intersetorialidade</h3>

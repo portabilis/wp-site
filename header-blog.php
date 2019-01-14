@@ -23,7 +23,7 @@
 <div id="header" class="blog">
   <nav id="menu" class="navbar navbar-expand-md navbar-dark wow animated fadeIn">
     <a class="navbar-brand mr-md-5" href="<?php echo home_url( '/blog' ); ?>">
-      <img class="img-fluid e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo.jpg"; ?>" />
+      <img width="151" class="img-fluid e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo-single.png"; ?>" />
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

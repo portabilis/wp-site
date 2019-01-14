@@ -10208,7 +10208,7 @@ ul {
   }
   #banner-ieducar {
     overflow: hidden;
-    height: 700px !important;
+    height: 550px !important;
   }
   #banner-ieducar .wrap-title {
     position: static !important;
@@ -10248,14 +10248,16 @@ ul {
     background-size: 992px auto !important;
   }
   #page .div-banner-sas {
-    top: -700px !important;
-    height: 700px !important;
-    background-image: url("assets/img/sas-div-mobile.png") !important;
+    top: -645px !important;
+    height: 650px !important;
+    background-image: url("assets/img/div-sas-tablet.png") !important;
+    background-size: 992px auto !important;
   }
   #page .div-banner-ieducar {
-    top: -663px !important;
-    height: 663px !important;
-    background-image: url("assets/img/ieducar-div-mobile.png") !important;
+    top: -540px !important;
+    height: 550px !important;
+    background-image: url("assets/img/div-ieducar-tablet.png") !important;
+    background-size: 992px auto !important;
   }
   #page .section-j h3 {
     font-size: 1.125rem !important;
@@ -10270,6 +10272,9 @@ ul {
   #page .section-p .background-img {
     padding: 4rem 2rem !important;
     height: auto !important;
+  }
+  #page .section-l.pad-sas {
+    padding-top: 60px;
   }
 }
 
@@ -10338,19 +10343,16 @@ ul {
     background-size: 576px auto !important;
   }
   #page .div-banner-sas {
-    top: -252px !important;
-    height: 252px !important;
-    background-image: url("assets/img/sas-mobile-div.png") !important;
-  }
-  #page .div-banner-sas {
-    top: -252px !important;
-    height: 252px !important;
-    background-image: url("assets/img/sas-mobile-div.png") !important;
+    top: -230px !important;
+    height: 240px !important;
+    background-image: url("assets/img/div-sas-mobile.png") !important;
+    background-size: 576px auto !important;
   }
   #page .div-banner-ieducar {
-    top: -252px !important;
+    top: -242px !important;
     height: 252px !important;
-    background-image: url("assets/img/ieducar-mobile.png") !important;
+    background-image: url("assets/img/div-ieducar-mobile.png") !important;
+    background-size: 576px auto !important;
   }
   #page .section-c ul {
     margin-top: 25px;
@@ -10613,7 +10615,7 @@ ul {
 
 #banner-sas {
   background-color: #33cc57;
-  height: 880px;
+  height: 840px;
   position: relative;
   top: -1px;
 }
@@ -10811,7 +10813,7 @@ ul {
   right: 0;
   width: 100%;
   height: 894px;
-  background-image: url("assets/img/home-div.png");
+  background-image: url("assets/img/div-home.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1920px auto;
@@ -10825,22 +10827,24 @@ ul {
   right: 0;
   width: 100%;
   height: 800px;
-  background-image: url("assets/img/ieducar-div.png");
+  background-image: url("assets/img/div-ieducar.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 1920px auto;
   z-index: 10;
 }
 
 #page .div-banner-sas {
   position: absolute;
-  top: -870px;
+  top: -815px;
   left: 0;
   right: 0;
   width: 100%;
-  height: 877px;
-  background-image: url("assets/img/sas-div.png");
+  height: 830px;
+  background-image: url("assets/img/div-sas.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 1920px auto;
   z-index: 10;
 }
 
@@ -10851,9 +10855,10 @@ ul {
   right: 0;
   width: 100%;
   height: 416px;
-  background-image: url("assets/img/oportunidade-div.png");
+  background-image: url("assets/img/div-oportunidade.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 1920px auto;
   z-index: 10;
 }
 

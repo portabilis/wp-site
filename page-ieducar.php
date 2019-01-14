@@ -18,7 +18,7 @@ get_header(); ?>
       </div>
       <div class="row">
         <div class="col-lg-3 col-sm-6 wow animated zoomIn">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar-p1.jpg"; ?>" />
+          <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar1.jpg"; ?>" />
           <h6 class="small">PARA O</h6>
           <h3>Professor</h3>
           <p>O diário eletrônico no bolso do professor.</p>
@@ -29,7 +29,7 @@ get_header(); ?>
           </ul>
         </div>
         <div class="col-lg-3 col-sm-6 wow animated zoomIn" data-wow-delay="0.25s">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar-p2.jpg"; ?>" />
+          <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar2.jpg"; ?>" />
           <h6 class="small">PARA A</h6>
           <h3>Secretária da escola</h3>
           <p>Acesso fácil e rápido às informações.</p>
@@ -40,7 +40,7 @@ get_header(); ?>
           </ul>
         </div>
         <div class="col-lg-3 col-sm-6 wow animated zoomIn" data-wow-delay="0.5s">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar-p3.jpg"; ?>" />
+          <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar3.jpg"; ?>" />
           <h6 class="small">PARA A</h6>
           <h3>Secretária de Educação</h3>
           <p>Tecnologia que descomplica a gestão.</p>
@@ -51,7 +51,7 @@ get_header(); ?>
           </ul>
         </div>
         <div class="col-lg-3 col-sm-6 wow animated zoomIn" data-wow-delay="0.75s">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar-p4.jpg"; ?>" />
+          <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar4.jpg"; ?>" />
           <h6 class="small">PARA O</h6>
           <h3>Ténico de TI</h3>
           <p>O Software Livre para a Gestão Escolar.</p>
@@ -194,7 +194,7 @@ get_header(); ?>
         </div>
       </div>
     </div>
-    <img class="background wow animated fadeInRight" data-wow-delay="0.25s" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar-background.jpg"; ?>" />
+    <img width="711" class="background wow animated fadeInRight" data-wow-delay="0.25s" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar-back.jpg"; ?>" />
   </div>
   <div class="section-h section-padding">
     <div class="container">

@@ -44,7 +44,7 @@
   }
   #banner-ieducar{
     overflow:hidden;
-    height:700px !important;
+    height:550px !important;
     .wrap-title{
       position:static !important;
       padding-top:75px !important;
@@ -89,15 +89,17 @@
       background-size: 992px auto !important;
     }
     .div-banner-sas{
-      top:-700px !important;
-      height:700px !important;
-      background-image: url('assets/img/sas-div-mobile.png') !important;
+      top:-645px !important;
+      height:650px !important;
+      background-image: url('assets/img/div-sas-tablet.png') !important;
+      background-size: 992px auto !important;
     }
 
     .div-banner-ieducar{
-      top:-663px !important;
-      height:663px !important;
-      background-image: url('assets/img/ieducar-div-mobile.png') !important;
+      top:-540px !important;
+      height:550px !important;
+      background-image: url('assets/img/div-ieducar-tablet.png') !important;
+      background-size: 992px auto !important;
     }
     .section-j{
       h3{
@@ -115,6 +117,11 @@
       .background-img{
         padding:4rem 2rem !important;
         height:auto !important;
+      }
+    }
+    .section-l{
+      &.pad-sas{
+        padding-top:60px;
       }
     }
   }
@@ -198,27 +205,23 @@
       top:-380px !important;
       height:390px !important;
       background-image: url('assets/img/home-div-mobile.png') !important;
-      background-size:576px auto !important;;
+      background-size:576px auto !important;
     }
 
     .div-banner-sas{
-      top:-252px !important;
-      height:252px !important;
-      background-image: url('assets/img/sas-mobile-div.png') !important;
+      top:-230px !important;
+      height:240px !important;
+      background-image: url('assets/img/div-sas-mobile.png') !important;
+      background-size:576px auto !important;
     }
 
-    .div-banner-sas{
-      top:-252px !important;
-      height:252px !important;
-      background-image: url('assets/img/sas-mobile-div.png') !important;
-    }
 
     .div-banner-ieducar{
-      top:-252px !important;
+      top:-242px !important;
       height:252px !important;
-      background-image: url('assets/img/ieducar-mobile.png') !important;
+      background-image: url('assets/img/div-ieducar-mobile.png') !important;
+      background-size:576px auto !important;
     }
-
 
     .section-c{
       ul{
