@@ -25,8 +25,9 @@ get_header(); ?>
             $args = array(
               'post_type' => 'funcionario',
               'posts_per_page' => 999,
-              'orderby' => 'post_date',
-              'order' => 'DESC');
+              'meta_key'			=> 'funcionario_ordenacao',
+	            'orderby'			=> 'meta_value',
+              'order' => 'ASC');
             $query = new WP_Query( $args );
             while ( $query->have_posts() ) : $query->the_post();
               if($i%6 == 0):
