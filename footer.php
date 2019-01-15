@@ -60,7 +60,7 @@
           &copy; <?php echo date('Y') ?> Portabilis Tecnologia Ltda.  - Todos os direitos reservados
         </span>
       </div>
-      <div class="ml-sm-auto col-sm-2 text-right"><img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo-footer.jpg"; ?>" /></div>
+      <div class="ml-sm-auto col-sm-2 text-right"><img width="130" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo-footer.jpg"; ?>" /></div>
     </div>
   </div>
 </div>

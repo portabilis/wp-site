@@ -202,7 +202,7 @@ get_header(); ?>
           <p>Precisamos conhecer melhor suas aptidões e competências. Nesta etapa, você receberá uma avaliação técnica pertinente a área que você se candidatou. Se sua pontuação atender nossas expectativas, promovemos você para a 3ª etapa.</p>
         </div>
         <div class="col-lg-4 col-sm-6 order-lg-3 order-sm-2 order-1 wow animated zoomIn"  data-wow-delay="0.25s">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/oportunidade-stair.jpg"; ?>" />
+          <img width="450" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/oportunidade-stair.jpg"; ?>" />
         </div>
         <div class="col-lg-4 col-sm-6 order-lg-4 order-sm-4 order-4 wow animated zoomIn">
           <div class="number">3</div>

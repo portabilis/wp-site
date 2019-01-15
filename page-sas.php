@@ -26,14 +26,14 @@ get_header('sas'); ?>
                     <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_19.jpg"; ?>" />
                   </div>
                   <div class="col-9">
-                    <h3>Mais agilidade e menos burocrácia</h3>
+                    <h3>Mais agilidade e menos burocracia</h3>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Atividades em grupos e benefícios</h4>
+                <h4>Atividades em grupo e benefícios</h4>
                 <p>Gestão completa de concessão de benefícios eventuais, projetos e atividades coletivas organizadas e monitoradas.</p>
               </div>
             </div>
@@ -73,8 +73,8 @@ get_header('sas'); ?>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Encaminhentos e contrareferência</h4>
-                <p>Integralidade no atendimento e com avisos para os técnicos para acompanhamento da contrarreferência.</p>
+                <h4>Encaminhamentos e contrarreferência</h4>
+                <p>Integralidade nos atendimentos com avisos aos técnicos para acompanhamento da contrarreferência.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
@@ -102,7 +102,7 @@ get_header('sas'); ?>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
                 <h4>Indicadores e gráficos em tempo real</h4>
-                <p>Os gestores podem tomar melhores decisões baseadas em dados reais e diretos dos equipamentos do seu município.</p>
+                <p>Os gestores podem tomar melhores decisões baseadas em dados reais dos equipamentos do seu município.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
@@ -114,7 +114,7 @@ get_header('sas'); ?>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
                 <h4>Consulta e emissão do RMA</h4>
-                <p>Desburocratização e facilidade no preenchimento e emissão do RMA, economia de tempo e informações uniformizadas.</p>
+                <p>Desburocratização e facilidade no preenchimento e emissão do RMA, economia de tempo e informações padronizadas.</p>
               </div>
             </div>
           </div>
@@ -348,7 +348,7 @@ get_header('sas'); ?>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 mb-6 mb-sm-0">
           <div class="row">
             <div class="col-sm-4 col-lg-4 wow animated fadeInLeft">
               <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep4.png"; ?>" alt="">
@@ -365,7 +365,7 @@ get_header('sas'); ?>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-6 mb-sm-0">
           <div class="row">
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
               <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep5.png"; ?>" alt="">
@@ -382,7 +382,7 @@ get_header('sas'); ?>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-6 mb-sm-0">
           <div class="row">
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
               <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep6.png"; ?>" alt="">
@@ -424,11 +424,11 @@ get_header('sas'); ?>
       <div class="row">
         <div class="col-lg-8">
           <h2 class="wow animated fadeInUp">Materiais educativos</h2>
-          <p class="big subtitle">Leia gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social.</p>
+          <p class="big subtitle">Leia gratuitamente nossos materiais ricos sobre assistência social.</p>
         </div>
         <div class="col-lg-4">
           <br>
-          <a href="<?php echo home_url( '/blog' ); ?>" class="btn-baseb btn-whited" title="botao">Acesse todos os materiais ricos <i class="fas fa-long-arrow-alt-right"></i></a>
+          <a href="https://blog.portabilis.com.br/categoria/assistencia-social/" class="btn-baseb btn-whited" title="Conheça os nossos materiais">Conheça os nossos materiais<i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
       </div>
     </div>

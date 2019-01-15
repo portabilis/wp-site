@@ -44,7 +44,7 @@
   }
   #banner-ieducar{
     overflow:hidden;
-    height:700px !important;
+    height:550px !important;
     .wrap-title{
       position:static !important;
       padding-top:75px !important;
@@ -80,30 +80,26 @@
 
   #page{
     &.pad-home{
-      padding-top:100px !important;
+      padding-top:50px !important;
     }
     .div-banner{
-      position:absolute;
-      top:-600px !important;
-      left:0;
-      right:0;
-      width:100%;
-      height:406px;
-      background-image: url('assets/img/home-div-mobile.png') !important;
-      background-repeat: no-repeat;
-      background-position: center;
-      z-index:10;
+      top:-425px !important;
+      height:435px !important;;
+      background-image: url('assets/img/home-div-tablet.png') !important;
+      background-size: 992px auto !important;
     }
     .div-banner-sas{
-      top:-700px !important;
-      height:700px !important;
-      background-image: url('assets/img/sas-div-mobile.png') !important;
+      top:-645px !important;
+      height:650px !important;
+      background-image: url('assets/img/div-sas-tablet.png') !important;
+      background-size: 992px auto !important;
     }
 
     .div-banner-ieducar{
-      top:-663px !important;
-      height:663px !important;
-      background-image: url('assets/img/ieducar-div-mobile.png') !important;
+      top:-540px !important;
+      height:550px !important;
+      background-image: url('assets/img/div-ieducar-tablet.png') !important;
+      background-size: 992px auto !important;
     }
     .section-j{
       h3{
@@ -121,6 +117,11 @@
       .background-img{
         padding:4rem 2rem !important;
         height:auto !important;
+      }
+    }
+    .section-l{
+      &.pad-sas{
+        padding-top:60px;
       }
     }
   }
@@ -200,22 +201,36 @@
       padding-top:60px !important;
     }
 
-    .div-banner-sas{
-      top:-252px !important;
-      height:252px !important;
-      background-image: url('assets/img/sas-mobile-div.png') !important;
+    .div-banner{
+      top:-380px !important;
+      height:390px !important;
+      background-image: url('assets/img/home-div-mobile.png') !important;
+      background-size:576px auto !important;
     }
+
+    .div-banner-sas{
+      top:-230px !important;
+      height:240px !important;
+      background-image: url('assets/img/div-sas-mobile.png') !important;
+      background-size:576px auto !important;
+    }
+
 
     .div-banner-ieducar{
-      top:-252px !important;
+      top:-242px !important;
       height:252px !important;
-      background-image: url('assets/img/ieducar-mobile.png') !important;
+      background-image: url('assets/img/div-ieducar-mobile.png') !important;
+      background-size:576px auto !important;
     }
-
 
     .section-c{
       ul{
         margin-top: 25px;
+
+        li{
+          text-align: left;
+          font-size:1.25rem;
+        }
       }
     }
 
@@ -327,6 +342,17 @@
       display:inline-block !important;
     }
   }
+}
+
+@media (max-width: 425px) {
+  #page{
+    .div-banner{
+      top:-290px !important;
+      height:300px !important;
+      background-size:425px auto !important;;
+    }
+  }
+  
 }
 
 
