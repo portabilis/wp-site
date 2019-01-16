@@ -10244,7 +10244,6 @@ ul {
   #page .div-banner {
     top: -425px !important;
     height: 435px !important;
-    background-image: url("assets/img/home-div-tablet.png") !important;
     background-size: 992px auto !important;
   }
   #page .div-banner-sas {
@@ -10337,9 +10336,8 @@ ul {
     padding-top: 60px !important;
   }
   #page .div-banner {
-    top: -380px !important;
-    height: 390px !important;
-    background-image: url("assets/img/home-div-mobile.png") !important;
+    top: -250px !important;
+    height: 260px !important;
     background-size: 576px auto !important;
   }
   #page .div-banner-sas {
@@ -10451,14 +10449,6 @@ ul {
   }
   #footer .svg-icon {
     display: inline-block !important;
-  }
-}
-
-@media (max-width: 425px) {
-  #page .div-banner {
-    top: -290px !important;
-    height: 300px !important;
-    background-size: 425px auto !important;
   }
 }
 
@@ -10813,7 +10803,7 @@ ul {
   right: 0;
   width: 100%;
   height: 894px;
-  background-image: url("assets/img/div-home.png");
+  background-image: url("assets/img/div-homec.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1920px auto;
