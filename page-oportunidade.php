@@ -26,7 +26,7 @@ get_header(); ?>
               'post_type' => 'funcionario',
               'posts_per_page' => 999,
               'meta_key'			=> 'funcionario_ordenacao',
-	            'orderby'			=> 'meta_value',
+	            'orderby'			=> 'meta_value_num',
               'order' => 'ASC');
             $query = new WP_Query( $args );
             while ( $query->have_posts() ) : $query->the_post();
