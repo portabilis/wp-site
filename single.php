@@ -69,7 +69,7 @@ get_header('blog-single'); ?>
       <div class="row blog-related-list"></div>
       <div class="row">
         <div class="col-12 text-center">
-          <a data-id="2" href="#" class="btn-mais" title="">ver mais publicações</a>
+          <button data-id="2" class="btn-mais-single" title="">ver mais publicações</button>
         </div>
       </div>
     </div>

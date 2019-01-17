@@ -10547,6 +10547,16 @@ ul {
 
 #header .search-blog i {
   color: #FFF;
+  vertical-align: middle;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#header .search-blog:hover i {
+  color: #FFC95C;
 }
 
 #blog-single-header {
@@ -11043,6 +11053,7 @@ ul {
 
 #page .section-d article p {
   color: #FFF;
+  min-height: 90px;
 }
 
 #page .section-d article .btn-base {
@@ -11848,10 +11859,12 @@ ul {
   font-size: 1.125rem;
   text-align: left;
   color: #506073;
+  min-height: 63px;
 }
 
 #page.blog .blog-posts article .desc p {
   color: #506073;
+  min-height: 90px;
 }
 
 #page.blog .blog-posts article .desc .cat {
@@ -12076,10 +12089,12 @@ ul {
   text-align: left;
   color: #506073;
   margin-bottom: 1.5rem;
+  min-height: 63px;
 }
 
 #page.blog-single .related article .desc p {
   color: #506073;
+  min-height: 90px;
 }
 
 #page.blog-single .related article .desc .cat {
@@ -12094,7 +12109,7 @@ ul {
   text-transform: uppercase;
 }
 
-#page.blog-single .related .btn-mais {
+#page.blog-single .related .btn-mais-single {
   border-radius: 5px;
   color: #506073;
   display: inline-block;
@@ -12109,10 +12124,11 @@ ul {
   transition: all 0.5s ease-in-out;
 }
 
-#page.blog-single .related .btn-mais:hover {
+#page.blog-single .related .btn-mais-single:hover {
   text-decoration: none;
   background-color: #242b33;
   color: #FFF;
+  cursor: pointer;
 }
 
 #page h2 {

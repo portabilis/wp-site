@@ -196,6 +196,7 @@
       }
       p{
         color:#FFF;
+        min-height: 90px;
       }
       .btn-base{
         margin-bottom:2rem;
@@ -888,9 +889,11 @@
             font-size:1.125rem;
             text-align:left;
             color:#506073;
+            min-height:63px;
           }
           p{
             color:#506073;
+            min-height:90px;
           }
           .cat{
             background-color:#dee1e8;
@@ -1067,9 +1070,11 @@
             text-align:left;
             color:#506073;
             margin-bottom:1.5rem;
+            min-height:63px;
           }
           p{
             color:#506073;
+            min-height:90px;
           }
           .cat{
             background-color:#dee1e8;
@@ -1084,7 +1089,7 @@
           }
         }
       }
-      .btn-mais{
+      .btn-mais-single, {
         border-radius:5px;
         color:#506073;
         display:inline-block;
@@ -1094,10 +1099,11 @@
         border:1px solid #FFF;
         @include transition(all 0.5s ease-in-out);
       }
-      .btn-mais:hover{
+      .btn-mais-single:hover{
         text-decoration:none;
         background-color:#242b33;
         color:#FFF;
+        cursor:pointer;
       }
     }
   }

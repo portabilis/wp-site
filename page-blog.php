@@ -26,8 +26,8 @@ get_header('blog'); ?>
               </span>
               <h1><?php the_title(); ?></h1>
               <div class="big subtitle">
-                <?php the_excerpt(); ?>
-              </div>
+                <?php echo get_excerpt_custom(140); ?>
+              </div><br>
               <a href="<?php the_permalink(); ?>" class="btn-base btn-white" title="">
                 Saiba mais
               </a>

@@ -80,6 +80,13 @@
     padding:0px 15px;
     i{
       color:#FFF;
+      vertical-align: middle;
+      @include transition(all 0.5s ease-in-out);
+    }
+  }
+  .search-blog:hover{
+    i{
+      color:$yellow2;
     }
   }
 }
