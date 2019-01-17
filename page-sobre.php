@@ -6,7 +6,7 @@ get_header(); ?>
     <h1><?php the_field('sobre_banner_titulo'); ?></h1> 
   </div>
 </div>
-<div id="page" class="pad-ieducar">
+<div id="page" class="pad-sobre">
   <div class="div-banner-sobre">
   </div>
   <div class="section-n">

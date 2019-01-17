@@ -10241,6 +10241,12 @@ ul {
   #page.pad-home {
     padding-top: 50px !important;
   }
+  #page.pad-ieducar {
+    padding-top: 50px !important;
+  }
+  #page.pad-sobre {
+    padding-top: 50px !important;
+  }
   #page .div-banner {
     top: -425px !important;
     height: 435px !important;
@@ -10793,7 +10799,11 @@ ul {
 }
 
 #page.pad-ieducar {
-  padding-top: 200px;
+  padding-top: 150px;
+}
+
+#page.pad-sobre {
+  padding-top: 100px;
 }
 
 #page .div-banner {
