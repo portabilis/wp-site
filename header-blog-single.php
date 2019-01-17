@@ -23,7 +23,7 @@
 <div id="header" class="blog-single">
   <nav id="menu" class="navbar navbar-expand-md navbar-dark wow animated fadeIn">
     <a class="navbar-brand mr-md-5" href="<?php echo home_url( '/blog' ); ?>">
-      <img class="img-fluid e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo.png"; ?>" />
+      <img width="151" class="img-fluid e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo.png"; ?>" />
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -42,6 +42,10 @@
       'walker'          => new WP_Bootstrap_Navwalker()
       ));
       ?>
+      <form role="search" method="get" class="search-form clearfix" action="<?php echo home_url( '/' ); ?>">
+        <input type="search" class="pesquisar-input" placeholder="<?php echo esc_attr_x( 'Procurar Portabilis', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Procurar por:', 'label' ) ?>" />
+      </form>
+      <a class="search-blog" href=""><i class="fas fa-search"></i></a>
       <?php
       wp_nav_menu(array(
       'menu'            => 'secondary',
@@ -54,7 +58,7 @@
       'walker'          => new WP_Bootstrap_Navwalker()
       ));
       ?>
-      <a href="https://nsite.portabilis.com.br/fale-conosco/" class="btn-base btn-white ml-md-5" title="Fale conosco">Fale conosco</a>
+      <a href="https://portabilis.com.br/fale-conosco/" class="btn-base btn-white ml-md-3" title="Fale conosco">Fale conosco</a>
     </div>
   </nav>
 </div>

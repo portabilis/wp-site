@@ -142,6 +142,9 @@
     height:325px !important;
   }
   #header{
+    .search-form,.search-blog{
+      display:none!important;
+    }
     #menu{
       #navbarCollapse{
         background-color:#FFF !important;

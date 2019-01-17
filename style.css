@@ -10290,6 +10290,9 @@ ul {
   #blog-single-header {
     height: 325px !important;
   }
+  #header .search-form, #header .search-blog {
+    display: none !important;
+  }
   #header #menu #navbarCollapse {
     background-color: #FFF !important;
   }
@@ -10520,6 +10523,30 @@ ul {
 
 #header.blog-single #menu #navbarCollapse ul.navbar-nav li.menu-item:last-child a {
   border-right: 0px;
+}
+
+#header .pesquisar-input {
+  border: 0;
+  background-color: transparent;
+  display: none;
+  color: #FFF;
+  padding: 5px 10px;
+  width: 170px;
+}
+
+#header .pesquisar-input::placeholder {
+  color: #FFF;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+#header .search-blog {
+  display: block;
+  padding: 0px 15px;
+}
+
+#header .search-blog i {
+  color: #FFF;
 }
 
 #blog-single-header {
