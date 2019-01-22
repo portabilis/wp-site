@@ -253,27 +253,12 @@ get_header(); ?>
                 <p><?php the_field('vagas_resumo'); ?></p>
               </div>
               <div class="col-sm-4 align-self-center">
-                <a href="#" data-toggle="modal" data-target="#oportunidade<?php echo $i; ?>" class="btn btn-blue">+ Detalhes</a>
+                <a target="_blank" href="<?php echo get_field('vagas_link'); ?>" class="btn btn-blue">+ Detalhes</a>
               </div>
             </div>
           </div>
         </div>
         <?php
-          $modal .= '<div class="modal fade" id="oportunidade'.$i.'" tabindex="-1" aria-labelledby="exampleModalLabel" role="dialog" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">'.get_the_title(get_the_ID()).'</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                '.get_field('vagas_detalhes').'
-              </div>
-            </div>
-          </div>
-        </div>';
           $i++;
           $delay += 0.25;
         endwhile;
@@ -316,6 +301,6 @@ get_header(); ?>
     </div>
   </div>
 </div>
-<?php echo $modal; ?>
+
 
 <?php get_footer(); ?>

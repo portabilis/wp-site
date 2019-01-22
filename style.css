@@ -10241,6 +10241,12 @@ ul {
   #page.pad-home {
     padding-top: 50px !important;
   }
+  #page.pad-ieducar {
+    padding-top: 50px !important;
+  }
+  #page.pad-sobre {
+    padding-top: 50px !important;
+  }
   #page .div-banner {
     top: -425px !important;
     height: 435px !important;
@@ -10283,6 +10289,9 @@ ul {
   }
   #blog-single-header {
     height: 325px !important;
+  }
+  #header .search-form, #header .search-blog {
+    display: none !important;
   }
   #header #menu #navbarCollapse {
     background-color: #FFF !important;
@@ -10514,6 +10523,40 @@ ul {
 
 #header.blog-single #menu #navbarCollapse ul.navbar-nav li.menu-item:last-child a {
   border-right: 0px;
+}
+
+#header .pesquisar-input {
+  border: 0;
+  background-color: transparent;
+  display: none;
+  color: #FFF;
+  padding: 5px 10px;
+  width: 170px;
+}
+
+#header .pesquisar-input::placeholder {
+  color: #FFF;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+#header .search-blog {
+  display: block;
+  padding: 0px 15px;
+}
+
+#header .search-blog i {
+  color: #FFF;
+  vertical-align: middle;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#header .search-blog:hover i {
+  color: #FFC95C;
 }
 
 #blog-single-header {
@@ -10793,7 +10836,11 @@ ul {
 }
 
 #page.pad-ieducar {
-  padding-top: 200px;
+  padding-top: 150px;
+}
+
+#page.pad-sobre {
+  padding-top: 100px;
 }
 
 #page .div-banner {
@@ -11006,7 +11053,7 @@ ul {
 
 #page .section-d article p {
   color: #FFF;
-  letter-spacing: -0.25px;
+  min-height: 90px;
 }
 
 #page .section-d article .btn-base {
@@ -11812,10 +11859,12 @@ ul {
   font-size: 1.125rem;
   text-align: left;
   color: #506073;
+  min-height: 63px;
 }
 
 #page.blog .blog-posts article .desc p {
   color: #506073;
+  min-height: 90px;
 }
 
 #page.blog .blog-posts article .desc .cat {
@@ -12040,10 +12089,12 @@ ul {
   text-align: left;
   color: #506073;
   margin-bottom: 1.5rem;
+  min-height: 63px;
 }
 
 #page.blog-single .related article .desc p {
   color: #506073;
+  min-height: 90px;
 }
 
 #page.blog-single .related article .desc .cat {
@@ -12058,7 +12109,7 @@ ul {
   text-transform: uppercase;
 }
 
-#page.blog-single .related .btn-mais {
+#page.blog-single .related .btn-mais-single {
   border-radius: 5px;
   color: #506073;
   display: inline-block;
@@ -12073,10 +12124,11 @@ ul {
   transition: all 0.5s ease-in-out;
 }
 
-#page.blog-single .related .btn-mais:hover {
+#page.blog-single .related .btn-mais-single:hover {
   text-decoration: none;
   background-color: #242b33;
   color: #FFF;
+  cursor: pointer;
 }
 
 #page h2 {
