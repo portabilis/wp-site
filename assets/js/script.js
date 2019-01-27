@@ -30,5 +30,6 @@
   $('.search-blog').on('click',function(e){
     e.preventDefault();
     $(".pesquisar-input").animate({width:'toggle'},350);
+    $(".pesquisar-input").focus();
   })
 } )( jQuery );

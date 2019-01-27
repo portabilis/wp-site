@@ -34,7 +34,7 @@ get_header('blog-single'); ?>
       </div>
       <div class="tags col-lg-10 offset-lg-1">
         <div class="row">
-          <div class="col-lg-5 col-sm-4">
+          <div class="col-12">
             <div class="row">
               <div class="col-lg-3 mb-lg-0 mb-3 self-align-center">
                 <?php echo get_avatar( get_the_author_meta( 'ID' ) , '','','', array('class' => 'img-fluid img-avatar') ); ?>
@@ -45,9 +45,7 @@ get_header('blog-single'); ?>
               </div>
             </div>
           </div>
-          <div class="col-lg-7 col-sm-8">
-            <?php the_tags_custom() ?>
-          </div>
+
         </div>
       </div>
       <div class="comments col-lg-10 offset-lg-1">
@@ -63,7 +61,7 @@ get_header('blog-single'); ?>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2>Publicações Relacionadas</h2>
+          <h2>Publicações relacionadas</h2>
         </div>
       </div>
       <div class="row blog-related-list"></div>

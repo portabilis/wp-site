@@ -53,7 +53,7 @@ get_header(); ?>
         <div class="col-lg-3 col-sm-6 wow animated zoomIn" data-wow-delay="0.75s">
           <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar4.jpg"; ?>" />
           <h6 class="small">PARA O</h6>
-          <h3>Ténico de TI</h3>
+          <h3>Técnico de TI</h3>
           <p>O Software Livre para a Gestão Escolar.</p>
           <ul>
             <li>Solução de baixo custo com time de especialistas</li>

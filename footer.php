@@ -39,7 +39,8 @@
             <div class="footer-title">REDES SOCIAIS</div>
             <ul class="redes">
               <li><a target="_blank" href="https://www.facebook.com/portabilis" title=""><i class="fab fa-facebook-f"></i></a></li>
-              <li><a target="_blank" href="https://www.instagram.com/portabilis/" title=""><i class="fab fa-instagram"></i></a></li>
+              <li><a target="_blank" href="https://twitter.com/portabilis" title=""><i class="fab fa-twitter"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/portabilis/"><i class="fab fa-instagram"></i></a></li>
               <li><a target="_blank" href="https://twitter.com/portabilis" title=""><i class="fab fa-twitter"></i></a></li>
             </ul>
           </div>

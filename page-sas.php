@@ -23,40 +23,6 @@ get_header('sas'); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_19.jpg"; ?>" />
-                  </div>
-                  <div class="col-9">
-                    <h3>Mais agilidade e menos burocracia</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Atividades em grupo e benefícios</h4>
-                <p>Gestão completa de concessão de benefícios eventuais, projetos e atividades coletivas organizadas e monitoradas.</p>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Integração de dados entre equipamentos</h4>
-                <p>Tratamento seguro de dados e criação de formulários personalizados com instrumentos técnico-operativos.</p>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Integração com sistemas do MDS</h4>
-                <p>Gestão da informação, importação e exportação de dados dos equipamentos para os sistemas do MDS.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource-b">
-                <div class="row no-gutters">
-                  <div class="col-3">
                     <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_20.jpg"; ?>" />
                   </div>
                   <div class="col-9">
@@ -67,20 +33,66 @@ get_header('sas'); ?>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Agendamento e atendimento aos usuários</h4>
-                <p>Controle total do cadastro de famílias e indivíduos, gerenciando as vulnerabilidades, programas e serviços.</p>
+                <h4>Atendimentos mais inteligentes</h4>
+                <p>Atendimentos, encaminhamentos e contrarreferência com sistema de notificação para ninguém perder nada.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Encaminhamentos e contrarreferência</h4>
-                <p>Integralidade nos atendimentos com avisos aos técnicos para acompanhamento da contrarreferência.</p>
+                <h4>Atividades coletivas e comunitárias</h4>
+                <p>Atividades coletivas com controle de recursos investidos, lista de presença e controle de frequência integrado.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Inclusão nos serviços e planos de metas</h4>
-                <p>Identifique potencialidades, vulnerabilidades e necessidades dos usuários, defina objetivos e metas de intervenção.</p>
+                <h4>Acompanhamento e controle de metas</h4>
+                <p>Acompanhamento dos usuários nos serviços e plano de acompanhamento familiar com controle de metas.</p>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Controle de benefícios eventuais</h4>
+                <p>Gestão das concessões com controle de estoque e limitadores personalizáveis de acordo com cada realidade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource-b">
+                <div class="row no-gutters">
+                  <div class="col-3">
+                    <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_19.jpg"; ?>" />
+                  </div>
+                  <div class="col-9">
+                    <h3>Mais facilidades e menos burocracia</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Integração com sistemas do MDS</h4>
+                <p>CadÚnico, Prontuário SUAS, SISC, SICON, SIBEC, todos integrados para economizar o seu tempo e facilitar o seu dia a dia.</p>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Confiança no envio do RMA</h4>
+                <p>Desburocratização, facilidade e integridade no envio das informações do Registro Mensal de Atendimento (RMA) dos equipamentos</p>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Programas habitacionais personalizados</h4>
+                <p>Gestão das demandas habitacionais com enquadramento e seleção de beneficiários por critérios personalizados de acordo com cada realidade.</p>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Personalização de instrumentos técnicos</h4>
+                <p>Criação de formulários e instrumentos técnico-operativos personalizados de acordo com a necessidade do profissional.</p>
               </div>
             </div>
           </div>
@@ -102,19 +114,25 @@ get_header('sas'); ?>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
                 <h4>Indicadores e gráficos em tempo real</h4>
-                <p>Os gestores podem tomar melhores decisões baseadas em dados reais dos equipamentos do seu município.</p>
+                <p>Relatórios e indicadores sociais para gestores e coordenadores tomarem melhores decisões baseadas em dados e evidências.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
                 <h4>Indicadores de produção técnica</h4>
-                <p>Dados que vêm de relatórios e indicadores para acompanhar a produção técnica com eficiência.</p>
+                <p>Dados para apoiar no acompanhamento dos esforços das equipes de referência, identificando gargalos de atendimento.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Consulta e emissão do RMA</h4>
-                <p>Desburocratização e facilidade no preenchimento e emissão do RMA, economia de tempo e informações padronizadas.</p>
+                <h4>Dados dos territórios em mapas</h4>
+                <p>Diagnóstico socioterritorial usando mapas para facilitar o mapeamento das vulnerabilidades e usuários nos territórios.</p>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Exportação de dados</h4>
+                <p>Não temos um relatório ou gráfico que você precisa? Você mesmo pode exportar os dados e criar seus próprios indicadores.</p>
               </div>
             </div>
           </div>
@@ -142,152 +160,28 @@ get_header('sas'); ?>
       </div>
     </div>
   </div>
-  <div class="section-h section-padding">
+  <div class="section-c section-padding green">
     <div class="container">
-      <div class="row no-gutters wow animated fadeIn">
-        <div class="col-sm-4 align-self-center">
-          <h3 class="wow animated fadeInUp">Conheça nossos planos</h3>
-        </div>
-        <div class="col-sm-4">
-          <div class="title-version">
-            <strong>Versão</strong>Comunidade
-          </div>
-          <div class="desc-version">
-            Pensado para pequenas redes de ensino e escolas particulares.
-            <a href="#" style="display: none"  class="btn-base btn-blue btn-resp" data-toggle="modal" data-target="#cta-a" title="">+ Detalhes</a>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="title-version-b green">
-            <strong>Portabilis</strong>Pro
-          </div>
-          <div class="desc-version-b green">
-            Redes de médio e grande porte que buscam atendimento especializado.
-            <a href="#" style="display: none"  class="btn-base btn-white btn-resp" data-toggle="modal" data-target="#cta-b" title="">+ Detalhes</a>
-          </div>
+      <div class="row justify-content-center wow animated fadeInUp"">
+        <div class="col-lg-9">
+          <h2>Vamos bater um papo sobre as suas dificuldades?</h2>
         </div>
       </div>
-      <div class="detail">
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Incluso i-Educar Comunidade
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 offset-lg-2 txt-right wow animated fadeInLeft" data-wow-delay="0.25s">
+          <a href="<?php echo home_url( '/fale-conosco' ); ?>" class="btn-basec btn-whited" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
         </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Pacote de relatórios Comunidade
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Implantação e treinamento on-line
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Importação e exportação do Censo Escolar/INEP
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Suporte por e-mail
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Sem limites de escolar e usuários
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Suporte por e-mail, chat e telefone <span class="pro">PRO</span>
-          </div>
-          <div class="col-sm-4 check">
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Diário Eletrônico do Professor <span class="pro">PRO</span>
-          </div>
-          <div class="col-sm-4 check">
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Pré-matrícula on-line <span class="pro">PRO</span>
-          </div>
-          <div class="col-sm-4 check">
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Pacote de relatórios Portabilis <span class="pro">PRO</span>
-          </div>
-          <div class="col-sm-4 check">
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-          </div>
-          <div class="col-sm-4 check">
-            <a href="#"  class="btn-base btn-blue" data-toggle="modal" data-target="#cta-a" title="">+Detalhes</a>
-          </div>
-          <div class="col-sm-4 check">
-            <a href="#" class="btn-base btn-blue" data-toggle="modal" data-target="#cta-b" title="">+Detalhes</a>
-          </div>
+        <div class="col-lg-4 col-sm-6 text-left txt-left  wow animated fadeInRight" data-wow-delay="0.5s">
+          <ul>
+            <li>sem compromisso</li>
+            <li>gratuito</li>
+            <li>personalizado para seu município</li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-  <div class="section-i">
+  </div> 
+  <div class="section-i section-padding">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 col-sm-12">

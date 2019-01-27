@@ -154,6 +154,11 @@
     background-color:#0072ff;
     margin-top:6rem;
 
+    &.green{
+      background-color:#33CC57;
+      margin-top:0;
+    }
+
     h2{
       margin-bottom:3rem;
       color:#FFF;
@@ -580,7 +585,7 @@
       margin-bottom:4rem;
     }
     .resource{
-      padding:1.5rem 1rem;
+      padding:1.5rem 0.875rem;
       background-color:#FFF;
       margin-bottom:2rem;
 
@@ -593,6 +598,7 @@
         margin-bottom:0;
         font-size:1rem;
         line-height:1.5rem;
+        min-height:120px;
       }
     }
     .resource-b{

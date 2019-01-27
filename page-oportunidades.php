@@ -150,7 +150,7 @@ get_header(); ?>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.375s">
           <div class="resource">
             <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-pet.png"; ?>" />
-            <h4>Pets são bem vindos aqui</h4>
+            <h4>Pets são bem-vindos aqui</h4>
             <p>No Pet Day, você pode trazer o seu pet para passar o dia na empresa conosco. </p>
           </div>
         </div>
