@@ -40,6 +40,17 @@
     .wrap-title{
       position:static !important;
       padding-top:25px !important;
+
+      &.banner-home{
+        h1{
+          font-size:1.5rem !important;
+          line-height:2rem !important;
+        }
+        .subtitle{
+          font-size:1.25rem !important;
+          line-height:1rem !important;
+        }
+      }
     }
   }
   #banner-ieducar{
@@ -128,6 +139,9 @@
       &.pad-sas{
         padding-top:60px;
       }
+      .resource{
+        min-height:auto;
+      } 
     }
   }
 }
@@ -170,6 +184,21 @@
 @include media-breakpoint-down(xs) {
   html{
     font-size:12px !important;
+  }
+
+  #banner{
+    .wrap-title{
+      &.banner-home{
+        h1{
+          font-size:1.125rem !important;
+          line-height:1.5rem !important;
+        }
+        .subtitle{
+          font-size:1rem !important;
+          line-height:1.125rem !important;
+        }
+      }
+    }
   }
 
   #blog-single-header{
