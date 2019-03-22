@@ -102,7 +102,7 @@ get_header(); ?>
         <div class="col-lg-6 ml-lg-auto col-sm-6 align-self-center wow animated fadeInRight">
           <h3>Fundação Negro Amor</h3>
           <p>Promovendo educação infantil de qualidade, inclusão digital e protagonismo juvenil, a Fundação Negro Amor busca que populações afrodescendentes historicamente excluídas conquistem direitos políticos, sociais e culturais e assim construam cada vez mais cidadania.</p>
-          <span>Bahia</span>
+          <span><img width="20" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/flag1.png"; ?>" /> Bahia</span>
         </div>
       </div>
       <div class="row mb-sm-6 mb-6">
@@ -112,7 +112,7 @@ get_header(); ?>
         <div class="col-lg-6 col-sm-6 align-self-center order-sm-1 wow animated fadeInLeft">
           <h3>AMA-REC</h3>
           <p>A associação de Pais e Amigos de Autistas da Região Carbonífera é uma associação sem fins lucrativos, que busca proteger os direitos das pessoas autistas.  A AMA-REC é mantenedora da <strong>Escola Especial Meu Mundo</strong>, que fornece um atendimento pedagógico e específico para a causa autística, buscando a inclusão e o acolhimento de todas as pessoas.</p>
-          <span>Santa Catarina</span>
+          <span><img width="20" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/flag2.png"; ?>" /> Santa Catarina</span>
         </div>
       </div>
       <div class="row">
@@ -124,7 +124,7 @@ get_header(); ?>
           <p>
             O Bairro da Juventude oferece para a comunidade uma política inclusiva voltada à responsabilidade social, defesa, proteção e promoção dos direitos da criança e dos jovens do sul catarinense.
           </p>
-          <span>Santa Catarina</span>
+          <span><img width="20" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/flag2.png"; ?>" /> Santa Catarina</span>
         </div>
       </div>
     </div>
