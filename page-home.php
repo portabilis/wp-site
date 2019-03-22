@@ -14,7 +14,7 @@ get_header(); ?>
       <div class="row no-gutters justify-content-center title-home">
         <div class="col-lg-7 col-sm-12">
           <h2 class="wow animated fadeInUp">Qual é a nossa causa?</h2>
-          <p class="subtitle text-center wow animated fadeInUp" data-wow-delay="0.25s">Nós acreditamos que se apoiarmos os governos a fazer uma gestão mais inteligente das políticas voltadas às crianças e adolescentes e as populações em situação de vulnerabilidade social conseguiremos construir o país que sonhamos.</p>
+          <p class="subtitle text-center wow animated fadeInUp" data-wow-delay="0.25s">Acreditamos que se apoiarmos os governos a fazer uma gestão mais eficiente das políticas voltadas às crianças e adolescentes e as populações em situação de vulnerabilidade social, por meio de tecnologia e dados, conseguiremos construir um país mais justo.</p>
         </div>
       </div>
       <div class="row">
@@ -66,7 +66,7 @@ get_header(); ?>
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
           <h3>Onde queremos chegar?</h3>
-          <p>Nós já ajudamos os municípios a atender e acompanhar as famílias em situação de vulnerabilidade e risco social, bem como gerir o desempenho dos alunos destas mesmas famílias na escola. Agora, estamos dedicados a provar nossa visão, apoiando os governos a integrarem saberes e esforços de diferentes setores para fazer enfrentamentos coletivos frente aos problemas sociais dos núcleos familiares.</p>
+          <p>Nós já ajudamos os municípios a atender e acompanhar as famílias em situação de vulnerabilidade e risco social, bem como gerir o desempenho dos alunos destas mesmas famílias na escola. Agora, estamos dedicados em apoiar os governos a integrarem saberes e esforços de diferentes setores para fazer enfrentamentos coletivos frente aos problemas sociais.</p>
           <a href="http://portabil.is/intersetorialidade" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
       </div>

@@ -19,9 +19,9 @@ get_header(); ?>
           </p>
         </div>
         <div class="col-lg-5 offset-lg-2 col-sm-6">
-          <h2 class="wow animated fadeInUp light">Quase 2% dos alunos da rede pública estão conosco</h2>
+          <h2 class="wow animated fadeInUp light">Quase meio milhão de alunos do Brasil estão conosco</h2>
           <p class="wow animated fadeInUp">
-            <strong>Há quase 10 anos</strong>, nossos <strong>30 funcionários</strong> transformam a vida de milhões de pessoas em mais de <strong>90 cidades</strong> com mais de <strong>300 mil alunos</strong>, ensinados por mais de <strong>20 mil professores</strong>.
+            <strong> Há quase 10 anos</strong>, nossos 30 funcionários transformam a vida de milhões de pessoas em mais de <strong>100 cidades</strong>, com mais de <strong>300 mil alunos, 20 mil professores</strong>, e impactam positivamente mais de <strong>50 mil</strong> famílias em situação de vulnerabilidade e risco social no País por meio do nosso trabalho
           </p>
         </div>
       </div>
@@ -117,14 +117,14 @@ get_header(); ?>
       </div>
       <div class="row">
         <div class="col-lg-5 col-sm-6 wow animated fadeInLeft">
-          <img class="img-fluid mb-3" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/apoiando2.png"; ?>" />
+          <img class="img-fluid mb-3" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/apoiando3.jpg"; ?>" />
         </div>
         <div class="col-lg-6 col-sm-6 ml-lg-auto align-self-center wow animated fadeInRight">
-          <h3>Instituto Mãos de Arte</h3>
+          <h3>Bairro da Juventude</h3>
           <p>
-          É o primeiro Instituto no Brasil a integrar simultaneamente arteterapia, tecnologia e comunicação assistiva, trabalhando na promoção da saúde, educação e cultura em todos os seus segmentos. Atendendo pessoas com deficiência física, cognitiva e intelectual de forma gratuita, o instituto favorece a sua reinserção na sociedade, a inclusão digital e a oportunidade de uma nova capacitação profissional
+            O Bairro da Juventude oferece para a comunidade uma política inclusiva voltada à responsabilidade social, defesa, proteção e promoção dos direitos da criança e dos jovens do sul catarinense.
           </p>
-          <span>Distrito Federal</span>
+          <span>Santa Catarina</span>
         </div>
       </div>
     </div>

@@ -160,6 +160,45 @@ get_header('sas'); ?>
       </div>
     </div>
   </div>
+  <div class="section-i section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 col-sm-12">
+          <h2 class="wow animated fadeInUp">Serviços especiais que fornecemos com o Portabilis SAS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 offset-sm-2 wow animated zoomIn">
+          <div class="resource">
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-globe.png"; ?>" />
+            <h4>Embarque bem sucedido e sem complexidade da adoção</h4>
+            <p>Nossa equipe de especialistas elimina toda a complexidade da adoção e entrega o Portabilis SAS configurado de acordo com a realidade do seu município.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
+          <div class="resource">
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-file-sheet.png"; ?>" />
+            <h4>Consultoria de sucesso Portabilis</h4>
+            <p>No dia a dia, vamos te ajudar com os obstáculos e contribuir para que você extraia o máximo de potencial da solução.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 offset-sm-2 wow animated zoomIn">
+          <div class="resource">
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/censo.png"; ?>" />
+            <h4>Evolução continuada do produto</h4>
+            <p>O Portabilis SAS está sempre sendo aprimorado, o que garante que você tenha uma solução que está sempre evoluindo. </p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
+          <div class="resource">
+            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-calendar.png"; ?>" />
+            <h4>Garantia de disponibilidade e segurança</h4>
+            <p>Você se preocupa com a gestão e nós assumimos a responsabilidade pela disponibilidade e segurança dos dados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="section-c section-padding green">
     <div class="container">
       <div class="row justify-content-center wow animated fadeInUp"">
@@ -181,59 +220,6 @@ get_header('sas'); ?>
       </div>
     </div>
   </div> 
-  <div class="section-i section-padding">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-7 col-sm-12">
-          <h2 class="wow animated fadeInUp">Incluso em todos os planos</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 wow animated zoomIn">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-globe.png"; ?>" />
-            <h4>Embarque bem sucedido Portabilis</h4>
-            <p>Nossa equipe elimina toda a complexidade da adoção, entregando a solução adaptada e configurada de acordo com a sua realidade.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-activity.png"; ?>" />
-            <h4>Sua voz tem poder aqui</h4>
-            <p>Você terá a chance de direcionar o desenvolvimento do maior software livre de gestão escolar do Brasil!</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/censo.png"; ?>" />
-            <h4>Atualizações mais confiáveis</h4>
-            <p>Somos os mantenedores oficiais do i-Educar e ofere-cemos atualizações mais rápidas para o seu ambiente.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-file-sheet.png"; ?>" />
-            <h4>Consultoria de sucesso Portabilis</h4>
-            <p>No dia a dia, vamos te ajudar com os obstáculos e contribuir para que você extraia o máximo de potencial da solução.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-users.png"; ?>" />
-            <h4>Você investindo na educação do País</h4>
-            <p>Quando você nos contrata, investimos estes recursos para melhorar o software que beneficia milhares de pessoas no país.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-calendar.png"; ?>" />
-            <h4>Garantia de disponibilidade e segurança</h4>
-            <p>Você se preocupa com o sucesso da sua rede ou escola e nós a responsabilidade pela disponibilidade e segurança dos dados.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="section-j section-padding">
     <div class="container">
       <div class="row justify-content-center">
