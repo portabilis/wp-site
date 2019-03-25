@@ -41,7 +41,9 @@
               <li><a target="_blank" href="https://www.facebook.com/portabilis" title=""><i class="fab fa-facebook-f"></i></a></li>
               <li><a target="_blank" href="https://twitter.com/portabilis" title=""><i class="fab fa-twitter"></i></a></li>
               <li><a target="_blank" href="https://www.instagram.com/portabilis/"><i class="fab fa-instagram"></i></a></li>
-              <li><a target="_blank" href="https://twitter.com/portabilis" title=""><i class="fab fa-twitter"></i></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/company/portabilis-tecnologia/" title=""><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a target="_blank" href="https://github.com/portabilis" title=""><i class="fab fa-github"></i></a></li>
+              <li><a target="_blank" href="https://medium.com/portabilis" title=""><i class="fab fa-medium-m"></i></a></li>
             </ul>
           </div>
           <div class="col-lg-12 col-sm-8">

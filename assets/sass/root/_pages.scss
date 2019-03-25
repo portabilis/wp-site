@@ -482,6 +482,7 @@
       padding:1.5rem 1rem;
       background-color:#FFF;
       margin-bottom:2rem;
+      min-height: 248px;
 
       .spacer{
         height:24px;
@@ -1071,6 +1072,7 @@
         margin-bottom:1.5rem;
         .desc{
           padding:1rem;
+          min-height: 350px;
           h5{
             font-size:1.125rem;
             text-align:left;

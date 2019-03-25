@@ -155,6 +155,19 @@
   #blog-single-header{
     height:325px !important;
   }
+
+  .blog-single{
+    .related{
+      article{
+        .desc{
+          min-height: auto!important;
+          h5{
+            min-height: auto!important;
+          }
+        }
+      }
+    }
+  }
   #header{
     .search-form,.search-blog{
       display:none!important;
@@ -280,6 +293,12 @@
       }
       .desc-version{
         margin-bottom:25px !important;
+      }
+    }
+
+    .section-i{
+      .resource{
+        min-height: auto!important;
       }
     }
     .section-m{
