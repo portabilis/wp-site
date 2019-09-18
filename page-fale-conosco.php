@@ -5,7 +5,7 @@ get_header(); ?>
     <div class="container">
       <div class="row wow animated fadeIn">
         <div class="col-sm-6">
-          <h1>Fale com a a gente!</h2>
+          <h1>Fale com a gente!</h2>
           <p class="subtitle mb-6">Informações de contato</p>
           <p>
             <strong>Endereço</strong><br>
@@ -18,7 +18,7 @@ Rua Vitória, 538, Edif. Dionísio Pavei<br> Centro, Içara – SC – CEP: 8882
           <p><strong>E-mail</strong><br>
             contato@portabilis.com.br
           </p>
-          <p class="mb-1"><strong>Redes Sociais</strong></p>
+          <p class="mb-1"><strong>Redes sociais</strong></p>
           <ul class="redes">
             <li><a target="_blank" href="https://www.facebook.com/portabilis/"><i class="fab fa-facebook-f"></i></a></li>
             <li><a target="_blank" href="https://twitter.com/portabilis"><i class="fab fa-twitter"></i></a></li>
