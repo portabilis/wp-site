@@ -5,13 +5,8 @@ get_header(); ?>
     <div class="container">
       <div class="row wow animated fadeIn">
         <div class="col-sm-6">
-          <h1>Fale com a a gente!</h2>
-          <p class="subtitle mb-6">Informações de contato</p>
-          <p>
-            <strong>Endereço</strong><br>
-Portabilis Tecnologia Ltda – CNPJ: 11.258.607/0001-92<br>
-Rua Vitória, 538, Edif. Dionísio Pavei<br> Centro, Içara – SC – CEP: 88820-000
-          </p>
+          <h1 class="mb-4">Fale com a a gente!</h2>
+          <p class="subtitle mb-4">Informações de contato</p>
           <p><strong>Telefone</strong><br>
             (48) 3082-9085
           </p>

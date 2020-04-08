@@ -4,6 +4,10 @@ get_header(); ?>
   <div class="wrap-title wow animated fadeInUp banner-home">
     <h1><?php the_field('home_banner_titulo'); ?></h1>
     <div class="big subtitle"><?php the_field('home_banner_subtitulo'); ?></div>
+    <div class="action">
+      <a href="#cta" class="btn-base btn-azul" data-toggle="modal" data-target="#cta" title="Quero conhecer">Quero conhecer</a>
+    </div>
+    <img class="img-fluid d-none" src="/wp-content/uploads/2019/07/banner-principal-home-1.png" alt="Conheça a Portabilis">
   </div>
 </div>
 <div id="page" class="pad-home">
@@ -13,8 +17,8 @@ get_header(); ?>
     <div class="container">
       <div class="row no-gutters justify-content-center title-home">
         <div class="col-lg-7 col-sm-12">
-          <h2 class="wow animated fadeInUp">Qual é a nossa causa?</h2>
-          <p class="subtitle text-center wow animated fadeInUp" data-wow-delay="0.25s">Acreditamos que se apoiarmos os governos a fazer uma gestão mais eficiente das políticas voltadas às crianças e adolescentes e as populações em situação de vulnerabilidade social, por meio de tecnologia e dados, conseguiremos construir um país mais justo.</p>
+          <h2 class="wow animated fadeInUp">O que a Portabilis faz?</h2>
+          <p class="subtitle text-center wow animated fadeInUp" data-wow-delay="0.25s">A Portabilis ajuda que os municípios tenham uma gestão mais precisa e eficiente através do uso de tecnologia e dados nas áreas da educação e da assistência social.</p>
         </div>
       </div>
       <div class="row">
@@ -35,11 +39,11 @@ get_header(); ?>
       <div class="row">
         <div class="col-lg-4 offset-lg-1 col-sm-6 order-sm-1 order-2 wow animated fadeInLeft">
           <h3>Na assistência social</h3>
-          <p>Auxiliamos os profissionais do SUAS a modernizar e qualificar a oferta dos serviços socioassistenciais à população em situação de vulnerabilidade e risco social por meio de fluxos de atendimento e acompanhamento fáceis de usar, diagnóstico socioterritorial com mapas e dados confiáveis para orientar as decisões.</p>
+          <p>Auxiliamos os gestores do SUAS no acompanhamento da evolução e emancipação das famílias atendidas nos serviços socioassistenciais, gerando dados para otimizar os fluxos e projetos da secretaria.</p>
           <a href="<?php echo home_url( '/sas' ); ?>" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 mb-4 mb-sm-0 order-sm-2 order-1 wow animated zoomIn" data-wow-delay="0.25s">
-          <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-assistencia-social.png"; ?>" />
+          <img class="img-fluid" src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/assistencia-social.png" />
         </div>
       </div>
     </div>
@@ -48,12 +52,10 @@ get_header(); ?>
     <div class="container">
       <div class="row no-gutters">
         <div class="col-lg-4 offset-lg-1 col-sm-6 pr-lg-3 align-self-center wow animated fadeInLeft">
-          <h2>Educação e Assistência Social</h2>
+          <h2>Por que educação e assistência social? </h2>
         </div>
         <div class="col-lg-6 col-sm-6  wow animated fadeInRight" data-wow-delay="0.25s">
-          <p>
-<strong>Nosso sonho é um país mais justo, com menos desigualdade e com educação pública de qualidade para todos.</strong> Por isso, investimos primordialmente nossa energia na solução dos problemas de gestão de uma política que é transformada do cidadão,<strong> a Educação,</strong> mas sem perder de vista a gestão e superação dos desafios de outra política garantidora de direitos, a <strong>Assistência Social,</strong> que articula uma rede de proteção social às crianças, adolescentes e famílias, buscando o enfrentamento de vulnerabilidades, violência e violação de direitos desta população.
-</p>
+          <p>Ao longo dos anos, descobrimos que aspectos socioassistenciais impactam e interferem na aprendizagem dos alunos em sala de aula. Por isso investimos nessas duas áreas, para produzir, sistematizar e usar os dados destas duas áreas para orientar ambas políticas públicas.</p>
         </div>
       </div>
     </div>
@@ -65,8 +67,8 @@ get_header(); ?>
           <img width="380" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/home-intersetorialidade.jpg"; ?>" />
         </div>
         <div class="col-lg-4 offset-lg-2 col-sm-6 wow animated fadeInRight" data-wow-delay="0.25s">
-          <h3>Onde queremos chegar?</h3>
-          <p>Nós já ajudamos os municípios a atender e acompanhar as famílias em situação de vulnerabilidade e risco social, bem como gerir o desempenho dos alunos destas mesmas famílias na escola. Agora, estamos dedicados em apoiar os governos a integrarem saberes e esforços de diferentes setores para fazer enfrentamentos coletivos frente aos problemas sociais.</p>
+          <h3>Intersetorialidade</h3>
+          <p>Sabemos da importância da visão socioassistencial e que a intersetorialidade pode ajudar a direcionar e adaptar os processos pedagógicos, sob os aspectos das populações em situação de vulnerabilidade e risco social, que estão quase  em sua totalidade nas redes públicas de ensino.</p>
           <a href="http://portabil.is/intersetorialidade" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
       </div>
@@ -81,7 +83,7 @@ get_header(); ?>
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-6 offset-lg-2 txt-right wow animated fadeInLeft" data-wow-delay="0.25s">
-          <a href="<?php echo home_url( '/fale-conosco' ); ?>" class="btn-basec btn-white" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
+          <a href="<?php echo home_url( '/fale-conosco' ); ?>" class="btn-basec btn-white" title="mande uma mensagem para gente">Mande uma mensagem pra gente</a>
         </div>
         <div class="col-lg-4 col-sm-6 text-left txt-left  wow animated fadeInRight" data-wow-delay="0.5s">
           <ul>
@@ -123,10 +125,23 @@ $.ajax({
       page = parseInt(data[0].id)+1;
       var article = '';
       for(var i = 0; i < data.length; i++){
-        article = '<div class="col-lg-3 col-sm-6"><article><span style="margin-bottom:15px" class="category">'+data[i].category+'</span>'+data[i].img+'<p style="margin-top:15px">'+data[i].excerpt+'</p><a href="'+data[i].url+'" class="btn-base btn-whitec" title="Saiba mais">Saiba mais</a></article></div>';
+        article = '<div class="col-lg-3 col-sm-6"><article><span style="margin-bottom:15px" class="category">'+data[i].category+'</span>'+data[i].img+'<p style="margin-top:15px">'+data[i].excerpt+'</p><a href="'+data[i].url+'" class="btn-base btn-whitec" title="Saiba mais">Leia mais sobre</a></article></div>';
         $('.blog-posts-ajax').append(article);
       }
     }
 });
 </script>
+<!-- Modal -->
+<div class="modal fade" id="cta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <?php
+        echo do_shortcode(get_field('fale_conosco_formulario', false, false));
+        ?>
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php get_footer(); ?>

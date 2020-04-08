@@ -68,4 +68,24 @@
   </div>
 </div>
 <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/cda77382-cb63-488d-aa03-ee0ae26903b9-loader.js" ></script>
+<script>
+    jQuery('select.form-control').on("click", () => {
+    console.log("Select clicado");
+      jQuery("select.form-control").toggleClass("active dropdown")
+  });
+</script>
+
 <?php wp_footer(); ?>
+
+<!-- Start of Rocket.Chat Livechat Script -->
+<script type="text/javascript">
+(function(w, d, s, u) {
+        w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+        var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+        j.async = true; j.src = 'https://chat.portabilis.com.br/livechat/rocketchat-livechat.min.js?_=201903278002';
+        h.parentNode.insertBefore(j, h);
+})(window, document, 'script', 'https://chat.portabilis.com.br/livechat');
+</script>
+<!-- End of Rocket.Chat Livechat Script -->
+
+

@@ -1,12 +1,16 @@
 <?php
 get_header('sas'); ?>
-<div id="banner-sas">
+<div id="banner-sas" class="bg-banner-sas">
   <div class="wrap-title wow animated fadeInUp">
     <h1><?php the_field('sas_banner_titulo'); ?></h1>
     <div class="big subtitle"><?php the_field('sas_banner_subtitulo'); ?></div>
+    <div class="action">
+      <a href="#quero-conhecer" data-toggle="modal" data-target="#quero-conhecer" class="btn-base btn-azul" title="Quero conhecer">Quero conhecer</a>
+    </div>
+    <img class="img-fluid d-none" src="/wp-content/uploads/2019/08/banner-principal-produto-assistencia-social.png" alt="Conheça o Portabilis SAS">
   </div>
 </div>
-<div id="page">
+<div id="page" class="page-sas">
   <div class="div-banner-sas">
   </div>
   <div class="section-l pad-sas">
@@ -23,7 +27,41 @@ get_header('sas'); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_20.jpg"; ?>" />
+                    <img width='60' height="60" src="<?php echo get_site_url();?>/wp-content/uploads/2019/07/icon-decisao.png" />
+                  </div>
+                  <div class="col-9">
+                    <h3>Mais agilidade e menos burocracia</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Atividades em grupos e benefícios</h4>
+                <p>Gestão completa de concessão de benefícios eventuais, projetos e atividades coletivas organizadas e monitoradas.</p>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Integração de dados entre equipamentos</h4>
+                <p>Tratamento seguro de dados e criação de formulários personalizados com instrumentos técnico-operativos.</p>
+              </div>
+            </div>
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource">
+                <h4>Integração com sistemas do MDS</h4>
+                <p>Gestão da informação, importação e exportação de dados dos equipamentos para os sistemas do MDS.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="col-12 wow animated zoomIn">
+              <div class="resource-b">
+                <div class="row no-gutters">
+                  <div class="col-3">
+                    <img width='60' height="60" src="<?php echo get_site_url();?>/wp-content/uploads/2019/07/icon-acompanhamento.png" />
                   </div>
                   <div class="col-9">
                     <h3>Atendimento e acompanhamento</h3>
@@ -33,26 +71,20 @@ get_header('sas'); ?>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Atendimentos mais inteligentes</h4>
-                <p>Atendimentos, encaminhamentos e contrarreferência com sistema de notificação para ninguém perder nada.</p>
+                <h4>Agendamento e atendimento aos usuários</h4>
+                <p>Controle total do cadastro de famílias e indivíduos, gerenciando as vulnerabilidades, programas e serviços.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Atividades coletivas e comunitárias</h4>
-                <p>Atividades coletivas com controle de recursos investidos, lista de presença e controle de frequência integrado.</p>
+                <h4>Encaminhentos e contrarreferência</h4>
+                <p>Integralidade no atendimento e com avisos para os técnicos para acompanhamento da contrarreferência.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Acompanhamento e controle de metas</h4>
-                <p>Acompanhamento dos usuários nos serviços e plano de acompanhamento familiar com controle de metas.</p>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Controle de benefícios eventuais</h4>
-                <p>Gestão das concessões com controle de estoque e limitadores personalizáveis de acordo com cada realidade.</p>
+                <h4>Inclusão nos serviços e planos de metas</h4>
+                <p>Identifique potencialidades, vulnerabilidades e necessidades dos usuários, defina objetivos e metas de intervenção.</p>
               </div>
             </div>
           </div>
@@ -63,47 +95,7 @@ get_header('sas'); ?>
               <div class="resource-b">
                 <div class="row no-gutters">
                   <div class="col-3">
-                    <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_19.jpg"; ?>" />
-                  </div>
-                  <div class="col-9">
-                    <h3>Mais facilidades e menos burocracia</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Integração com sistemas do MDS</h4>
-                <p>CadÚnico, Prontuário SUAS, SISC, SICON, SIBEC, todos integrados para economizar o seu tempo e facilitar o seu dia a dia.</p>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Confiança no envio do RMA</h4>
-                <p>Desburocratização, facilidade e integridade no envio das informações do Registro Mensal de Atendimento (RMA) dos equipamentos</p>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Programas habitacionais personalizados</h4>
-                <p>Gestão das demandas habitacionais com enquadramento e seleção de beneficiários por critérios personalizados de acordo com cada realidade.</p>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Personalização de instrumentos técnicos</h4>
-                <p>Criação de formulários e instrumentos técnico-operativos personalizados de acordo com a necessidade do profissional.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="row">
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource-b">
-                <div class="row no-gutters">
-                  <div class="col-3">
-                    <img width='60' height="60" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/icon_21.jpg"; ?>" />
+                    <img width='60' height="60" src="<?php echo get_site_url();?>/wp-content/uploads/2019/07/icon-decisao.png" />
                   </div>
                   <div class="col-9">
                     <h3>Dados para tomada de decisão</h3>
@@ -114,25 +106,19 @@ get_header('sas'); ?>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
                 <h4>Indicadores e gráficos em tempo real</h4>
-                <p>Relatórios e indicadores sociais para gestores e coordenadores tomarem melhores decisões baseadas em dados e evidências.</p>
+                <p>Os gestores podem tomar melhores decisões baseadas em dados reais e diretos dos equipamentos do seu município.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
                 <h4>Indicadores de produção técnica</h4>
-                <p>Dados para apoiar no acompanhamento dos esforços das equipes de referência, identificando gargalos de atendimento.</p>
+                <p>Dados que vêm de relatórios e indicadores para acompanhar a produção técnica com eficiência.</p>
               </div>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Dados dos territórios em mapas</h4>
-                <p>Diagnóstico socioterritorial usando mapas para facilitar o mapeamento das vulnerabilidades e usuários nos territórios.</p>
-              </div>
-            </div>
-            <div class="col-12 wow animated zoomIn">
-              <div class="resource">
-                <h4>Exportação de dados</h4>
-                <p>Não temos um relatório ou gráfico que você precisa? Você mesmo pode exportar os dados e criar seus próprios indicadores.</p>
+                <h4>Consulta e emissão do RMA</h4>
+                <p>Desburocratização e facilidade no preenchimento e emissão do RMA, economia de tempo e informações uniformizadas.</p>
               </div>
             </div>
           </div>
@@ -160,66 +146,73 @@ get_header('sas'); ?>
       </div>
     </div>
   </div>
-  <div class="section-i section-padding">
+  <div class="section-k bg-white section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="wow animated fadeInUp">Entre em contato para saber mais</h2>
+          <p class="big subtitle">Preencha o formulário que entraremos em contato para mais informações.</p>
+        </div>
+        <div class="col-lg-4">
+          <br>
+          <a href="#quero-conhecer" data-toggle="modal" data-target="#quero-conhecer" class="btn-base btn-azul" title="Entre em contato para saber mais">Entre em contato para saber mais</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  <div class="section-i">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 col-sm-12">
-          <h2 class="wow animated fadeInUp">Serviços especiais que fornecemos com o Portabilis SAS</h2>
+          <h2 class="wow animated fadeInUp">Incluso em todos os planos</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4 offset-sm-2 wow animated zoomIn">
+        <div class="col-sm-4 wow animated zoomIn">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-globe.png"; ?>" />
-            <h4>Embarque bem sucedido e sem complexidade da adoção</h4>
-            <p>Nossa equipe de especialistas elimina toda a complexidade da adoção e entrega o Portabilis SAS configurado de acordo com a realidade do seu município.</p>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-star.png"; ?>" />
+            <h4>Embarque bem sucedido Portabilis</h4>
+            <p>Nossa equipe elimina toda a complexidade da adoção, entregando a solução adaptada e configurada de acordo com a sua realidade.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
+          <div class="resource">
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-flag.png"; ?>" />
+            <h4>Sua voz tem poder aqui</h4>
+            <p>Você terá a chance de direcionar o desenvolvimento do maior software livre de gestão escolar do Brasil!</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-file-sheet.png"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-refresh.png"; ?>" />
+            <h4>Atualizações mais confiáveis</h4>
+            <p>Somos os mantenedores oficiais do i-Educar e oferecemos atualizações mais rápidas para o seu ambiente.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 wow animated zoomIn">
+          <div class="resource">
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-award.png"; ?>" />
             <h4>Consultoria de sucesso Portabilis</h4>
             <p>No dia a dia, vamos te ajudar com os obstáculos e contribuir para que você extraia o máximo de potencial da solução.</p>
           </div>
         </div>
-        <div class="col-sm-4 offset-sm-2 wow animated zoomIn">
+        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/censo.png"; ?>" />
-            <h4>Evolução continuada do produto</h4>
-            <p>O Portabilis SAS está sempre sendo aprimorado, o que garante que você tenha uma solução que está sempre evoluindo. </p>
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-book-open.png"; ?>" />
+            <h4>Você investindo na educação do País</h4>
+            <p>Quando você nos contrata, investimos estes recursos para melhorar o software que beneficia milhares de pessoas no país.</p>
           </div>
         </div>
         <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
           <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-calendar.png"; ?>" />
+            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-shield.png"; ?>" />
             <h4>Garantia de disponibilidade e segurança</h4>
-            <p>Você se preocupa com a gestão e nós assumimos a responsabilidade pela disponibilidade e segurança dos dados.</p>
+            <p>Você se preocupa com o sucesso da sua rede, e nós nos preocupamos com a disponibilidade e segurança dos dados.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="section-c section-padding green">
-    <div class="container">
-      <div class="row justify-content-center wow animated fadeInUp"">
-        <div class="col-lg-9">
-          <h2>Vamos bater um papo sobre as suas dificuldades?</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 offset-lg-2 txt-right wow animated fadeInLeft" data-wow-delay="0.25s">
-          <a href="<?php echo home_url( '/fale-conosco' ); ?>" class="btn-basec btn-whited" title="mande uma mensagem para gente">MANDE UMA MENSAGEM PRA GENTE</a>
-        </div>
-        <div class="col-lg-4 col-sm-6 text-left txt-left  wow animated fadeInRight" data-wow-delay="0.5s">
-          <ul>
-            <li>sem compromisso</li>
-            <li>gratuito</li>
-            <li>personalizado para seu município</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div> 
   <div class="section-j section-padding">
     <div class="container">
       <div class="row justify-content-center">
@@ -304,22 +297,42 @@ get_header('sas'); ?>
       <div class="row">
         <div class="col-lg-8">
           <h2 class="wow animated fadeInUp">Materiais educativos</h2>
-          <p class="big subtitle">Leia gratuitamente nossos materiais ricos sobre assistência social.</p>
+          <p class="big subtitle">Baixe gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social.</p>
         </div>
         <div class="col-lg-4">
           <br>
-          <a href="https://blog.portabilis.com.br/categoria/assistencia-social/" class="btn-baseb btn-whited" title="Conheça os nossos materiais">Conheça os nossos materiais<i class="fas fa-long-arrow-alt-right"></i></a>
+          <a href="https://blog.portabilis.com.br/categoria/assistencia-social/" class="btn-baseb btn-whited" title="Conheça os nossos materiais">Acesse todos os materiais ricos <i class="fas fa-long-arrow-alt-right pl-2"></i></a>
         </div>
       </div>
     </div>
   </div>
 </div>
 <!-- Modal -->
+<div class="modal fade" id="quero-conhecer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Quero conhecer o Portabilis SAS!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="modal-subtitle" id="exampleModalLabel">Preencha o formulário abaixo para conhecer mais sobre o maior software livre de gestão escolar do Brasil!</h5>
+        <?php
+        echo do_shortcode(get_field('quero_conhecer_sas', false, false));
+        ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
 <div class="modal fade" id="cta-a" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Quero conhecer o i-Educar!</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Quero conhecer o Portabilis SAS!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -339,7 +352,7 @@ get_header('sas'); ?>
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Quero conhecer o i-Educar!</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Quero conhecer o Portabilis SAS!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -349,47 +362,6 @@ get_header('sas'); ?>
         <?php
         echo do_shortcode(get_field('sas_pro', false, false));
         ?>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="desc-a" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelb" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabelb">DESC 1</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="desc-b" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelb" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabelb">DESC 2</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>

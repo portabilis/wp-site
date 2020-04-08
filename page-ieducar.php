@@ -1,9 +1,13 @@
 <?php
 get_header(); ?>
-<div id="banner-ieducar">
-  <div class="wrap-title wow animated fadeInUp">
+<div id="banner-ieducar" class="bg-banner-ieducar">
+  <div class="wrap-title wow animated fadeInUp banner-i-educar">
     <h1><?php the_field('ieducar_banner_titulo'); ?></h1>
     <div class="big subtitle"><?php the_field('ieducar_banner_subtitulo'); ?></div>
+    <div class="action">
+      <a href="#quero-conhecer" data-toggle="modal" data-target="#quero-conhecer" class="btn-base btn-azul" title="Quero conhecer">Quero conhecer</a>
+    </div>
+    <img class="img-fluid d-none" src="/wp-content/uploads/2019/08/banner-page-i-educar.png" alt="Conheça o sistema i-Educar">
   </div>
 </div>
 <div id="page" class="pad-ieducar">
@@ -18,7 +22,7 @@ get_header(); ?>
       </div>
       <div class="row">
         <div class="col-lg-3 col-sm-6 wow animated zoomIn">
-          <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar1.jpg"; ?>" />
+          <img width="170" class="img-fluid" src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/professor-i-educar.png" />
           <h6 class="small">PARA O</h6>
           <h3>Professor</h3>
           <p>O diário eletrônico no bolso do professor.</p>
@@ -29,7 +33,7 @@ get_header(); ?>
           </ul>
         </div>
         <div class="col-lg-3 col-sm-6 wow animated zoomIn" data-wow-delay="0.25s">
-          <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar2.jpg"; ?>" />
+          <img class="img-fluid" src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/secretaria-da-escola.png" />
           <h6 class="small">PARA A</h6>
           <h3>Secretária da escola</h3>
           <p>Acesso fácil e rápido às informações.</p>
@@ -40,7 +44,7 @@ get_header(); ?>
           </ul>
         </div>
         <div class="col-lg-3 col-sm-6 wow animated zoomIn" data-wow-delay="0.5s">
-          <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar3.jpg"; ?>" />
+          <img class="img-fluid" src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/secretaria-da-educacao.png" />
           <h6 class="small">PARA A</h6>
           <h3>Secretária de Educação</h3>
           <p>Tecnologia que descomplica a gestão.</p>
@@ -51,7 +55,7 @@ get_header(); ?>
           </ul>
         </div>
         <div class="col-lg-3 col-sm-6 wow animated zoomIn" data-wow-delay="0.75s">
-          <img width="240" class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ieducar4.jpg"; ?>" />
+          <img class="img-fluid" src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/tecnico-de-ti.png" />
           <h6 class="small">PARA O</h6>
           <h3>Técnico de TI</h3>
           <p>O Software Livre para a Gestão Escolar.</p>
@@ -105,27 +109,6 @@ get_header(); ?>
             <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-users.png"; ?>" />
             <h4>Gestão de servidores</h4>
             <p>Gerenciamento de alocações, afastamentos, substituições, faltas e atrasos.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-calendar.png"; ?>" />
-            <h4>Quadro de horários</h4>
-            <p>Dados  para análise de demandas e disponibilidade de profissionais.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-lg-4 wow animated zoomIn">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-car.png"; ?>" />
-            <h4>Transporte escolar</h4>
-            <p>Controle de veículos, motoristas, rotas, itinerários e emissão de carteirinha.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-book.png"; ?>" />
-            <h4>Biblioteca</h4>
-            <p>Gestão completa de acervo com controle de reservas, empréstimos e devoluções. </p>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 wow animated zoomIn" data-wow-delay="0.5s">
@@ -459,16 +442,37 @@ get_header(); ?>
       <div class="row">
         <div class="col-lg-8">
           <h2 class="wow animated fadeInUp">Materiais educativos</h2>
-          <p class="big subtitle">Leia gratuitamente nossos materiais ricos sobre gestão escolar e sala de aula.</p>
+          <p class="big subtitle">Baixe gratuitamente nossos materiais ricos sobre as áreas de educação e assistência social.</p>
         </div>
         <div class="col-lg-4">
           <br>
-          <a href="https://blog.portabilis.com.br" class="btn-baseb btn-white" title="Conheça os nossos materiais">Conheça os nossos materiais <i class="fas fa-long-arrow-alt-right"></i></a>
+          <a href="https://blog.portabilis.com.br" class="btn-baseb btn-white" title="Acesse todos os materias gratuitos">Acesse todos os materiais ricos <i class="fas fa-long-arrow-alt-right pl-2"></i></a>
         </div>
       </div>
     </div>
   </div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="quero-conhecer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Quero conhecer o i-Educar!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5 class="modal-subtitle" id="exampleModalLabel">Preencha o formulário abaixo para conhecer mais sobre o maior software livre de gestão escolar do Brasil!</h5>
+        <?php
+        echo do_shortcode(get_field('quero_conhecer_ieducar', false, false));
+        ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Modal -->
 <div class="modal fade" id="cta-a" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">

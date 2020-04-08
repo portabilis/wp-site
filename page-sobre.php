@@ -1,9 +1,9 @@
 <?php
 get_header(); ?>
-<div id="banner-sobre">
+<div id="banner-sobre" class="bg-banner-sobre">
   <div class="wrap-title wow animated fadeInUp">
-    <div class="big subtitle"><?php the_field('sobre_banner_subtitulo'); ?></div><br>
     <h1><?php the_field('sobre_banner_titulo'); ?></h1> 
+    <img class="img-fluid d-none" src="/wp-content/uploads/2019/08/banner-quem-somos-portabilis.png" alt="Conheça a Portabilis">
   </div>
 </div>
 <div id="page" class="pad-sobre">
@@ -19,9 +19,9 @@ get_header(); ?>
           </p>
         </div>
         <div class="col-lg-5 offset-lg-2 col-sm-6">
-          <h2 class="wow animated fadeInUp light">Quase meio milhão de alunos do Brasil estão conosco</h2>
+          <h2 class="wow animated fadeInUp light">Quase 2% dos alunos da rede pública estão conosco</h2>
           <p class="wow animated fadeInUp">
-            <strong> Há quase 10 anos</strong>, nossos 30 funcionários transformam a vida de milhões de pessoas em mais de <strong>100 cidades</strong>, com mais de <strong>300 mil alunos, 20 mil professores</strong>, e impactam positivamente mais de <strong>50 mil</strong> famílias em situação de vulnerabilidade e risco social no País por meio do nosso trabalho
+            <strong> Há quase 10 anos</strong>, nossos 30 funcionários transformam a vida de milhões de pessoas em mais de <strong>90 cidades</strong>, com mais de <strong>300 mil alunos,</strong> ensinados por mais de <strong>20 mil professores.</strong>
           </p>
         </div>
       </div>
@@ -56,12 +56,12 @@ get_header(); ?>
             <div class="mun-text">Lucas do Rio Verde (MT)</div>
           </div>
         </div>
-        <div class="col-lg-2 col-sm-4">
+        <div class="col-lg-3 col-sm-4">
           <div class="mun mun6 wow animated zoomIn" data-wow-delay="0.125s">
             <div class="mun-text">Balneário Camboriú / SC</div>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-4">
+        <div class="col-lg-2 col-sm-4">
           <div class="mun mun7 wow animated zoomIn" data-wow-delay="0.25s">
             <div class="mun-text">Monte Alegre (RN)</div>
           </div>
@@ -102,7 +102,9 @@ get_header(); ?>
         <div class="col-lg-6 ml-lg-auto col-sm-6 align-self-center wow animated fadeInRight">
           <h3>Fundação Negro Amor</h3>
           <p>Promovendo educação infantil de qualidade, inclusão digital e protagonismo juvenil, a Fundação Negro Amor busca que populações afrodescendentes historicamente excluídas conquistem direitos políticos, sociais e culturais e assim construam cada vez mais cidadania.</p>
-          <span><img width="20" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/flag1.png"; ?>" /> Bahia</span>
+          <span>
+            Bahia
+          </span>
         </div>
       </div>
       <div class="row mb-sm-6 mb-6">
@@ -112,7 +114,8 @@ get_header(); ?>
         <div class="col-lg-6 col-sm-6 align-self-center order-sm-1 wow animated fadeInLeft">
           <h3>AMA-REC</h3>
           <p>A associação de Pais e Amigos de Autistas da Região Carbonífera é uma associação sem fins lucrativos, que busca proteger os direitos das pessoas autistas.  A AMA-REC é mantenedora da <strong>Escola Especial Meu Mundo</strong>, que fornece um atendimento pedagógico e específico para a causa autística, buscando a inclusão e o acolhimento de todas as pessoas.</p>
-          <span><img width="20" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/flag2.png"; ?>" /> Santa Catarina</span>
+          <span>
+            Santa Catarina</span>
         </div>
       </div>
       <div class="row">
@@ -124,7 +127,8 @@ get_header(); ?>
           <p>
             O Bairro da Juventude oferece para a comunidade uma política inclusiva voltada à responsabilidade social, defesa, proteção e promoção dos direitos da criança e dos jovens do sul catarinense.
           </p>
-          <span><img width="20" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/flag2.png"; ?>" /> Santa Catarina</span>
+          <span>
+            Santa Catarina</span>
         </div>
       </div>
     </div>
@@ -138,7 +142,7 @@ a Portabilis também é destaque na imprensa</h2>
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="background-img pt-lg-5 px-lg-8 pt-xl-7 px-xl-12 wow animated fadeInRight">
+        <div class="background-img pt-lg-5 px-lg-8 pt-xl-7 px-xl-10 wow animated fadeInRight">
           <h2 class="white">“Monte Alegre (RN) economiza <br>
 <strong>R$2,4 milhões</strong> por ano com 
 uso do i-Educar”</h2>
@@ -189,7 +193,7 @@ uso do i-Educar”</h2>
       </div>
     </div>
   </div>
-  <div class="section-k dblue section-padding">
+  <div class="section-k dblue section-padding materiais-gratuitos">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -199,22 +203,73 @@ uso do i-Educar”</h2>
       <div class="row wow animated fadeInUp">
         <div class="col-lg-4">
           <?php if(!empty(get_field('material_para_imprensa_1'))): ?>
-          <a target="_blank" class="archive" href="<?php the_field('material_para_imprensa_1'); ?>">
-            Arquivo 1
+          <a target="_blank" class="archive d-flex justify-content-between align-items-center" href="<?php the_field('material_para_imprensa_1'); ?>">
+            <div class="info d-flex">
+              <img class="pr-3" src="<?php echo get_site_url();?>/wp-content/uploads/2019/07/inicial-logo-portabilis.png">
+              <div class="d-flex flex-column text-left">
+                <p class="mb-0"> Logo da Portabilis</p>
+                <span>.png .svg. .jpg .eps</span>
+              </div>
+            </div>
+            <div class="icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="4" y="4" width="16" height="16">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C11.4477 4 11 4.44772 11 5V16.5858L5.70711 11.2929C5.31658 10.9024 4.68342 10.9024 4.29289 11.2929C3.90237 11.6834 3.90237 12.3166 4.29289 12.7071L11.2923 19.7065L11.2929 19.7071C11.2951 19.7093 11.2973 19.7115 11.2995 19.7136C11.297 19.7112 11.2947 19.7089 11.2923 19.7065M12.7076 19.7066L19.7071 12.7071C20.0976 12.3166 20.0976 11.6834 19.7071 11.2929C19.3166 10.9024 18.6834 10.9024 18.2929 11.2929L13 16.5858V5C13 4.44772 12.5523 4 12 4" fill="white"/>
+              </mask>
+              <g mask="url(#mask0)">
+              <rect width="32" height="32" transform="translate(-4 -4)" fill="white"/>
+              </g>
+              </svg>
+
+            </div>
           </a>
           <?php endif; ?>
         </div>
         <div class="col-lg-4">
           <?php if(!empty(get_field('material_para_imprensa_2'))): ?>
-          <a target="_blank" class="archive" href="<?php the_field('material_para_imprensa_2'); ?>">
-            Arquivo 2
+          <a target="_blank" class="archive d-flex justify-content-between align-items-center" href="<?php the_field('material_para_imprensa_2'); ?>">
+            <div class="info d-flex">
+              <img class="pr-3" src="<?php echo get_site_url();?>/wp-content/uploads/2019/07/img-export-pdf-portabilis.png">
+              <div class="d-flex flex-column text-left">
+                <p class="mb-0"> Release sistema i-Educar</p>
+                <span>.png .svg. .jpg .eps</span>
+              </div>
+            </div>
+            <div class="icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="4" y="4" width="16" height="16">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C11.4477 4 11 4.44772 11 5V16.5858L5.70711 11.2929C5.31658 10.9024 4.68342 10.9024 4.29289 11.2929C3.90237 11.6834 3.90237 12.3166 4.29289 12.7071L11.2923 19.7065L11.2929 19.7071C11.2951 19.7093 11.2973 19.7115 11.2995 19.7136C11.297 19.7112 11.2947 19.7089 11.2923 19.7065M12.7076 19.7066L19.7071 12.7071C20.0976 12.3166 20.0976 11.6834 19.7071 11.2929C19.3166 10.9024 18.6834 10.9024 18.2929 11.2929L13 16.5858V5C13 4.44772 12.5523 4 12 4" fill="white"/>
+              </mask>
+              <g mask="url(#mask0)">
+              <rect width="32" height="32" transform="translate(-4 -4)" fill="white"/>
+              </g>
+              </svg>
+
+            </div>
           </a>
           <?php endif; ?>
         </div>
         <div class="col-lg-4">
           <?php if(!empty(get_field('material_para_imprensa_3'))): ?>
-          <a target="_blank" class="archive" href="<?php the_field('material_para_imprensa_3'); ?>">
-            Arquivo 3
+          <a target="_blank" class="archive d-flex justify-content-between align-items-center" href="<?php the_field('material_para_imprensa_3'); ?>">
+             <div class="info d-flex">
+              <img class="pr-3" src="<?php echo get_site_url();?>/wp-content/uploads/2019/07/img-export-pdf-portabilis.png">
+              <div class="d-flex flex-column text-left">
+                <p class="mb-0"> Release assistência social</p>
+                <span>.png .svg. .jpg .eps</span>
+              </div>
+            </div>
+            <div class="icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="4" y="4" width="16" height="16">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C11.4477 4 11 4.44772 11 5V16.5858L5.70711 11.2929C5.31658 10.9024 4.68342 10.9024 4.29289 11.2929C3.90237 11.6834 3.90237 12.3166 4.29289 12.7071L11.2923 19.7065L11.2929 19.7071C11.2951 19.7093 11.2973 19.7115 11.2995 19.7136C11.297 19.7112 11.2947 19.7089 11.2923 19.7065M12.7076 19.7066L19.7071 12.7071C20.0976 12.3166 20.0976 11.6834 19.7071 11.2929C19.3166 10.9024 18.6834 10.9024 18.2929 11.2929L13 16.5858V5C13 4.44772 12.5523 4 12 4" fill="white"/>
+              </mask>
+              <g mask="url(#mask0)">
+              <rect width="32" height="32" transform="translate(-4 -4)" fill="white"/>
+              </g>
+              </svg>
+
+            </div>
           </a>
           <?php endif; ?>
         </div>

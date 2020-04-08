@@ -1,18 +1,22 @@
 <?php
 get_header(); ?>
-<div id="banner-oportunidade">
+<div id="banner-oportunidade" class="bg-banner-oportunidades">
   <div class="wrap-title wow animated fadeInUp">
     <h1><?php the_field('oportunidade_banner_titulo'); ?></h1>
+    <div class="action">
+      <a href="#session-oportunidades" class="btn-base btn-azul" title="Oportunidades Disposníveis">Oportunidades Disponíveis</a>
+    </div>
+    <img class="img-fluid d-none" src="/wp-content/uploads/2019/07/portabilis-banner-principal-oportunidades.png" alt="Conheça nossas oportunidades">
   </div>
 </div>
-<div id="page" class="pad-ieducar">
+<div id="page" class="pad-ieducar pad-oportunidades">
   <div class="div-banner-oportunidade">
   </div>
   <div class="section-n">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-4 align-self-center">
-          <h2 class="wow animated fadeInUp">Vamos mudar a educação juntos?</h2>
+          <h2 class="wow animated fadeInUp">Calma, não é só puff!</h2>
           <p class="wow animated fadeInUp mb-lg-0 mb-7">
             Se você pensa fora da caixa e acha que pode fazer a diferença com a gente, junte-se ao #TimePortabilis.<br><br>
             Aqui a criatividade, inovação, ideias e, principalmente, o esforço coletivo nos fazem atingir resultados de se orgulhar e que nos fazem crescer juntos todos os dias.
@@ -42,7 +46,7 @@ get_header(); ?>
               endif;
               if(!empty(get_field('funcionario_facebook'))):
                 $content .= '<a target="_blank" href="'.get_field('funcionario_facebook').'"><i class="fab fa-facebook-f"></i></a>';
-              endif;
+              endif;  
               if(!empty(get_field('funcionario_github'))):
                 $content .= '<a target="_blank" href="'.get_field('funcionario_github').'"><i class="fab fa-github"></i></a>';
               endif;
@@ -223,11 +227,12 @@ get_header(); ?>
       </div>
     </div>
   </div>
-  <div class="section-f background-white section-padding">
+  <div class="section-f background-white section-padding" id="session-oportunidades">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 col-sm-12">
           <h2 class="wow animated fadeInUp">Oportunidades disponíveis</h2>
+          <p class="subtitle wow  fadeInUp animated">A Portabilis está crescendo, e o time também! Junte-se à nós!</p>
         </div>
       </div>
       <div class="row">
@@ -253,7 +258,7 @@ get_header(); ?>
                 <p><?php the_field('vagas_resumo'); ?></p>
               </div>
               <div class="col-sm-4 align-self-center">
-                <a target="_blank" href="<?php echo get_field('vagas_link'); ?>" class="btn btn-blue">+ Detalhes</a>
+                <a target="_blank" href="<?php echo get_field('vagas_link'); ?>" class="btn-base btn-blue">+ Detalhes</a>
               </div>
             </div>
           </div>
@@ -301,6 +306,4 @@ get_header(); ?>
     </div>
   </div>
 </div>
-
-
 <?php get_footer(); ?>

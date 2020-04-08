@@ -43,7 +43,8 @@ function site_scripts() {
 	wp_enqueue_style( 'site-style', get_stylesheet_uri() );
   wp_enqueue_style( 'site-style-owl', get_template_directory_uri() . '/assets/css/owl.carousel.min.css');
   wp_enqueue_style( 'site-style-animate', get_template_directory_uri() ."/assets/css/animate.css" );
-
+  wp_enqueue_style('style-novo', get_template_directory_uri() . '/assets/css/style.css' );
+  
 	wp_enqueue_script( 'site-style-jquery', get_template_directory_uri() ."/assets/js/jquery-3.1.1.min.js");
 	wp_enqueue_script( 'site-style-popper', "https://unpkg.com/popper.js/dist/umd/popper.min.js");
 	wp_enqueue_script( 'site-style-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js');
@@ -52,5 +53,12 @@ function site_scripts() {
 	wp_enqueue_script( 'site-script', get_template_directory_uri() . '/assets/js/script.js',array(),false,true);
 }
 add_action( 'wp_enqueue_scripts', 'site_scripts' );
+
+function my_wpcf7_form_elements($html) {
+	$text = 'Solução';
+	$html = str_replace('<option value="">---</option>', '<option value="">' . $text . '</option>', $html);
+	return $html;
+}
+add_filter('wpcf7_form_elements', 'my_wpcf7_form_elements');
 
 require get_template_directory() . '/inc/wp-bootstrap-navwalker.php';

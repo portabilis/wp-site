@@ -9,6 +9,15 @@
 <link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo-icon.png"; ?>" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <?php wp_head(); ?>
+<!-- Global site tag (gtag.js) - Google Ads: 720986717 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-720986717"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-720986717');
+</script>
 </head>
 
 <body>
@@ -23,7 +32,7 @@
 <div id="header" class="sas">
   <nav id="menu" class="navbar navbar-expand-md navbar-dark wow animated fadeIn">
     <a class="navbar-brand mr-md-5" href="<?php echo home_url( '/home' ); ?>">
-      <img width="151" class="img-fluid e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/logo-sas.jpg"; ?>" />
+      <img width="151" class="img-fluid e-claro logo" src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/logotipo-portabilis-azul.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -54,7 +63,7 @@
       'walker'          => new WP_Bootstrap_Navwalker()
       ));
       ?>
-      <a href="<?php echo esc_url( home_url( '/fale-conosco' ) ); ?>" class="btn-base btn-whited ml-md-5" title="Fale conosco">Fale conosco</a>
+      <a href="<?php echo esc_url( home_url( '/fale-conosco' ) ); ?>" class="btn-base btn-white ml-md-5" title="Fale conosco">Fale conosco</a>
     </div>
   </nav>
 </div>

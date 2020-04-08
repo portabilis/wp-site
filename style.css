@@ -1709,6 +1709,33 @@ select.form-control:not([size]):not([multiple]) {
   height: calc(2.25rem + 2px);
 }
 
+select.form-control.active {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #003473;
+  font-weight: bold;
+  background-image: url("/wp-content/uploads/2019/08/seta-select.png");
+  background-position-x: 90%;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  z-index: 9999;
+}
+select.form-control.dropdown {
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #003473;
+  font-weight: bold;
+  background-image: url("/wp-content/uploads/2019/08/seta-dropdown.png");
+  background-position-x: 90%;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  background-position-y: 50%;
+}
+
 select.form-control:focus::-ms-value {
   color: #495057;
   background-color: #fff;
@@ -3805,8 +3832,8 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.125rem;
   line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
+  background-color: #0072FF;
+  border: 1px solid #0072FF;
   border-radius: 0.25rem;
 }
 
@@ -4091,7 +4118,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .navbar-dark .navbar-text {
@@ -9990,7 +10017,7 @@ ul {
 .popover .popover-body {
   background-color: #242B33;
   color: rgba(255, 255, 255, 0.7);
-  text-align: center;
+  text-align: left;
 }
 
 .popover .popover-body a {
@@ -10082,10 +10109,9 @@ ul {
   border-radius: 3px;
   padding: 20px 25px;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   font-family: 'Muli', sans-serif;
-  letter-spacing: 1.75px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -10218,6 +10244,7 @@ ul {
     overflow: hidden;
     height: 550px !important;
   }
+
   #banner-ieducar .wrap-title {
     position: static !important;
     padding-top: 75px !important;
@@ -10246,8 +10273,16 @@ ul {
     position: static !important;
     padding-top: 0px !important;
   }
+
+  #page .blog-posts-ajax a.btn-base {
+    padding: 10px 30px;
+  }
   #page.pad-home {
     padding-top: 50px !important;
+  }
+
+  #page.pad-home .blog-posts-ajax a.btn-base {
+    padding: 10px 30px;
   }
   #page.pad-ieducar {
     padding-top: 50px !important;
@@ -10482,7 +10517,12 @@ ul {
 }
 
 #header {
-  background-color: #0172ff;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
 }
 
 #header #menu {
@@ -10490,10 +10530,11 @@ ul {
 }
 
 #header #menu #navbarCollapse ul.navbar-nav li.menu-item a {
-  color: #FFF;
+  color: #38659D;
   display: block;
   padding: 0px 15px;
-  border-right: 1px solid #4c9cff;
+  border-right: 1px solid rgba(0, 52, 115, 0.3) ;
+  font-weight: 500;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -10502,8 +10543,19 @@ ul {
 }
 
 #header #menu #navbarCollapse ul.navbar-nav li.menu-item a:hover {
-  color: #FFC95C;
+  color: #0072FF;
   text-decoration: none;
+}
+#header #menu #navbarCollapse a.btn-white {
+  background-color: #0072FF;
+  color: #fff;
+  border: 1px solid #0072FF;
+}
+
+#header #menu #navbarCollapse a.btn-white:hover {
+  background-color: #fff;
+  color: #0072FF;
+  border: 1px solid #0072FF;
 }
 
 #header #menu #navbarCollapse ul.navbar-nav li.menu-item:last-child a {
@@ -10511,16 +10563,16 @@ ul {
 }
 
 #header.sas {
-  background-color: #33cc57 !important;
+  background-color: #fff !important;
 }
 
 #header.sas li.menu-item a {
-  color: #FFF !important;
-  border-right: 1px solid #70db89 !important;
+  color: #38659D !important;
+  border-right: 1px solid rgba(0, 52, 115, 0.3) !important;
 }
 
 #header.sas li.menu-item a:hover {
-  color: #FFC95C !important;
+  color: #0072FF !important;
   text-decoration: none;
 }
 
@@ -10603,30 +10655,42 @@ ul {
   z-index: 2;
 }
 
+body {
+  overflow-x: hidden;
+}
 #banner {
-  background-color: #0172ff;
-  height: 900px;
-  top: -1px;
+  height: 90vh !important;
   position: relative;
+  background-image: url('/wp-content/uploads/2019/07/banner-principal-home-1.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position-y: -3rem;
 }
 
 #banner .wrap-title {
-  position: fixed;
-  top: 200px;
-  left: 0;
-  right: 0;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   margin: 0 auto;
+  position: relative;
+  top: 3rem;
 }
 
 #banner .wrap-title h1 {
-  color: #FFF;
   line-height: 4.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  width: 70%;
+  color: #003473;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 #banner .wrap-title .subtitle {
   text-align: center;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(80, 96, 115, 0.7);
+  
 }
 
 #banner .wrap-title p {
@@ -10634,42 +10698,67 @@ ul {
 }
 
 #banner .wrap-title.banner-home h1 {
-  font-size: 2rem;
+  font-size: 2.9rem;
   line-height: 3.5rem;
+  text-align: left;
+  letter-spacing: -1px;
 }
 
 #banner .wrap-title.banner-home .subtitle {
-  font-size: 1.725rem;
+  font-size: 1.2rem;
   line-height: 3rem;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+#banner .positive {
+  position: absolute;
+  right: -20%;
+  top: -60px;
+  z-index: -1;
+}
+
+#banner .positive img {
+  width: 100%;
+  max-width: 900px;
 }
 
 #banner-ieducar {
-  background-color: #0172ff;
-  height: 700px;
+  height: 87vh !important;
   position: relative;
-  top: -1px;
+  top: 0rem;
+  background-image: url('/wp-content/uploads/2019/08/banner-page-i-educar.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position-y: -3rem;
 }
 
 #banner-ieducar .wrap-title {
-  position: fixed;
-  top: 250px;
-  left: 0;
-  right: 0;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   margin: 0 auto;
+  position: relative;
+  top: 0em;
 }
 
 #banner-ieducar .wrap-title h1 {
-  text-align: left;
-  color: #FFF;
   line-height: 4.5rem;
-  margin-bottom: 2rem;
-  padding-right: 50%;
+  margin-bottom: 1rem;
+  width: 70%;
+  text-align: left;
+  color: #003473;
+  letter-spacing: 1px;
+  
 }
 
 #banner-ieducar .wrap-title .subtitle {
   text-align: left;
-  color: rgba(255, 255, 255, 0.7);
-  padding-right: 50%;
+  color: rgba(98, 112, 129, 0.7);
+  padding-right: 55%;
+  margin-bottom: 1em;
 }
 
 #banner-ieducar .wrap-title p {
@@ -10677,33 +10766,40 @@ ul {
 }
 
 #banner-sas {
-  background-color: #33cc57;
-  height: 840px;
+  height: 90vh !important;
   position: relative;
-  top: -1px;
+  background-image: url('/wp-content/uploads/2019/08/banner-principal-produto-assistencia-social.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+  top: 0rem;
+  right: -2rem;
 }
 
 #banner-sas .wrap-title {
-  position: fixed;
-  top: 250px;
-  left: 0;
-  right: 0;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   margin: 0 auto;
+  position: relative;
+  top: 4rem;
 }
 
 #banner-sas .wrap-title h1 {
-  text-align: left;
-  color: #FFF;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   line-height: 4.5rem;
-  margin-bottom: 2rem;
-  padding-right: 60%;
+  margin-bottom: 1rem;
+  width: 70%;
+  text-align: left;
+  color: #003473;
+  letter-spacing: 1px;
 }
 
 #banner-sas .wrap-title .subtitle {
   text-align: left;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(80, 96, 115, 0.7);
   padding-right: 65%;
+  margin-bottom: 1em;
 }
 
 #banner-sas .wrap-title p {
@@ -10711,31 +10807,38 @@ ul {
 }
 
 #banner-oportunidade {
-  background-color: #0172ff;
-  height: 700px;
+  height: 90vh !important;
   position: relative;
-  top: -1px;
+  background-image: url('/wp-content/uploads/2019/08/portabilis-banner-oportunidades.png');
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 #banner-oportunidade .wrap-title {
-  position: fixed;
-  top: 250px;
-  left: 0;
-  right: 0;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   margin: 0 auto;
+  position: relative;
+  top: 2rem;
 }
 
 #banner-oportunidade .wrap-title h1 {
-  text-align: center;
-  color: #FFF;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   line-height: 4.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  width: 70%;
+  font-size: 2.7rem;
+  text-align: left;
+  color: #003473;
+  font-weight: 300;
 }
 
 #banner-oportunidade .wrap-title .subtitle {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1em;
 }
 
 #banner-oportunidade .wrap-title p {
@@ -10743,26 +10846,30 @@ ul {
 }
 
 #banner-sobre {
-  background-color: #0172ff;
-  height: 700px;
+  height: 90vh !important;
   position: relative;
-  top: -1px;
+  background-image: url('/wp-content/uploads/2019/08/banner-quem-somos-portabilis.png');
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y: 50%;
 }
 
 #banner-sobre .wrap-title {
-  position: fixed;
-  top: 250px;
-  left: 0;
-  right: 0;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   margin: 0 auto;
 }
 
 #banner-sobre .wrap-title h1 {
-  text-align: center;
-  color: #FFF;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   line-height: 4.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  width: 60%;
+  color: #003473;
+  font-weight: 300;
+  text-align: left;
 }
 
 #banner-sobre .wrap-title .subtitle {
@@ -10861,30 +10968,18 @@ ul {
   background-color: #FFF;
 }
 
-#page.pad-home {
-  padding-top: 200px;
+a.btn-azul {
+  background-color: #0072FF !important;
+  color: #fff !important;
+  font-size: 16px;
+  padding: 15px 40px;
+  border: 1px solid #0072FF !important;
 }
-
-#page.pad-ieducar {
-  padding-top: 150px;
-}
-
-#page.pad-sobre {
-  padding-top: 100px;
-}
-
-#page .div-banner {
-  position: absolute;
-  top: -760px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 894px;
-  background-image: url("assets/img/div-homec.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1920px auto;
-  z-index: 10;
+a.btn-azul:hover {
+  background-color: #fff !important;
+  color: #0072FF !important;
+  
+  border: 1px solid #0072FF !important;
 }
 
 #page .div-banner-ieducar {
@@ -10894,11 +10989,10 @@ ul {
   right: 0;
   width: 100%;
   height: 800px;
-  background-image: url("assets/img/div-ieducar.png");
+  background-image: url("/wp-content/uploads/2019/07/banner-principal-educacao.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1920px auto;
-  z-index: 10;
+  background-position: right;
+  display: none;
 }
 
 #page .div-banner-sas {
@@ -10913,6 +11007,7 @@ ul {
   background-position: center;
   background-size: 1920px auto;
   z-index: 10;
+  display: none;
 }
 
 #page .div-banner-oportunidade {
@@ -10927,6 +11022,7 @@ ul {
   background-position: center;
   background-size: 1920px auto;
   z-index: 10;
+  display: none;
 }
 
 #page .div-banner-sobre {
@@ -10940,6 +11036,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   z-index: 10;
+  display: none;
 }
 
 #page .section-padding {
@@ -10955,6 +11052,7 @@ ul {
   color: #FFF;
   padding-top: 6rem;
   padding-bottom: 8rem;
+  margin-top: 4.8em;
 }
 
 #page .contato h1 {
@@ -11093,6 +11191,7 @@ ul {
 
 #page .section-d article .btn-base {
   margin-bottom: 2rem;
+  padding: 10px 30px;
 }
 
 #page .section-e h3 {
@@ -11158,6 +11257,7 @@ ul {
 
 #page .section-f .resource img {
   margin-bottom: 1rem;
+  filter: brightness(0);
 }
 
 #page .section-f .resource h4 {
@@ -11215,10 +11315,9 @@ ul {
 }
 
 #page .section-f .faq-list li .list-btn {
-  border: 1px solid #0072FF;
-  border-radius: 50%;
-  line-height: 1rem;
-  width: 1.1rem;
+  border: 3px solid #0072FF;
+  border-radius: 100%;
+  width: 1.4rem;
   padding-top: 0.1rem;
   padding-left: 0.1rem;
   padding-right: 0.1rem;
@@ -11231,6 +11330,8 @@ ul {
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  line-height: 1rem;
+  font-weight: 800;
 }
 
 #page .section-f .faq-list li .list-btn:hover {
@@ -11307,12 +11408,15 @@ ul {
   color: #FFF;
   font-size: 1rem;
   margin-bottom: 0;
+  font-weight: bold;
+  letter-spacing: .25px;
 }
 
 #page .section-g ul li .desc {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0;
   font-size: 1rem;
+  line-height: inherit;
 }
 
 #page .section-h {
@@ -11421,6 +11525,7 @@ ul {
 
 #page .section-i .resource img {
   margin-bottom: 1rem;
+  filter: brightness(0);
 }
 
 #page .section-i .resource h4 {
@@ -11529,6 +11634,8 @@ ul {
   padding: 1.5rem 0.875rem;
   background-color: #FFF;
   margin-bottom: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
 }
 
 #page .section-l .resource h4 {
@@ -11541,24 +11648,26 @@ ul {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5rem;
-  min-height: 120px;
+  min-height: 100px;
 }
 
 #page .section-l .resource-b {
   padding: 1.5rem 1rem;
-  background-color: #FFC95C;
+  background-color: #33CC57;
   margin-bottom: 2rem;
+  border-radius: 5px;
 }
 
 #page .section-l .resource-b h3 {
   margin: 0;
   letter-spacing: -0.25px;
   padding-left: 5px;
+  color: #fff;
   line-height: 2rem;
 }
 
 #page .section-l .resource-b .circle {
-  background-color: #DD9B31;
+  background-color: #33CC57;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -12302,4 +12411,270 @@ ul {
 #footer .btn-baseb {
   width: 100%;
   text-align: center;
+}
+
+.pad-ieducar .section-e .container-fluid .row [class*="col"] {
+  transition: .7s all;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.pad-ieducar .section-e .container-fluid .row [class*="col"] img {
+  margin-bottom: 2em !important;
+  display: flex;
+  margin: 0 auto;
+}
+.pad-ieducar .section-e .container-fluid .row [class*="col"] h3 {
+  font-size: 1.4em;
+}
+.pad-ieducar .section-e .container-fluid .row [class*="col"].wow:hover {
+  background-color: #F5F9FF;
+  border-radius: 5px;
+}
+
+.pad-ieducar .section-e .container-fluid  .title-home {
+  margin-bottom: 0 !important;
+}
+
+.pad-ieducar .section-h h3 {
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+.pad-ieducar .section-i h2,
+.pad-ieducar .section-g h2 {
+  font-size: 2.4em;
+  margin-bottom: 1em !important;
+}
+
+.pad-ieducar .section-j h3 {
+  letter-spacing: .25px;
+  font-weight: 300 !important;
+}
+.pad-ieducar .section-j h3 strong {
+  font-weight: 600;
+}
+
+.pad-ieducar .section-k .subtitle {
+  margin-bottom: 0 !important;
+}
+
+.pad-ieducar .section-k h2 {
+  margin-bottom: 1rem !important;
+}
+
+.pad-oportunidades .section-n [class*="4"] p {
+  font-size: 1.22rem !important;
+  font-weight: 300;
+}
+.pad-oportunidades .section-f .justify-content-center  h2 {
+  font-size: 2.2rem;
+}
+
+.pad-oportunidades .section-f .row .col-sm-6[class*="3"] .resource img {
+  filter: grayscale(1) !important;
+}
+
+.pad-oportunidades .section-o p:not(.subtitle) {
+  letter-spacing: .5px;
+}
+
+.materiais-gratuitos a.archive p {
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.1rem !important;
+}
+.materiais-gratuitos a.archive:hover {
+  text-decoration: none;
+}
+
+.page-sas .section-h .title-version-b {
+  background-color: #33CC57 !important;
+  border: 1px solid #33CC57 !important;
+}
+.page-sas .section-h .desc-version-b {
+  background-color: #2DB34C !important;
+}
+
+.page-sas .section-k.green h2 {
+  margin-bottom: 1rem !important;
+}
+.page-sas .section-k.green .subtitle {
+  margin-bottom: 0 !important;
+}
+#page .contato form .form-control {
+  border-bottom: 2px solid #E0EDFF;
+}
+.contato form input[type="submit"] {
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  cursor: pointer;
+}
+.modal form .input[type="submit"] {
+  width: 100%;
+}
+
+.page-sas .section-l {
+  background-color: #fff !important;
+}
+.page-sas .section-l .resource h4 {
+  font-size: 0.96rem;
+}
+
+.page-sas .section-i {
+  padding-top: 6rem;
+}
+
+.page-sas .section-k.bg-white .col-lg-8 h2,
+.page-sas .section-k.bg-white  .col-lg-8 p {
+  color: #003473 !important;
+}
+.page-sas .section-k.bg-white .col-lg-8 h2 {
+  margin-bottom: 1rem !important;
+  font-size: 2.1rem;
+}
+
+.page-sas .section-k.bg-white .col-lg-8 p {
+  margin-bottom: 0rem !important;
+}
+
+
+div.wpcf7 .ajax-loader {
+  display: none;
+}
+#page .div-banner {
+  display: none !important; 
+}
+#banner-sobre .wrap-title .action,
+  #banner .wrap-title.banner-home .action,
+  #banner-ieducar .wrap-title .action,
+  #banner-sas .wrap-title .action,
+  #banner-oportunidade .action  {
+    margin-bottom: 4rem;
+  }
+
+@media (max-width: 991px) {
+  #banner-blog div.wpcf7 .ajax-loader {
+    display: none !important; 
+  }
+  #banner-blog .subs-box .subs-container input[type="submit"] {
+    width: 100%;
+  }
+  #banner-blog .subs-box .subs-container .big {
+    margin-bottom: 1rem;
+  }
+  #banner,
+  #banner-sobre,
+  #banner-ieducar,
+  #banner-sas,
+  #banner-oportunidade {
+    background-image: none !important;
+  }
+
+  #banner .wrap-title,
+  #banner-sobre .wrap-title,
+  #banner-ieducar .wrap-title,
+  #banner-sas .wrap-title,
+  #banner-oportunidade .wrap-title {
+    margin: 6rem auto;
+  }
+
+  #banner img.d-none,
+  #banner-sobre img.d-none,
+  #banner-ieducar img.d-none,
+  #banner-sas img.d-none,
+  #banner-oportunidade img.d-none {
+    display: block !important;
+  }
+
+  #banner-sobre .wrap-title h1,
+  #banner .wrap-title.banner-home h1,
+  #banner-ieducar .wrap-title h1,
+  #banner-sas .wrap-title h1,
+  #banner-oportunidade .wrap-title h1,
+  #banner .wrap-title.banner-home .subtitle,
+  #banner-ieducar .wrap-title .subtitle,
+  #banner-sas .wrap-title .subtitle {
+    width: 100% !important;
+    text-align: center;
+  }
+  #banner-sobre .wrap-title .action,
+  #banner .wrap-title.banner-home .action,
+  #banner-ieducar .wrap-title .action,
+  #banner-sas .wrap-title .action,
+  #banner-oportunidade .action {
+    margin: 0 auto;
+  }
+  #banner-oportunidade img.d-none {
+    position: relative;
+    right: -15px;
+    top: -1.5rem;
+    z-index: -1;
+  }
+   #banner-ieducar img.d-none { 
+     position: relative;
+     margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #banner-blog .subs-box {
+    bottom: -6.5rem !important
+  }
+  #page .section-f.background-white {
+    padding: 6rem 1rem;
+  }
+  #page .section-f .faq-list li .list-btn {
+    width: 1.7rem;
+  }
+ }
+
+ 
+@media (max-width: 576px) { 
+  html {
+    overflow-x: hidden;
+  }
+  #banner-blog .subs-box {
+   position: relative !important;
+  }
+  #banner-blog .subs-box .subs-container input[type="submit"] {
+    margin-top: 1rem;
+  }
+
+  .pad-home .section-d .col-lg-4.txt-right {
+    text-align: left !important;
+  }
+  #page .section-d article p {
+    min-height: 40px;
+  }
+
+  .page-sas .section-l .resource p {
+    min-height: 50px !important;
+  }
+}
+
+#obrigado h1 {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-top: 2rem;
+}
+#obrigado {
+  background-color:#0072FF;
+}
+
+#obrigado img {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#obrigado .col-12.d-flex {
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  #obrigado h1 {
+    font-size: 2.4rem !important;
+  }
 }
