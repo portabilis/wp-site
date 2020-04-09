@@ -10771,7 +10771,8 @@ body {
 #banner-sas {
   height: 90vh !important;
   position: relative;
-  background-image: url('/wp-content/uploads/2019/08/banner-principal-produto-assistencia-social.png');
+  background-size: 900px auto;
+  background-image: url('https://portabilis.com.br/wp-content/uploads/2020/04/Group-79.png');
   background-repeat: no-repeat;
   background-position: center right;
   top: 0rem;
