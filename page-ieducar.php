@@ -350,26 +350,9 @@ get_header(); ?>
         <div class="col-lg-6 mb-6 mb-sm-0">
           <div class="row">
             <div class="col-sm-4 wow animated fadeInLeft">
-              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep1.png"; ?>" alt="">
-            </div>
-            <div class="col-sm-8 wow animated zoomIn">
-              <div class="row no-gutters">
-                <div class="col-sm-12">
-                  <h3>“Gostaria de <strong>parabenizar</strong> a Portabilis pela liberdade que nos é dada para <strong>interagir com a equipe</strong>, bem como a agilidade com que são respondidos nossos e-mails com as solicitações de <strong>suporte</strong> e de <strong>melhorias</strong>.”</h3>
-                  <div class="test-div"></div>
-                  <p class="test-name">Alan Votri</p>
-                  <p class="test-desc">Secretário de Educação de Sombrio, SC</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 offset-lg-1">
-          <div class="row mb-6 mb-sm-0">
-            <div class="col-sm-4 wow animated zoomIn">
               <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep2.png"; ?>" alt="">
             </div>
-            <div class="col-sm-8 wow animated fadeInRight">
+            <div class="col-sm-8 wow animated fadeInLeft">
               <div class="row no-gutters">
                 <div class="col-sm-12">
                   <h4>“Estamos <strong>totalmente satisfeitos</strong> com os serviços da Portabilis”</h4>
@@ -380,8 +363,10 @@ get_header(); ?>
               </div>
             </div>
           </div>
+        </div>
+        <div class="col-lg-6 mb-6 mb-sm-0">
           <div class="row">
-            <div class="col-sm-4 wow animated zoomIn">
+            <div class="col-sm-4 wow animated fadeInRight">
               <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep3.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 wow animated fadeInRight">
