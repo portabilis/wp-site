@@ -2,7 +2,7 @@
 get_header(); ?>
 <div id="banner-sobre" class="bg-banner-sobre">
   <div class="wrap-title wow animated fadeInUp">
-    <h1><?php the_field('sobre_banner_titulo'); ?></h1> 
+    <h1><?php the_field('sobre_banner_titulo'); ?></h1>
     <img class="img-fluid d-none" src="/wp-content/uploads/2019/08/banner-quem-somos-portabilis.png" alt="Conheça a Portabilis">
   </div>
 </div>
@@ -33,7 +33,7 @@ get_header(); ?>
       <div class="row">
         <div class="col-lg-2 offset-lg-2 col-sm-4">
           <div class="mun mun1 wow animated zoomIn">
-            <div class="mun-text">Ipiranga do Piauí(PI)</div>
+            <div class="mun-text">Ipiranga do Piauí (PI)</div>
           </div>
         </div>
         <div class="col-lg-2 col-sm-4">
@@ -43,22 +43,22 @@ get_header(); ?>
         </div>
         <div class="col-lg-3 col-sm-4">
           <div class="mun mun3 wow animated zoomIn" data-wow-delay="0.25s">
-            <div class="mun-text">São Pedro da Água Branca (MA)</div>
+            <div class="mun-text">Coruripe (AL)</div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-4">
           <div class="mun mun4 wow animated zoomIn" data-wow-delay="0.375s">
-            <div class="mun-text">Parauapebas (PA)</div>
+            <div class="mun-text">Paulo Ramos (MA)</div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-4">
           <div class="mun mun5 wow animated zoomIn">
-            <div class="mun-text">Lucas do Rio Verde (MT)</div>
+            <div class="mun-text">Benjamin Constant (AM)</div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-4">
           <div class="mun mun6 wow animated zoomIn" data-wow-delay="0.125s">
-            <div class="mun-text">Balneário Camboriú / SC</div>
+            <div class="mun-text">Balneário Camboriú (SC)</div>
           </div>
         </div>
         <div class="col-lg-2 col-sm-4">
@@ -83,7 +83,7 @@ get_header(); ?>
         </div>
         <div class="col-lg-3 col-sm-4">
           <div class="mun mun11 wow animated zoomIn" data-wow-delay="0.25s">
-            <div class="mun-text">São Miguel dos Campos (AL)</div>
+            <div class="mun-text">Lagoa dos Gatos (PE)</div>
           </div>
         </div>
       </div>
@@ -137,14 +137,14 @@ get_header(); ?>
     <div class="row no-gutters">
       <div class="col-lg-6 wow animated fadeInLeft">
         <div class="background-color pt-lg-7 px-lg-8 pt-xl-11 px-xl-12">
-          <h2>Além de destaque em gestão, 
+          <h2>Além de destaque em gestão,
 a Portabilis também é destaque na imprensa</h2>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="background-img pt-lg-5 px-lg-8 pt-xl-7 px-xl-10 wow animated fadeInRight">
           <h2 class="white">“Monte Alegre (RN) economiza <br>
-<strong>R$2,4 milhões</strong> por ano com 
+<strong>R$2,4 milhões</strong> por ano com
 uso do i-Educar”</h2>
           <span>Fonte: Mec</span><br>
           <a class="descubra" target="_blank" href="http://www.planejamento.gov.br/assuntos/programa-de-investimento-em-logistica-pil/noticias/monte-alegre-rn-economiza-r-2-4-milhoes-por-ano-com-uso-de-software-publico" title="">Descubra como <i class="fas fa-long-arrow-alt-right"></i></a>

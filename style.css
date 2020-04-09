@@ -10690,7 +10690,7 @@ body {
 #banner .wrap-title .subtitle {
   text-align: center;
   color: rgba(80, 96, 115, 0.7);
-  
+
 }
 
 #banner .wrap-title p {
@@ -10751,7 +10751,7 @@ body {
   text-align: left;
   color: #003473;
   letter-spacing: 1px;
-  
+
 }
 
 #banner-ieducar .wrap-title .subtitle {
@@ -10978,7 +10978,7 @@ a.btn-azul {
 a.btn-azul:hover {
   background-color: #fff !important;
   color: #0072FF !important;
-  
+
   border: 1px solid #0072FF !important;
 }
 
@@ -11766,15 +11766,15 @@ a.btn-azul:hover {
 }
 
 #page .section-n .mun.mun3 {
-  background-image: url("assets/img/municipios3.png");
+  background-image: url("assets/img/municipios3.jpg");
 }
 
 #page .section-n .mun.mun4 {
-  background-image: url("assets/img/municipios4.png");
+  background-image: url("assets/img/municipios4.jpg");
 }
 
 #page .section-n .mun.mun5 {
-  background-image: url("assets/img/municipios5.png");
+  background-image: url("assets/img/municipios5.jpg");
 }
 
 #page .section-n .mun.mun6 {
@@ -11798,7 +11798,7 @@ a.btn-azul:hover {
 }
 
 #page .section-n .mun.mun11 {
-  background-image: url("assets/img/municipios11.png");
+  background-image: url("assets/img/municipios11.jpg");
 }
 
 #page .section-n .mun:before {
@@ -12544,7 +12544,7 @@ div.wpcf7 .ajax-loader {
   display: none;
 }
 #page .div-banner {
-  display: none !important; 
+  display: none !important;
 }
 #banner-sobre .wrap-title .action,
   #banner .wrap-title.banner-home .action,
@@ -12556,7 +12556,7 @@ div.wpcf7 .ajax-loader {
 
 @media (max-width: 991px) {
   #banner-blog div.wpcf7 .ajax-loader {
-    display: none !important; 
+    display: none !important;
   }
   #banner-blog .subs-box .subs-container input[type="submit"] {
     width: 100%;
@@ -12612,7 +12612,7 @@ div.wpcf7 .ajax-loader {
     top: -1.5rem;
     z-index: -1;
   }
-   #banner-ieducar img.d-none { 
+   #banner-ieducar img.d-none {
      position: relative;
      margin-top: 1.5rem;
   }
@@ -12630,8 +12630,8 @@ div.wpcf7 .ajax-loader {
   }
  }
 
- 
-@media (max-width: 576px) { 
+
+@media (max-width: 576px) {
   html {
     overflow-x: hidden;
   }
