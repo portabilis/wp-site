@@ -10307,6 +10307,9 @@ ul {
     background-image: url("assets/img/div-ieducar-tablet.png") !important;
     background-size: 992px auto !important;
   }
+  #page .section-j {
+    background-color:#EBF3FF;
+  }
   #page .section-j h3 {
     font-size: 1.125rem !important;
   }

@@ -133,7 +133,7 @@ get_header('sas'); ?>
           <div class="sas-text">
             <h2 class="wow animated fadeInUp">Diagnóstico socioterritorial por mapas</h2>
             <p class="wow animated fadeInUp">
-              Análise de incidência das vulnerabilidades sociais por bairro. O gestor pode verificar a posição de cada unidade de referência e localização das famílias com perfil para as políticas de habitação, produzindo diagnósticos socioterritoriais por mapas. 
+              Análise de incidência das vulnerabilidades sociais por bairro. O gestor pode verificar a posição de cada unidade de referência e localização das famílias com perfil para as políticas de habitação, produzindo diagnósticos socioterritoriais por mapas.
             </p>
           </div>
         </div>
@@ -160,59 +160,6 @@ get_header('sas'); ?>
       </div>
     </div>
     </div>
-  <div class="section-i">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-7 col-sm-12">
-          <h2 class="wow animated fadeInUp">Incluso em todos os planos</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 wow animated zoomIn">
-          <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-star.png"; ?>" />
-            <h4>Embarque bem sucedido Portabilis</h4>
-            <p>Nossa equipe elimina toda a complexidade da adoção, entregando a solução adaptada e configurada de acordo com a sua realidade.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-flag.png"; ?>" />
-            <h4>Sua voz tem poder aqui</h4>
-            <p>Você terá a chance de direcionar o desenvolvimento do maior software livre de gestão escolar do Brasil!</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
-          <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-refresh.png"; ?>" />
-            <h4>Atualizações mais confiáveis</h4>
-            <p>Somos os mantenedores oficiais do i-Educar e oferecemos atualizações mais rápidas para o seu ambiente.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn">
-          <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-award.png"; ?>" />
-            <h4>Consultoria de sucesso Portabilis</h4>
-            <p>No dia a dia, vamos te ajudar com os obstáculos e contribuir para que você extraia o máximo de potencial da solução.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-book-open.png"; ?>" />
-            <h4>Você investindo na educação do País</h4>
-            <p>Quando você nos contrata, investimos estes recursos para melhorar o software que beneficia milhares de pessoas no país.</p>
-          </div>
-        </div>
-        <div class="col-sm-4 wow animated zoomIn" data-wow-delay="0.5s">
-          <div class="resource">
-            <img class="img-fluid" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-shield.png"; ?>" />
-            <h4>Garantia de disponibilidade e segurança</h4>
-            <p>Você se preocupa com o sucesso da sua rede, e nós nos preocupamos com a disponibilidade e segurança dos dados.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="section-j section-padding">
     <div class="container">
       <div class="row justify-content-center">
@@ -221,35 +168,18 @@ get_header('sas'); ?>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-12 mb-6 mb-sm-0">
-          <div class="row">
-            <div class="col-sm-4 col-lg-4 wow animated fadeInLeft">
-              <img class="img-fluid"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep4.png"; ?>" alt="">
-            </div>
-            <div class="col-sm-8 col-lg-7 offset-lg-1 wow animated zoomIn">
-              <div class="row no-gutters">
-                <div class="col-sm-12">
-                  <h3>O software nos permitiu informatizar todos os processos da Secretaria, CRAS e CREAS, na gestão dos programas, concessão dos benefícios, atendimento e acompanhamento dos usuários bem como a Diretoria de Habitação, agilizando o trabalho das equipes e consequentemente melhorando o atendimento ao cidadão.</h3>
-                  <div class="test-div"></div>
-                  <p class="test-name">João Carlos Martins dos Santos</p>
-                  <p class="test-desc">Secretário de Ação Social e Habitação - Curitibanos/SC</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col-lg-4 mb-6 mb-sm-0">
           <div class="row">
             <div class="col-sm-4 col-lg-12 wow animated zoomIn">
-              <img class="img-fluid p" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep5.png"; ?>" alt="">
+              <img class="img-fluid p"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/dep4.png"; ?>" alt="">
             </div>
             <div class="col-sm-8 col-lg-12 wow animated fadeInUp">
               <div class="row no-gutters">
                 <div class="col-sm-12">
-                  <h4>O trabalho foi organizado e agora emitimos relatórios de forma simples e rápida. Os relatórios gráficos e os recursos de mapa também nos permitem uma visão mais ampla das áreas em situação de vulnerabilidade do território, beneficiários de programas e localização georreferenciada das famílias. </h4>
+                  <h4>O software nos permitiu informatizar todos os processos da Secretaria, CRAS e CREAS, na gestão dos programas, concessão dos benefícios, atendimento e acompanhamento dos usuários bem como a Diretoria de Habitação, agilizando o trabalho das equipes e consequentemente melhorando o atendimento ao cidadão.</h4>
                   <div class="test-div"></div>
-                  <p class="test-name">Bruno Simon</p>
-                  <p class="test-desc">Diretor de Desenvolvimento e Cidadania CRAS – Cesário Lange/SP</p>
+                  <p class="test-name">João Carlos Martins dos Santos</p>
+                  <p class="test-desc">Secretário de Ação Social e Habitação - Curitibanos/SC</p>
                 </div>
               </div>
             </div>
@@ -318,7 +248,7 @@ get_header('sas'); ?>
         </button>
       </div>
       <div class="modal-body">
-        <h5 class="modal-subtitle" id="exampleModalLabel">Preencha o formulário abaixo para conhecer mais sobre o maior software livre de gestão escolar do Brasil!</h5>
+        <h5 class="modal-subtitle" id="exampleModalLabel">Preencha o formulário abaixo para conhecer mais sobre nosso sistema para Assistência Social, Portabilis SAS.</h5>
         <?php
         echo do_shortcode(get_field('quero_conhecer_sas', false, false));
         ?>
