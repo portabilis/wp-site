@@ -182,17 +182,8 @@ get_header(); ?>
   <div class="section-h section-padding">
     <div class="container">
       <div class="row no-gutters wow animated fadeIn">
-        <div class="col-sm-4 align-self-center">
-          <h3 class="wow animated fadeInUp">Conheça nossos planos</h3>
-        </div>
-        <div class="col-sm-4">
-          <div class="title-version">
-            <strong>Versão</strong>Comunidade
-          </div>
-          <div class="desc-version">
-            Pensado para pequenas redes de ensino e escolas particulares.
-            <a href="#" style="display: none"  class="btn-base btn-blue btn-resp" data-toggle="modal" data-target="#cta-a" title="">+ Detalhes</a>
-          </div>
+        <div class="col-sm-8 align-self-center">
+          <h2 class="wow animated fadeInUp text-left">Conheça Mais sobre i-Educar Portabilis</h2>
         </div>
         <div class="col-sm-4">
           <div class="title-version-b">
@@ -206,119 +197,90 @@ get_header(); ?>
       </div>
       <div class="detail">
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
+          <div class="col-sm-8">
             Incluso i-Educar Comunidade
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
+          <div class="col-sm-8">
             Pacote de relatórios Comunidade
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
+          <div class="col-sm-8">
             Implantação e treinamento on-line
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
+          <div class="col-sm-8">
             Importação e exportação do Censo Escolar/INEP
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
+          <div class="col-sm-8">
             Suporte por e-mail
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
+          <div class="col-sm-8">
             Sem limite de escolas ou usuários
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Suporte por e-mail, chat e telefone <span class="pro">PRO</span>
-          </div>
-          <div class="col-sm-4 check">
+          <div class="col-sm-8">
+            Suporte por e-mail, chat e telefone
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Diário Eletrônico do Professor <span class="pro">PRO</span>
-          </div>
-          <div class="col-sm-4 check">
-          </div>
-          <div class="col-sm-4 check">
-            <i class="fas fa-check"></i>
-          </div>
-        </div>
-        <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Pré-matrícula on-line <span class="pro">PRO</span>
-          </div>
-          <div class="col-sm-4 check">
+          <div class="col-sm-8">
+            Diário Eletrônico do Professor
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
-            Pacote de relatórios Portabilis <span class="pro">PRO</span>
-          </div>
-          <div class="col-sm-4 check">
+          <div class="col-sm-8">
+            Pré-matrícula on-line
           </div>
           <div class="col-sm-4 check">
             <i class="fas fa-check"></i>
           </div>
         </div>
         <div class="row no-gutters wow animated fadeInUp">
-          <div class="col-sm-4">
+          <div class="col-sm-8">
+            Pacote de relatórios Portabilis
           </div>
           <div class="col-sm-4 check">
-            <a href="#"  class="btn-base btn-blue" data-toggle="modal" data-target="#cta-a" title="">+Detalhes</a>
+            <i class="fas fa-check"></i>
+          </div>
+        </div>
+        <div class="row no-gutters wow animated fadeInUp">
+          <div class="col-sm-8">
           </div>
           <div class="col-sm-4 check">
-            <a href="#" class="btn-base btn-blue" data-toggle="modal" data-target="#cta-b" title="">+Detalhes</a>
+            <a href="#" class="btn-base btn-blue" data-toggle="modal" data-target="#cta-b" title="">Conheça mais</a>
           </div>
         </div>
       </div>
@@ -328,7 +290,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 col-sm-12">
-          <h2 class="wow animated fadeInUp">Incluso em todos os planos</h2>
+          <h2 class="wow animated fadeInUp">Incluso nos serviços Portabilis</h2>
         </div>
       </div>
       <div class="row">
