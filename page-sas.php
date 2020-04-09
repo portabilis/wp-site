@@ -7,7 +7,7 @@ get_header('sas'); ?>
     <div class="action">
       <a href="#quero-conhecer" data-toggle="modal" data-target="#quero-conhecer" class="btn-base btn-azul" title="Quero conhecer">Quero conhecer</a>
     </div>
-    <img class="img-fluid d-none" src="https://portabilis.com.br/wp-content/uploads/2020/04/Group-79.png" alt="Conheça o Portabilis SAS">
+    <img class="img-fluid d-none" src="/wp-content/uploads/2020/04/Group-79.png" alt="Conheça o Portabilis SAS">
   </div>
 </div>
 <div id="page" class="page-sas">
