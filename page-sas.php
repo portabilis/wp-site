@@ -77,7 +77,7 @@ get_header('sas'); ?>
             </div>
             <div class="col-12 wow animated zoomIn">
               <div class="resource">
-                <h4>Encaminhentos e contrarreferência</h4>
+                <h4>Encaminhamentos e contrarreferência</h4>
                 <p>Integralidade no atendimento e com avisos para os técnicos para acompanhamento da contrarreferência.</p>
               </div>
             </div>
