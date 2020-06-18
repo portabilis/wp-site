@@ -28,7 +28,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
-  <div class="section-e pb-8">
+  <div class="section-e pb-8 pt-5">
     <div class="container-fluid">
       <div class="row justify-content-center title-home">
         <div class="col-lg-7 col-sm-12">
