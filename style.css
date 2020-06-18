@@ -10729,11 +10729,9 @@ body {
 #banner-ieducar {
   height: 87vh !important;
   position: relative;
-  top: 0rem;
-  background-image: url('/wp-content/uploads/2019/08/banner-page-i-educar.png');
+  background-image: url('/wp-content/uploads/2020/publicacoes.png');
   background-repeat: no-repeat;
-  background-position: top right;
-  background-position-y: -3rem;
+  background-position: calc(50% + 350px) center;
 }
 
 #banner-ieducar .wrap-title {

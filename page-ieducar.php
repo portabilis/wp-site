@@ -2,16 +2,31 @@
 get_header(); ?>
 <div id="banner-ieducar" class="bg-banner-ieducar">
   <div class="wrap-title wow animated fadeInUp banner-i-educar">
-    <h1><?php the_field('ieducar_banner_titulo'); ?></h1>
-    <div class="big subtitle"><?php the_field('ieducar_banner_subtitulo'); ?></div>
+    <h1><strong>Ensino remoto, sem deixar ninguém pra trás</strong></h1>
+    <div class="big subtitle">Nós te ajudamos a estabelecer uma estratégia de ensino remoto equitativa e eficiente.</div>
     <div class="action">
-      <a href="#quero-conhecer" data-toggle="modal" data-target="#quero-conhecer" class="btn-base btn-azul" title="Quero conhecer">Quero conhecer</a>
+      <a href="https://conteudos.portabilis.com.br/ensino-remoto" target="_blank" class="btn-base btn-azul" title="Quero conhecer">Quero conhecer</a>
     </div>
-    <img class="img-fluid d-none" src="/wp-content/uploads/2019/08/banner-page-i-educar.png" alt="Conheça o sistema i-Educar">
   </div>
 </div>
 <div id="page" class="pad-ieducar">
   <div class="div-banner-ieducar">
+  </div>
+  <div style="background-color: #ebf3ff; padding: 5rem 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img src="/wp-content/uploads/2020/ieducar-tela.png" alt="Conheça o sistema i-Educar">
+        </div>
+        <div class="col-5 offset-1">
+          <h2 style="text-align: left; margin-top: 25px">i-Educar</h2>
+          <div class="big subtitle" style="width: 350px">O i-Educar é um software livre que facilita a gestão escolar por meio dos dados e da tecnologia.</div>
+          <div class="action pt-3">
+            <a href="#quero-conhecer" data-toggle="modal" data-target="#quero-conhecer" class="btn-base btn-azul" title="Quero conhecer">Quero conhecer</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="section-e pb-8">
     <div class="container-fluid">
