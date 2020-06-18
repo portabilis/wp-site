@@ -10729,7 +10729,7 @@ body {
 #banner-ieducar {
   height: 87vh !important;
   position: relative;
-  background-image: url('/wp-content/uploads/2020/publicacoes.png');
+  background-image: url('/wp-content/themes/portabilis-master/assets/img/publicacoes.png');
   background-repeat: no-repeat;
   background-position: calc(50% + 350px) center;
 }

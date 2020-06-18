@@ -42,7 +42,7 @@ get_header(); ?>
           <a href="https://conteudos.portabilis.com.br/ensino-remoto" target="_blank"  class="btn-baseb btn-blue" title="">Quero conhecer</a>
         </div>
         <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated fadeInLeft">
-          <img class="img-fluid" src="/wp-content/uploads/2020/publicacoes.png" />
+          <img class="img-fluid" src="/wp-content/themes/portabilis-master/assets/img/publicacoes.png" />
         </div>
       </div>
     </div>

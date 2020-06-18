@@ -16,7 +16,7 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <img src="/wp-content/uploads/2020/ieducar-tela.png" alt="Conheça o sistema i-Educar">
+          <img src="/wp-content/themes/portabilis-master/assets/img/ieducar-tela.png" alt="Conheça o sistema i-Educar">
         </div>
         <div class="col-5 offset-1">
           <h2 style="text-align: left; margin-top: 25px">i-Educar</h2>
