@@ -31,19 +31,32 @@ get_header(); ?>
           <a href="<?php echo home_url( '/ieducar' ); ?>" class="btn-baseb btn-blue" title="">Saiba mais</a>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="section-b section-padding section-margin">
+    <div class="container">
       <div class="row">
-        <div class="col">
-        <hr>
+        <div class="col-lg-4 offset-lg-2 col-sm-6 mb-4 mb-sm-0 wow animated zoomIn" data-wow-delay="0.25s">
+          <h3>Ensino remoto, sem deixar ninguém pra trás</h3>
+          <p>Nós te ajudamos a estabelecer uma estratégia de ensino remoto equitativa e eficiente.</p>
+          <a href="https://conteudos.portabilis.com.br/ensino-remoto" target="_blank"  class="btn-baseb btn-blue" title="">Quero conhecer</a>
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm-6 wow animated fadeInLeft">
+          <img class="img-fluid" src="/wp-content/uploads/2020/publicacoes.png" />
         </div>
       </div>
+    </div>
+  </div>
+  <div class="section-a">
+    <div class="container">
       <div class="row">
         <div class="col-lg-4 offset-lg-1 col-sm-6 order-sm-1 order-2 wow animated fadeInLeft">
+          <img class="img-fluid" src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/assistencia-social.png" />
+        </div>
+        <div class="col-lg-4 offset-lg-2 col-sm-6 mb-4 mb-sm-0 order-sm-2 order-1 wow animated zoomIn" data-wow-delay="0.25s">
           <h3>Na assistência social</h3>
           <p>Auxiliamos os gestores do SUAS no acompanhamento da evolução e emancipação das famílias atendidas nos serviços socioassistenciais, gerando dados para otimizar os fluxos e projetos da secretaria.</p>
           <a href="<?php echo home_url( '/sas' ); ?>" class="btn-baseb btn-blue" title="">Saiba mais</a>
-        </div>
-        <div class="col-lg-4 offset-lg-2 col-sm-6 mb-4 mb-sm-0 order-sm-2 order-1 wow animated zoomIn" data-wow-delay="0.25s">
-          <img class="img-fluid" src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/assistencia-social.png" />
         </div>
       </div>
     </div>
