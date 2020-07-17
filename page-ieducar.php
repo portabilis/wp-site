@@ -12,6 +12,25 @@ get_header(); ?>
 <div id="page" class="pad-ieducar">
   <div class="div-banner-ieducar">
   </div>
+  <div style="min-height: 450px; background: #8736D9 url(<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/asfilasacabaram.jpg"; ?>) center center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 style="text-align: center; margin-top: 95px; color: white">As filas acabaram:</h2>
+          <div style="width: 770px; text-align: center; font-family: Muli, sans-serif; font-size: 21px; color: white; margin: 0 auto">
+            <strong>Pré- matrículas on-line, garantindo o direito de acesso à escola!</strong>
+            <br>
+            Com o Inscrição On-line é possível que pais e/ou responsáveis
+            façam as reservas de matrículas de seus filhos e filhas de casa
+            com segurança, evitando filas e aglomerações.
+          </div>
+          <div class="action pt-3" style="text-align: center">
+            <a href="https://conteudos.portabilis.com.br/inscricao-online" target="_blank" class="btn-base btn-purple" title="Quero conhecer">Quero conhecer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div style="background-color: #ebf3ff; padding: 5rem 0;">
     <div class="container">
       <div class="row">
@@ -515,4 +534,19 @@ get_header(); ?>
     </div>
   </div>
 </div>
+
+<style>
+.btn-purple {
+  background: white;
+  color: #8736D9;
+  font-size: 16px;
+  padding: 15px 40px;
+  border: 1px solid #8736D9;
+}
+.btn-purple:hover {
+  background: #8736D9;
+  color: white;
+  border-color: white;
+}
+</style>
 <?php get_footer(); ?>
