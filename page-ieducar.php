@@ -12,7 +12,7 @@ get_header(); ?>
 <div id="page" class="pad-ieducar">
   <div class="div-banner-ieducar">
   </div>
-  <div style="min-height: 450px; background: #8736D9 url(<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/asfilasacabaram.jpg"; ?>) center center">
+  <div style="min-height: 450px; background: #0072ff url(<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/asfilasacabaram.jpg"; ?>) center center">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -542,7 +542,7 @@ get_header(); ?>
   padding: 15px 40px;
   border: 1px solid #0072ff;
 }
-.btn-white-blue {
+.btn-white-blue:hover {
   background: #0072ff;
   color: white;
   border-color: white;
