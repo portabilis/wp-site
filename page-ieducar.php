@@ -18,14 +18,13 @@ get_header(); ?>
         <div class="col-12">
           <h2 style="text-align: center; margin-top: 95px; color: white">As filas acabaram:</h2>
           <div style="width: 770px; text-align: center; font-family: Muli, sans-serif; font-size: 21px; color: white; margin: 0 auto">
-            <strong>Pré- matrículas on-line, garantindo o direito de acesso à escola!</strong>
+            <strong>Pré-matrícula Digital, garantindo o direito de acesso à escola!</strong>
             <br>
-            Com o Inscrição On-line é possível que pais e/ou responsáveis
-            façam as reservas de matrículas de seus filhos e filhas de casa
-            com segurança, evitando filas e aglomerações.
+            Com o pré-matrícula é possível que pais e/ou responsáveis façam as reservas de vagas de seus filhos e filhas de casa com segurança, 
+            evitando filas e aglomerações.
           </div>
           <div class="action pt-3" style="text-align: center">
-            <a href="https://conteudos.portabilis.com.br/inscricao-online" target="_blank" class="btn-base btn-purple" title="Quero conhecer">Quero conhecer</a>
+            <a href="https://conteudos.portabilis.com.br/inscricao-online" target="_blank" class="btn-base btn-white-blue" title="Quero conhecer">Quero conhecer</a>
           </div>
         </div>
       </div>
@@ -536,15 +535,15 @@ get_header(); ?>
 </div>
 
 <style>
-.btn-purple {
+.btn-white-blue {
   background: white;
-  color: #8736D9;
+  color: #0072ff;
   font-size: 16px;
   padding: 15px 40px;
-  border: 1px solid #8736D9;
+  border: 1px solid #0072ff;
 }
-.btn-purple:hover {
-  background: #8736D9;
+.btn-white-blue {
+  background: #0072ff;
   color: white;
   border-color: white;
 }
