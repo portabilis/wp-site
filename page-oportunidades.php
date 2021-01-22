@@ -88,13 +88,6 @@ get_header(); ?>
             <p>Plano de saúde e de farmácia para você ficar com a saúde em dia.</p>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.25s">
-          <div class="resource">
-            <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-money.png"; ?>" />
-            <h4>Bônus semestral</h4>
-            <p>Você nos ajuda a atingir nossos objetivos e nós compartilhamos os resultados com você.</p>
-          </div>
-        </div>
         <div class="col-sm-6 col-lg-3 wow animated zoomIn" data-wow-delay="0.375s">
           <div class="resource">
             <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/assets/img/ico-car.png"; ?>" />
